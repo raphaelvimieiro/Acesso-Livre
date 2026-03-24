@@ -16,7 +16,7 @@
 * Raphael Procópio Vimieiro
 * Vitor Oliveira Souza Avellar
 * Wellington Ranniery Parreiras Leite
-* 
+  
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho
