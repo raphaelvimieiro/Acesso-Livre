@@ -1,25 +1,25 @@
 # Acesso Livre
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º semestre/2026`
 
 [Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.]
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
-
+* Amanda Gomes Costa Estevam
+* Brenda Rosa Araújo
+* Luiz Felipe Andrade
+* Raphael Procópio Vimieiro
+* Vitor Oliveira Souza Avellar
+* Wellington Ranniery Parreiras Leite
+* 
 ## Orientador
 
-* Nome completo do professor
+* Joyce Christina de Paiva Carvalho
 
 # Documentação
 
