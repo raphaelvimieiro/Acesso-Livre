@@ -6,7 +6,7 @@
 
 `1º semestre/2026`
 
-[Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.]
+O projeto visa centralizar informações e dar visibilidade a um portal exclusivo voltado para pessoas com comorbidades. O objetivo é permitir que o usuário planeje seus deslocamentos com antecedência, identificando destinos acessíveis e antecipando possíveis barreiras arquitetônicas ou logísticas.
 
 ## Integrantes
 
