@@ -1,8 +1,6 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
-
 
 ## Gerenciamento de Projeto
 A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
@@ -12,10 +10,9 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master: Raphael Procópio
 - Product Owner: Brenda Rosa
-- Equipe de Desenvolvimento: Amanda Gomes, Brenda Rosa Araújo,Raphael Procópio,Vitor Oliveira, Wellington Ranniery.
+- Equipe de Desenvolvimento: Amanda Gomes, Brenda Rosa Araújo, Raphael Procópio, Vitor Oliveira, Wellington Ranniery.
 
 - Equipe de Design: Brenda Rosa, Wellington Ranniery,  Amanda Gomes
 
