@@ -17,11 +17,12 @@
 <td><b>Necessidades</b></td>
 <td>
 1.Precisa identificar de maneira fácil e rápida, locais que possuem acessibilidade.
-2. Realizar denúncias de irregularidades diretamente no órgão regulatório.
   
-3.Filtrar por cidade de acordo com suas preferências , garantindo que os estabelecimentos exibidos possuam o suporte adequado para suas necessidades específicas.
+2.Realizar denúncias de irregularidades diretamente no órgão regulatório.
+  
+3.O sistema permite a segmentação de estabelecimentos por cidade, integrando filtros personalizados que detalham os recursos de inclusão disponíveis, como rotas acessíveis, sinalização tátil, mobiliário adequado e suporte para pessoas com deficiência auditiva ou visual.
 
-4. Saber se o estabelecimento possui funcionários treinados em Libras ou capacitados para auxílio à locomoção/orientação de pessoas cegas.
+4.Saber se o estabelecimento possui funcionários treinados em Libras ou capacitados para auxílio à locomoção/orientação de pessoas cegas.
   
 </td>
 </tr>
@@ -30,11 +31,6 @@
 
 
 ## Histórias de Usuários
-
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 [Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
@@ -49,7 +45,6 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
 
 ### Requisitos Funcionais
 
@@ -57,8 +52,8 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  Possibilitar a avaliação colaborativa desses espaços e o compartilhamento de comentários sobre experiências nos locais frequentados.| ALTA 
-| RF-02 |  A aplicação deve permitir reportar irregularidades ou falhas de acessibilidade aos órgãos competentes| MÉDIA |
+| RF-01 |  O sistema deve viabilizar a avaliação colaborativa de locais, permitindo que usuários publiquem comentários e notas sobre suas experiências. | ALTA 
+| RF-02 |  O usuário que optar pela via formal será encaminhado ao sítio eletrônico do órgão responsável pela gestão de denúncias.| MÉDIA |
 | RF-03 |  A aplicação deve possibilitar pesquisa para que o usuário possa buscar os locais mais bem avaliados por categoria.| ALTA
 
 **Prioridade: Alta / Média / Baixa. 
