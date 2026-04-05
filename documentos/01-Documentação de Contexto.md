@@ -1,4 +1,14 @@
+# texto atual está resumido, verficar se coloca o texto completo
+
+
+
+
+
 # Introdução
+
+
+
+
 
 A acessibilidade é um direito fundamental, mas a carência de infraestrutura — como **rampas, elevadores, banheiros adaptados e sinalização tátil** — ainda compromete a mobilidade e a dignidade das pessoas com deficiência. Aliada à falta de informações claras sobre os locais, essa realidade restringe a participação social, tornando urgentes as iniciativas que promovam a autonomia e o cumprimento dos direitos legais
 
