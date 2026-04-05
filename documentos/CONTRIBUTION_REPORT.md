@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 05/04/2026 00:46
+**Última atualização:** 05/04/2026 01:34
 
 ---
 
@@ -9,14 +9,14 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | Vitor Oliveira        |         6 |        66 |        33 |          3 |              5 |               1 |
-| Wellington Ranniery   |         3 |        24 |        29 |          2 |              3 |               1 |
-| github-actions[bot]   |         3 |        56 |         6 |          3 |              3 |               1 |
+| Wellington Ranniery   |         4 |        30 |        40 |          3 |              4 |               1 |
+| github-actions[bot]   |         4 |        60 |        10 |          3 |              4 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-03-29**: Wellington Ranniery: 3, github-actions[bot]: 1
+**2026-03-29**: Wellington Ranniery: 4, github-actions[bot]: 2
 
 **2026-03-22**: Vitor Oliveira: 6, github-actions[bot]: 2
 
