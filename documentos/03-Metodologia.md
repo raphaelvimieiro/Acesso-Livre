@@ -60,7 +60,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | [código fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/codigo-fonte/README.md)                          |
+| Repositório de código fonte         | GitHub                             | [Código fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/codigo-fonte/README.md)                          |
 | Documentos do projeto               | GitHub                             | [Documentos do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/tree/main/documentos)                            |
 | Projeto de Interface                | Figma                              | [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/04-Projeto%20de%20Interface.md)                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | [Projeto Acesso Livre - Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)                            |
