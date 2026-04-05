@@ -3,14 +3,11 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxograma apresentado na figura 1 é o fluxo de interação do usuário pelas principais telas do sistema. As interfaces correspondem a um protótipo de baixa fidelidade, desenvolvido para demonstrar a navegação e as funcionalidades propostas.Para visualizar o protótipo interativo, acesse o [ambiente Marvelapp do projeto](https://marvelapp.com/prototype/g84387b)
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+<img width="1567" height="757" alt="capitura marvelapp" src="https://github.com/user-attachments/assets/7e460669-cd9a-4c8e-b9b3-7932d2b8169e" />
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Figura 1 - Fluxo de telas do usuário
 
 ## Protótipo
 
@@ -18,18 +15,20 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 
 ### Protótipo de baixa fidelidade
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+As telas do sistema apresentam uma estrutura padronizada, conforme ilustrado na Figura 2. Nessa organização, identificam-se três blocos principais, os quais serão descritos a seguir.São eles: 
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+- Cabeçalho - Local onde estão localizados o nome da aplicação web e a navegação principal do site(menu principal)
+- Conteúdo - Apresneta todo o conteúdo da tela que o site oferece.
+- Rodapé - apresenta informações sobre os direitos autorais.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+![Texto do seu parágrafo](https://github.com/user-attachments/assets/9972a866-8b7d-46a4-b237-b0b3602f9e8d)
+
+Figura 2 - Estrutura padrão do site 
+---
+**Tela Home page**
+
+
+
 
 
 
