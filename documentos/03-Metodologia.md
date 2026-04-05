@@ -19,29 +19,21 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 - Equipe de Design: Brenda Rosa, Wellington Ranniery,  Amanda Gomes
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
 ### Processo
 
-A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto. [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe deve fazer uso do GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir depois das informações uma imagem do Kanban do projeto. Será importante apresentar o status do Kanban em todas as reuniões com o Professor regente.]
+Utilizamos como o o GitHub juntamente com o modelo de tarefas kanban como forma de organizar nossas atividades de equipe seguindos a seguinte metodologia:
 
-- Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
-- To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa. As tarefas do To Do devem ser definidas e distribuídas para os integrantes da equipe no início de cada Etapa.
-- In Progress: Esta coluna representa as Tarefas da Etapa em desenvolvimento, ou seja, quando uma tarefa do To Do tiver sido iniciada por um integrante da equipe, ele deve movê-la para esta coluna.
-- Ready to Test: Esta coluna representa as Tarefas da Etapa prontas para Testes. Assim que uma tarefa é finalizada, ela deve ser movida para esta coluna pelo integrante da equipe que a finalizou.
-- Testing: Esta coluna representa as Tarefas da Etapa em Revisão e/ou Teste. O integrante definido pela equipe revisa/testa a Tarefa do colega e, logo em seguida, apresenta na descrição da tarefa os resultados obtidos. O integrante que desenvolveu a Tarefa que apresenta revisões a serem realizadas deve aprimorar a sua Tarefa a partir das observações recebidas antes de movê-la para Done.
-- Done: Esta coluna representa as Tarefas concluídas, considerando que as Tarefas passaram pelos testes, foram aprimoradas pelos feedbacks obtidos nas revisões/testes e estão prontas para ser entregues.
+- Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. 
+- To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa.
+- In Progress: Tarefas iniciadas.
+- Ready to Test: Esta coluna representa as Tarefas da Etapa prontas para Testes. 
+- Testing: Esta coluna representa as Tarefas da Etapa em Revisão e/ou Teste.
+- Done: Tarefas que foram concluídas
 
-[Adicione uma imagem do Kanban do projeto]
 
-> **Links Úteis**:
-> - [Planejamento de projetos para desenvolvedores](https://github.com/features/project-management/)
-> - [Sobre Projects](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Ferramentas de gerenciamento do Projects no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
+Listadas as etapas do processo acima, podemos validar visualmente através do nosso Projects [Projeto Acesso Livre - Kanban](github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)
 
+<img width="2483" height="535" alt="image" src="https://github.com/user-attachments/assets/f22bc20a-eb9e-4921-803f-10a3d186beb2" />
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -62,19 +54,22 @@ A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do p
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+Foram utilizadas as seguintes ferramentas
+- Ferramentas de desenho de tela(FIgma)
+- Ferramentas de comunicação
+- Ferramentas para prototipagem
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Repositório de código fonte         | GitHub                             | [http://....  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/codigo-fonte/README.md)                          |
+| Documentos do projeto               | GitHub                             | [Documentos do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/tree/main/documentos)                            |
+| Projeto de Interface                | Figma                              | [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/04-Projeto%20de%20Interface.md)                            |
+| Gerenciamento do Projeto            | GitHub Projects                    | [Projeto Acesso Livre - Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site são inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). [Consulte a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.]
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site são inseridos na pasta [codigo-fonte]([https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/codigo-fonte/README.md)).
