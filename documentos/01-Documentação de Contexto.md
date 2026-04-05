@@ -22,28 +22,27 @@ Objetivos Específicos:
 
 ## Justificativa
 
-Segundo VILA NOVA, (2014, p. 10) :
+Segundo Vila Nova (2014, p. 10), as barreiras arquitetônicas representam o principal entrave para a inclusão de pessoas com deficiência no mercado de trabalho e em espaços públicos, alijando-as do convívio social, do lazer e da educação. Essa realidade teórica é corroborada por dados estatísticos recentes. Conforme indicadores divulgados pelo Governo Federal (2023), a disparidade educacional é alarmante: enquanto a taxa de analfabetismo entre pessoas sem deficiência é de 4,1%, o índice sobe para 19,5% entre pessoas com deficiência. Além disso, apenas 7% desse grupo possui ensino superior completo, contra 20,9% dos demais cidadãos.
+Diante desse cenário de exclusão escolar e profissional, a criação de uma aplicação web voltada à acessibilidade apresenta-se como uma iniciativa socialmente necessária. A plataforma atuará como um espaço estratégico para a disseminação de conteúdos educativos e orientações sobre tecnologia assistiva. O foco central será destacar recursos e ferramentas que favoreçam a autonomia, buscando não apenas informar, mas oferecer aplicabilidade prática para o cotidiano. Assim, o projeto visa contribuir diretamente para a superação das barreiras apontadas pela literatura e para a efetiva ampliação da participação social desse público.
 
-“As barreiras arquitetônicas dificultam o acesso de pessoas com deficiência a trabalho, locais públicos, escolas, e atividades do dia a dia. Obstáculos como degraus, portas estreitas, catracas e calçadas inadequadas reduzem a independência  dessas pessoas e prejudicam sua participação social, no lazer, na educação e no trabalho.”
-
-Nesse contexto, a criação de uma aplicação web voltada ao tema acessibilidade apresenta-se como uma iniciativa relevante e socialmente necessária, ao oferecer um espaço dedicado à disseminação de conteúdos informativos, educativos e conscientizadores. A aplicação web terá como finalidade central compartilhar orientações relacionadas à tecnologia assistiva, destacando recursos, ferramentas e soluções que favoreçam a autonomia e a qualidade de vida das pessoas com deficiência. Ao abordar tais conteúdos, a plataforma buscará não apenas informar, mas também orientar quanto à aplicabilidade prática dessa tecnologia no cotidiano. Contribuindo para a superação de barreiras e para a ampliação das possibilidade de participação social.
 
 ## Público-Alvo
 
-Este projeto tem como público-alvo pessoas com mobilidade reduzida, assim como cuidadores e familiares, que auxiliam no deslocamento e na organização das atividades diárias, e utilizam espaços públicos e privados no seu cotidiano, como estabelecimentos comerciais, instituições de ensino, locais de lazer, eventos e órgãos públicos. 
+O projeto foca em melhorar a experiência de pessoas com mobilidade reduzida, cuidadores e familiares no uso de espaços públicos e privados (escolas, comércios, lazer e órgãos públicos).
 
-Foram realizadas entrevistas com seis pessoas de diferentes tipos de deficiência, identificando assim dificuldades comuns, necessidades específicas e expectativas em relação à acessibilidade e ao uso da plataforma proposta. 
- 
-A totalidade dos participantes relatou enfrentar barreiras em espaços públicos que deveriam ser exemplares. Escolas, ônibus com plataformas elevatórias inoperantes, rampas em desconformidade técnica ou até a ausência total de recursos de acessibilidade são negligências comuns no cotidiano dessas pessoas. 
+Principais Descobertas (Entrevistas)
+A pesquisa foi feita com seis pessoas com diferentes deficiências, revelando um cenário crítico:
 
+<li>Barreiras Físicas: Negligência em locais que deveriam ser acessíveis, como ônibus com elevadores quebrados e rampas fora das normas técnicas.</li>
 
-Observou-se também a unanimidade nos relatos quanto à inverdade ou imprecisão das informações de acessibilidade, fator que induz insegurança em metade dos entrevistados ao saírem de suas residências. Tal cenário acaba atuando como um mecanismo de exclusão em momentos de lazer, resultando na fragmentação dos vínculos sociais.
+<li>Informações Falsas: A imprecisão de dados sobre acessibilidade gera insegurança em 50% dos entrevistados, levando ao isolamento social e enfraquecimento de vínculos.</li>
 
+<li>Estratégias de Defesa: Para evitar surpresas, 83,3% dos usuários realizam uma "visita antecipada" virtual (via Google Maps ou fotos) antes de sair de casa.</li>
+<br>
 
-Devido a essa insegurança, oitenta e três vírgula três por cento dos  indivíduos optam por uma "visita antecipada", fazem mapeamento prévio do local pelo Google maps, buscam fotos e pessoas que já foram no local. A sexta pessoa desconhece os métodos para tais pesquisas, cenário motivado pela ausência ou precariedade de informação dos recursos de acessibilidade.
+O Problema das Denúncias<br>
+Um dado alarmante é que 67% dos entrevistados nunca denunciaram a falta de acessibilidade. Os motivos principais são:
 
+<li>Desconhecimento dos canais oficiais de comunicação.</li>
 
-Sessenta e sete por cento dos entrevistados nunca formalizaram denúncias; e não por falta de vontade, mas por desconhecer os canais de comunicação. Outra parcela aponta a burocracia e a complexidade do processo como fatores desestimulantes. 
-  
-Diante da ineficácia dos órgãos competentes e canais oficiais de denúncia, o usuário recorre para redes colaborativas e ferramentas digitais de avaliação como forma de autoproteção e alerta à comunidade. 
-
+<li>Burocracia e complexidade dos processos de denúncia.</li>
