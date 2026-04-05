@@ -67,7 +67,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Documentos do projeto               | GitHub                             | [Documentos do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/tree/main/documentos)                            |
 | Projeto de Interface                | Figma                              | [Projeto de Interface](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/04-Projeto%20de%20Interface.md)                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | [Projeto Acesso Livre - Kanban](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+
 
 
 ### Estratégia de Organização de Codificação 
