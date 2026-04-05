@@ -1,27 +1,23 @@
 # Introdução
 
-A acessibilidade constitui um direito fundamental assegurado às pessoas com deficiência, sendo elemento indispensável para a garantia da cidadania, da autonomia e da participação plena na sociedade. Contudo, apesar da existência de dispositivos legais que determinam a adaptação de espaços públicos e privados, observa-se que muitos ambientes ainda apresentam barreiras arquitetônicas e comunicacionais que dificultam ou impedem o seu acesso. A ausência de rampas, banheiros adaptados, elevadores, sinalização tátil e espaço adequado para circulação compromete não apenas a mobilidade, mas também a dignidade desses indivíduos.
-Além das limitações estruturais, outro fator que agrava essa realidade é a escassez de informações claras e confiáveis sobre a acessibilidade dos estabelecimentos. Tal cenário dificulta o planejamento de atividades cotidianas, gera constrangimentos e restringe a participação social das pessoas com deficiência em eventos, serviços e momentos de lazer. Dessa forma, torna-se evidente a necessidade de iniciativas que ampliem a visibilidade dessas demandas e fortaleçam os mecanismos de reivindicação de direitos.
+A acessibilidade é um direito fundamental, mas a carência de infraestrutura — como **rampas, elevadores, banheiros adaptados e sinalização tátil** — ainda compromete a mobilidade e a dignidade das pessoas com deficiência. Aliada à falta de informações claras sobre os locais, essa realidade restringe a participação social, tornando urgentes as iniciativas que promovam a autonomia e o cumprimento dos direitos legais
 
 ## Problema
-Calçadas quebradas, portas estreitas que bloqueiam o acesso de cadeirantes, serviços que ignoram as necessidades de quem tem dificuldade na comunicação. Os obstáculos no cotidiano de pessoas com deficiência são inúmeros e, muitas vezes, invisíveis para quem não vive essa realidade. Para quem usa cadeira de rodas, entrar em um prédio comercial ou um banheiro público pode ser impossível se as portas e os corredores não forem largos o suficiente. Shows, teatros e eventos esportivos muitas vezes também não possuem áreas acessíveis para pessoas com mobilidade reduzida. 
-
-Pessoas com deficiência visual enfrentam desafios cotidianos como a falta de sinalização tátil e sonora em espaços públicos, ambientes com má iluminação, sites e aplicativos inacessíveis e a escassez de materiais de leitura adaptados. Além disso, a ausência de avisos sonoros em escadas rolantes e de sinalização para obstáculos em calçadas aumenta o risco de acidentes, dificultando sua mobilidade e independência no dia a dia.
-
-Apesar dos avanços em políticas de inclusão, o preconceito e a falta de preparo das instituições ainda limitam o acesso a oportunidades básicas. O cotidiano é repleto de obstáculos, desde a dificuldade de acessar espaços públicos até a falta de suporte especializado nas escolas e ambientes de trabalho inadequados. São desafios que exigem ações mais efetivas e inclusivas.
-
-
+Pessoas com deficiência enfrentam um cotidiano repleto de barreiras que muitas vezes são invisíveis para o restante da sociedade. Para quem tem mobilidade reduzida, obstáculos como calçadas danificadas, portas estreitas e banheiros inacessíveis impedem a entrada em prédios e a participação em eventos culturais. Já para pessoas com deficiência visual, a ausência de sinalização tátil, avisos sonoros e plataformas digitais acessíveis não apenas dificulta a independência, mas aumenta o risco real de acidentes. Esse cenário é agravado pelo preconceito e pelo despreparo das instituições, que limitam o acesso a oportunidades no trabalho e na educação, reforçando a urgência de políticas inclusivas que garantam autonomia e segurança.
 
 ## Objetivos
 
-O presente projeto tem como finalidade desenvolver uma aplicação web em formato de protótipo (MVP) que permita a visualização de informações sobre a acessibilidade de espaços públicos e privados. A iniciativa busca apresentar dados previamente cadastrados e organizados, com base em situações reais, a fim de auxiliar pessoas deficientes na tomada de decisões quanto ao acesso e utilização desses locais. Dessa forma, pretende-se contribuir para promoção da autonomia, inclusão social e do exercício pleno da cidadania.
+Este projeto visa o desenvolvimento de um protótipo de aplicação web (MVP) destinado à centralização e visualização de dados sobre a acessibilidade em espaços públicos e privados. A iniciativa fundamenta-se na organização de informações baseadas em cenários reais, com o intuito de subsidiar a tomada de decisão de pessoas com deficiência (PcD) quanto à utilização desses locais. O objetivo central é fomentar a autonomia, a inclusão social e o exercício pleno da cidadania."
 
-Como objetivos específicos do projeto, estabelecem-se os seguintes pontos:
+Objetivos Específicos:
+<ul>
+<li>Implementar uma plataforma digital informativa que permita a consulta ágil sobre as condições de acessibilidade de diferentes estabelecimentos;</li>
 
-Desenvolver uma plataforma digital informativa que possibilite os usuários consultar diferentes locais e verificar suas respectivas condições de acessibilidade;
-Organizar e estruturar informações de forma clara e compreensível;
-Exibir comentários, imagens e informações previamente cadastradas, representando experiências simuladas da acessibilidade nos locais;
-Direcionar o usuário a um canal oficial de denúncia, viabilizando o registro de ocorrências junto aos órgãos competentes.
+<li>Estruturar os dados de maneira clara, garantindo a usabilidade e a fácil compreensão das informações;</li>
+
+<li>Exibir registros (comentários, imagens e experiências) que retratem a realidade da acessibilidade nos locais cadastrados;</li>
+
+<li>Integrar um canal de direcionamento para denúncias oficiais, facilitando o registro de irregularidades junto aos órgãos competentes.</li>
 
 
 ## Justificativa
