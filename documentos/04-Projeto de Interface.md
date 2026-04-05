@@ -9,10 +9,6 @@ O fluxograma apresentado na figura 1 é o fluxo de interação do usuário pelas
 
 Figura 1 - Fluxo de telas do usuário
 
-## Protótipo
-
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. [Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).]
-
 ### Protótipo de baixa fidelidade
 
 As telas do sistema apresentam uma estrutura padronizada, conforme ilustrado na Figura 2. Nessa organização, identificam-se três blocos principais, os quais serão descritos a seguir.São eles: 
@@ -22,13 +18,26 @@ As telas do sistema apresentam uma estrutura padronizada, conforme ilustrado na 
 - Rodapé - apresenta informações sobre os direitos autorais.
 
 ![Texto do seu parágrafo](https://github.com/user-attachments/assets/9972a866-8b7d-46a4-b237-b0b3602f9e8d)
-
 Figura 2 - Estrutura padrão do site 
+
 ---
-**Tela Home page**
 
+**Tela - Home page**
+A tela de Home page apresenta na Figura 3, é uma página na qual o usuário não está cadastrado. Nesta página mostra-se, no **cabeçalho**, a logo **AcessoLivre**, links de navegação (Início, Sobre, Notícias, Denúncia), uma barra de busca de locais/bairros e um botão de **Entrar/Criar conta**. 
+No **conteúdo**, podemos observar banners, algumas avaliações e comentários realizados por usuários cadastrados.
+Já no **rodapé**, temos informações sobre direitos autorais.
 
+<img width="1440" height="1024" alt="Parte de cima - Inicio" src="https://github.com/user-attachments/assets/1ebdbf93-0e38-4de5-8fba-410a3cf3c96c" />
+Figura 3 - Tela home page
 
+---
 
+**Tela - Sobre**
+A tela Sobre tem como intuito apresentar informações acerca do projeto **AcessoLivre**, explicando sua proposta e objetivos. Nesta página são exibidos dados relevantes, taiscomo o número de locais avaliados, usuários ativos, avaliações realizadas e bairros cobertos pela plataforma. Ademais, a página disponibiliza um botão **Explorar**, o qual concede acesso direto à página de pesquisa de locais.
+
+<img width="1440" height="1024" alt="Parte de baixo - Sobre" src="https://github.com/user-attachments/assets/6216f2ac-b164-4abd-bbc4-db7c5df3f10b" />
+Figura 4 - Tela Sobre
+
+---
 
 
