@@ -61,11 +61,7 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  A aplicação deve ser responsiva, adaptando-se a diferentes tamanhos de telas, incluindo mobile e desktop.
-
-                    | ALTA   | 
-| ...    |  ...                    | ...   | 
-
+| RNF-01 |  A aplicação deve ser responsiva, adaptando-se a diferentes tamanhos de telas, incluindo mobile e desktop. |ALTA|
 **Prioridade: Alta / Média / Baixa. 
 
 
