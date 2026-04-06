@@ -5,8 +5,7 @@
 
 O fluxograma apresentado na figura 1 é o fluxo de interação do usuário pelas principais telas do sistema. As interfaces correspondem a um protótipo de baixa fidelidade, desenvolvido para demonstrar a navegação e as funcionalidades propostas.Para visualizar o protótipo interativo, acesse o [ambiente Marvelapp do projeto](https://marvelapp.com/prototype/g84387b)
 
-<img width="1567" height="757" alt="capitura marvelapp" src="https://github.com/user-attachments/assets/7e460669-cd9a-4c8e-b9b3-7932d2b8169e" />
-
+<img width="1522" height="718" alt="todo o prototipo" src="https://github.com/user-attachments/assets/b00cdd6b-31a6-4707-82e7-079045640edd" />
 Figura 1 - Fluxo de telas do usuário
 
 ### Protótipo de baixa fidelidade
@@ -63,7 +62,8 @@ Figura 6 - Tela de Notícia
 
 A tela de Denúncia apresenta, em seu conteúdo, um botão destinado aos usuáriosautenticados na plataforma. Ao acionar esse botão, o usuário é redirecionado para o site **Fala Brasil**, onde poderá registrar formalmente sua denúncia.
 
-<img width="1440" height="1024" alt="Parte de baixo - Denúncia" src="https://github.com/user-attachments/assets/f97dc978-e5a6-405f-bb49-440af20c921b" />
+<img width="1440" height="1024" alt="Parte de baixo - Denúncia nao logado" src="https://github.com/user-attachments/assets/747f717d-cc1e-4a97-a153-f916e0d2da95" />
+
 Figura 7 - Tela de Denúncia 
 
 ---
@@ -84,7 +84,7 @@ A tela de Cadastro apresenta os seguintes campos obrigatórios para a criação 
 Figura 9 - Tela de Criar conta
 
 --- 
-### Tela - Avalição 
+### Tela - Avaliação 
 
 A tela de Avaliação é acessível exclusivamente aos usuários cadastrados na plataforma**AcessoLivre**. Nesta página, o usuário pode relatar problemas de acessibilidadeselecionando uma das seguintes categorias: **Acessibilidade**, **Obra/Bloqueio**, **Informação Errada** e **Outros**.
 
@@ -95,5 +95,5 @@ Ademais, a tela disponibiliza os seguintes campos para preenchimento:
 
 Por fim, a página apresenta uma caixa de seleção para que o usuário opte por realizar o relato de forma **anônima**, e um botão de **Registrar** para concluir o envio daavaliação.
 
-<img width="1440" height="1024" alt="Parte de baixo - Denúncia" src="https://github.com/user-attachments/assets/801a0515-3931-4c4b-8c48-415dce31ef70" />
+<img width="1440" height="1024" alt="avaliação" src="https://github.com/user-attachments/assets/05d29bff-f54d-4d39-be04-9f9a4ad41c6b" />
 Figura 10 - Tela de Avaliação
