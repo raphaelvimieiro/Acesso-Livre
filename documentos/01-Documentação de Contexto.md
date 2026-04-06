@@ -1,58 +1,59 @@
-# texto atual está resumido, verficar se coloca o texto completo
-
-
-
-
 
 # Introdução
 
+A acessibilidade constitui um direito fundamental assegurado às pessoas com deficiência, sendo elemento indispensável para a garantia da cidadania, da autonomia e da participação plena na sociedade. Contudo, apesar da existência de dispositivos legais que determinam a adaptação de espaços públicos e privados, observa-se que muitos ambientes ainda apresentam barreiras arquitetônicas e comunicacionais que dificultam ou impedem o seu acesso. A ausência de rampas, banheiros adaptados, elevadores, sinalização tátil e espaço adequado para circulação compromete não apenas a mobilidade, mas também a dignidade desses indivíduos.
+Além das limitações estruturais, outro fator que agrava essa realidade é a escassez de informações claras e confiáveis sobre a acessibilidade dos estabelecimentos. Tal cenário dificulta o planejamento de atividades cotidianas, gera constrangimentos e restringe a participação social das pessoas com deficiência em eventos, serviços e momentos de lazer. Dessa forma, torna-se evidente a necessidade de iniciativas que ampliem a visibilidade dessas demandas e fortaleçam os mecanismos de reivindicação de direitos.
 
 
-
-
-A acessibilidade é um direito fundamental, mas a carência de infraestrutura — como **rampas, elevadores, banheiros adaptados e sinalização tátil** — ainda compromete a mobilidade e a dignidade das pessoas com deficiência. Aliada à falta de informações claras sobre os locais, essa realidade restringe a participação social, tornando urgentes as iniciativas que promovam a autonomia e o cumprimento dos direitos legais
 
 ## Problema
-Pessoas com deficiência enfrentam um cotidiano repleto de barreiras que muitas vezes são invisíveis para o restante da sociedade. Para quem tem mobilidade reduzida, obstáculos como calçadas danificadas, portas estreitas e banheiros inacessíveis impedem a entrada em prédios e a participação em eventos culturais. Já para pessoas com deficiência visual, a ausência de sinalização tátil, avisos sonoros e plataformas digitais acessíveis não apenas dificulta a independência, mas aumenta o risco real de acidentes. Esse cenário é agravado pelo preconceito e pelo despreparo das instituições, que limitam o acesso a oportunidades no trabalho e na educação, reforçando a urgência de políticas inclusivas que garantam autonomia e segurança.
+Calçadas quebradas, portas estreitas que bloqueiam o acesso de cadeirantes, serviços que ignoram as necessidades de quem tem dificuldade na comunicação. Os obstáculos no cotidiano de pessoas com deficiência são inúmeros e, muitas vezes, invisíveis para quem não vive essa realidade. Para quem usa cadeira de rodas, entrar em um prédio comercial ou um banheiro público pode ser impossível se as portas e os corredores não forem largos o suficiente. Shows, teatros e eventos esportivos muitas vezes também não possuem áreas acessíveis para pessoas com mobilidade reduzida. 
+
+Pessoas com deficiência visual enfrentam desafios cotidianos como a falta de sinalização tátil e sonora em espaços públicos, ambientes com má iluminação, sites e aplicativos inacessíveis e a escassez de materiais de leitura adaptados. Além disso, a ausência de avisos sonoros em escadas rolantes e de sinalização para obstáculos em calçadas aumenta o risco de acidentes, dificultando sua mobilidade e independência no dia a dia.
+
+Apesar dos avanços em políticas de inclusão, o preconceito e a falta de preparo das instituições ainda limitam o acesso a oportunidades básicas. O cotidiano é repleto de obstáculos, desde a dificuldade de acessar espaços públicos até a falta de suporte especializado nas escolas e ambientes de trabalho inadequados. São desafios que exigem ações mais efetivas e inclusivas.
+
 
 ## Objetivos
 
-Este projeto visa o desenvolvimento de um protótipo de aplicação web (MVP) destinado à centralização e visualização de dados sobre a acessibilidade em espaços públicos e privados. A iniciativa fundamenta-se na organização de informações baseadas em cenários reais, com o intuito de subsidiar a tomada de decisão de pessoas com deficiência (PcD) quanto à utilização desses locais. O objetivo central é fomentar a autonomia, a inclusão social e o exercício pleno da cidadania."
+O presente projeto tem como finalidade desenvolver uma aplicação web em formato de protótipo (MVP) que permita a visualização de informações sobre a acessibilidade de espaços públicos e privados. A iniciativa busca apresentar dados previamente cadastrados e organizados, com base em situações reais, a fim de auxiliar pessoas deficientes na tomada de decisões quanto ao acesso e utilização desses locais. Dessa forma, pretende-se contribuir para promoção da autonomia, inclusão social e do exercício pleno da cidadania.
 
-Objetivos Específicos:
+Como objetivos específicos do projeto, estabelecem-se os seguintes pontos:
 <ul>
-<li>Implementar uma plataforma digital informativa que permita a consulta ágil sobre as condições de acessibilidade de diferentes estabelecimentos;</li>
+<li>Desenvolver uma plataforma digital informativa que possibilite os usuários consultar diferentes locais e verificar suas respectivas condições de acessibilidade;</li>
 
-<li>Estruturar os dados de maneira clara, garantindo a usabilidade e a fácil compreensão das informações;</li>
+<li>Organizar e estruturar informações de forma clara e compreensível;</li>
 
-<li>Exibir registros (comentários, imagens e experiências) que retratem a realidade da acessibilidade nos locais cadastrados;</li>
+<li>Exibir comentários, imagens e informações previamente cadastradas, representando experiências simuladas da acessibilidade nos locais;
+</li>
 
-<li>Integrar um canal de direcionamento para denúncias oficiais, facilitando o registro de irregularidades junto aos órgãos competentes.</li>
+<li>Direcionar o usuário a um canal oficial de denúncia, viabilizando o registro de ocorrências junto aos órgãos competentes.</li>
 
 
 ## Justificativa
 
 Segundo Vila Nova (2014, p. 10), as barreiras arquitetônicas representam o principal entrave para a inclusão de pessoas com deficiência no mercado de trabalho e em espaços públicos, alijando-as do convívio social, do lazer e da educação. Essa realidade teórica é corroborada por dados estatísticos recentes. Conforme indicadores divulgados pelo Governo Federal (2023), a disparidade educacional é alarmante: enquanto a taxa de analfabetismo entre pessoas sem deficiência é de 4,1%, o índice sobe para 19,5% entre pessoas com deficiência. Além disso, apenas 7% desse grupo possui ensino superior completo, contra 20,9% dos demais cidadãos.
+
 Diante desse cenário de exclusão escolar e profissional, a criação de uma aplicação web voltada à acessibilidade apresenta-se como uma iniciativa socialmente necessária. A plataforma atuará como um espaço estratégico para a disseminação de conteúdos educativos e orientações sobre tecnologia assistiva. O foco central será destacar recursos e ferramentas que favoreçam a autonomia, buscando não apenas informar, mas oferecer aplicabilidade prática para o cotidiano. Assim, o projeto visa contribuir diretamente para a superação das barreiras apontadas pela literatura e para a efetiva ampliação da participação social desse público.
+
 
 
 ## Público-Alvo
 
-O projeto foca em melhorar a experiência de pessoas com mobilidade reduzida, cuidadores e familiares no uso de espaços públicos e privados (escolas, comércios, lazer e órgãos públicos).
+Este projeto tem como público-alvo pessoas com mobilidade reduzida, assim como cuidadores e familiares, que auxiliam no deslocamento e na organização das atividades diárias, e utilizam espaços públicos e privados no seu cotidiano, como estabelecimentos comerciais, instituições de ensino, locais de lazer, eventos e órgãos públicos. 
 
-Principais Descobertas (Entrevistas)
-A pesquisa foi feita com seis pessoas com diferentes deficiências, revelando um cenário crítico:
+Foram realizadas entrevistas com seis pessoas de diferentes tipos de deficiência, identificando assim dificuldades comuns, necessidades específicas e expectativas em relação à acessibilidade e ao uso da plataforma proposta. 
+ 
+A totalidade dos participantes relatou enfrentar barreiras em espaços públicos que deveriam ser exemplares. Escolas, ônibus com plataformas elevatórias inoperantes, rampas em desconformidade técnica ou até a ausência total de recursos de acessibilidade são negligências comuns no cotidiano dessas pessoas. 
 
-<li>Barreiras Físicas: Negligência em locais que deveriam ser acessíveis, como ônibus com elevadores quebrados e rampas fora das normas técnicas.</li>
 
-<li>Informações Falsas: A imprecisão de dados sobre acessibilidade gera insegurança em 50% dos entrevistados, levando ao isolamento social e enfraquecimento de vínculos.</li>
+Observou-se também a unanimidade nos relatos quanto à inverdade ou imprecisão das informações de acessibilidade, fator que induz insegurança em metade dos entrevistados ao saírem de suas residências. Tal cenário acaba atuando como um mecanismo de exclusão em momentos de lazer, resultando na fragmentação dos vínculos sociais.
 
-<li>Estratégias de Defesa: Para evitar surpresas, 83,3% dos usuários realizam uma "visita antecipada" virtual (via Google Maps ou fotos) antes de sair de casa.</li>
-<br>
 
-O Problema das Denúncias<br>
-Um dado alarmante é que 67% dos entrevistados nunca denunciaram a falta de acessibilidade. Os motivos principais são:
+Devido a essa insegurança, oitenta e três vírgula três por cento dos  indivíduos optam por uma "visita antecipada", fazem mapeamento prévio do local pelo Google maps, buscam fotos e pessoas que já foram no local. A sexta pessoa desconhece os métodos para tais pesquisas, cenário motivado pela ausência ou precariedade de informação dos recursos de acessibilidade.
 
-<li>Desconhecimento dos canais oficiais de comunicação.</li>
 
-<li>Burocracia e complexidade dos processos de denúncia.</li>
+Sessenta e sete por cento dos entrevistados nunca formalizaram denúncias; e não por falta de vontade, mas por desconhecer os canais de comunicação. Outra parcela aponta a burocracia e a complexidade do processo como fatores desestimulantes. 
+  
+Diante da ineficácia dos órgãos competentes e canais oficiais de denúncia, o usuário recorre para redes colaborativas e ferramentas digitais de avaliação como forma de autoproteção e alerta à comunidade. 
+
