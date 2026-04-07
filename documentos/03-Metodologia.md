@@ -52,7 +52,7 @@ Listadas as etapas do processo acima, podemos validar visualmente através do no
 ### Ferramentas
 
 Foram utilizadas as seguintes ferramentas
-- Ferramentas de desenho de tela(FIgma)
+- Ferramentas de desenho de tela(Figma)
 - Ferramentas de comunicação
 - Ferramentas para prototipagem
 
