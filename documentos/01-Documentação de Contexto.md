@@ -31,7 +31,6 @@ Como objetivos específicos do projeto, estabelecem-se os seguintes pontos:
 
 
 ## Justificativa
-
 Segundo Vila Nova (2014, p. 10), as barreiras arquitetônicas representam o principal entrave para a inclusão de pessoas com deficiência no mercado de trabalho e em espaços públicos, alijando-as do convívio social, do lazer e da educação. Essa realidade teórica é corroborada por dados estatísticos recentes. Conforme indicadores divulgados pelo Governo Federal (2023), a disparidade educacional é alarmante: enquanto a taxa de analfabetismo entre pessoas sem deficiência é de 4,1%, o índice sobe para 19,5% entre pessoas com deficiência. Além disso, apenas 7% desse grupo possui ensino superior completo, contra 20,9% dos demais cidadãos.
 
 Diante desse cenário de exclusão escolar e profissional, a criação de uma aplicação web voltada à acessibilidade apresenta-se como uma iniciativa socialmente necessária. A plataforma atuará como um espaço estratégico para a disseminação de conteúdos educativos e orientações sobre tecnologia assistiva. O foco central será destacar recursos e ferramentas que favoreçam a autonomia, buscando não apenas informar, mas oferecer aplicabilidade prática para o cotidiano. Assim, o projeto visa contribuir diretamente para a superação das barreiras apontadas pela literatura e para a efetiva ampliação da participação social desse público.
@@ -39,7 +38,6 @@ Diante desse cenário de exclusão escolar e profissional, a criação de uma ap
 
 
 ## Público-Alvo
-
 Este projeto tem como público-alvo pessoas com mobilidade reduzida, assim como cuidadores e familiares, que auxiliam no deslocamento e na organização das atividades diárias, e utilizam espaços públicos e privados no seu cotidiano, como estabelecimentos comerciais, instituições de ensino, locais de lazer, eventos e órgãos públicos. 
 
 Foram realizadas entrevistas com seis pessoas de diferentes tipos de deficiência, identificando assim dificuldades comuns, necessidades específicas e expectativas em relação à acessibilidade e ao uso da plataforma proposta. 
