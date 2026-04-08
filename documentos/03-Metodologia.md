@@ -3,9 +3,9 @@
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+A metodologia SCRUM foi escolhida devido à sua base no empirismo, onde o conhecimento vem da experiência e da tomada de decisões com base no que é observado. 
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A decisão foi tomada baseando-se nos três pilares fundamentais do framework: transparência, garantindo clareza sobre o fluxo de trabalho e os requisitos do produto com a utilização do Kanban; inspeção, que permite avaliar a usabilidade e a praticidade da plataforma frequentemente; e adaptação, que permite que a equipe se ajuste às necessidades dos usuários.
 
 ### Divisão de Papéis
 
