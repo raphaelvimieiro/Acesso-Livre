@@ -29,8 +29,10 @@ Utilizamos como o o GitHub juntamente com o modelo de tarefas kanban como forma 
 
 
 Listadas as etapas do processo acima, podemos validar visualmente através do nosso Projects [Projeto Acesso Livre - Kanban](github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)
-
-<img width="2483" height="535" alt="image" src="https://github.com/user-attachments/assets/f22bc20a-eb9e-4921-803f-10a3d186beb2" />
+<figure>
+   <img width="2483" height="535" alt="image" src="https://github.com/user-attachments/assets/f22bc20a-eb9e-4921-803f-10a3d186beb2" />
+     <figcaption>Figura 2 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
+</figure>
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -46,7 +48,6 @@ Listadas as etapas do processo acima, podemos validar visualmente através do no
 
 <figure> 
   <img width="737" height="411" alt="image" src="https://github.com/user-attachments/assets/62bbade3-727d-44d8-b45b-16751925ca3e" />
-
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
