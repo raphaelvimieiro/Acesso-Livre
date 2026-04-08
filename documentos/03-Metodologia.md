@@ -45,7 +45,8 @@ Listadas as etapas do processo acima, podemos validar visualmente através do no
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img width="737" height="411" alt="image" src="https://github.com/user-attachments/assets/62bbade3-727d-44d8-b45b-16751925ca3e" />
+
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
