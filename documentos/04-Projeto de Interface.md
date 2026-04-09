@@ -92,6 +92,7 @@ Após concluir o cadastro ou realizar o login, o usuário é automaticamente red
 ![Pagina de pesquisa](https://github.com/user-attachments/assets/3f829717-d38c-4fe4-b9e2-a48569529dcc)
 
 Figura 10 - Tela de Pesquisa com o usuário cadastrado
+
 ---
 ### Tela - Avaliação
 
