@@ -34,12 +34,11 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Deficiente | ter informações sobre acessibilidade em transportes público| se locomover pela cidade amplamente.| se locomover pela cidade amplamente                            
+                          
 | Deficiente | ter informações de acessibilidade em eventos| aproveitar momentos de lazer.                              
 | Deficiente | consultar informações sobre locais públicos e privados| evitar situações constrangedoras e de risco.
 | Deficiente | consultar locais com denúncias de falta de acessibilidade| saber se conseguirá acessar o local com segurança.
 | Deficiente | poder denunciar às autoridades competentes locais sem acessibilidade|cobrar melhorias e recursos acessíveis.
-| Deficiente |ver fotos e/ou vídeos de rampas e aparelhos de acessibilidade nos locais| saber se a realidade condiz com as necessidades de acesso.
 
 ## Requisitos do Projeto
 
@@ -49,19 +48,21 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  O sistema deve viabilizar a avaliação colaborativa de locais, permitindo que usuários publiquem comentários e notas sobre suas experiências. | ALTA 
-| RF-02 |  O usuário que optar pela via formal será encaminhado ao sítio eletrônico do órgão responsável pela gestão de denúncias.| MÉDIA |
+| RF-01 |  A aplicação deve oferecer funcionalidade como avaliação por estrelas  e uso de tags, permitindo que o usuário classifique o local de forma positiva ou negativa quanto à acessibilidade à acessibilidade ou relate eventuais problemas.  | ALTA 
+| RF-02 |  A aplicação deve permitir que usuários interessados em reportar  irregularidades ou falhas de acessibilidade sejam direcionados ao site oficial do Fala.br,facilitando assim o envio de denúncias aos órgãos governamentais competentes. | MÉDIA |
 | RF-03 |  A aplicação deve possibilitar pesquisa para que o usuário possa buscar os locais mais bem avaliados por categoria.| ALTA
+| RF-04 |  Deve ter uma aba de notícias onde estão dispostas informações como últimas notícias e anúncios de eventos alertas contendo as informações de acessibilidade.| MÉDIA 
+| RF-05 |  A aplicação exige  que usuário esteja cadastrado e logado em sua conta para poder acessar todas as funcionalidades do sistema, como explorar conteúdos, realizar avaliações, fazer denúncias e efetuar pesquisas.| ALTA
 
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  A aplicação deve ser responsiva, adaptando-se a diferentes tamanhos de telas, incluindo mobile e desktop. |ALTA|
+| RNF-01 |  A aplicação deve ser responsiva, adaptando-se a diferentes tamanhos de telas, incluindo mobile e desktop.|ALTA|
+| RNF-01 |  O método de armazenamento de dados deverá ser o LocalStorage |ALTA|
 **Prioridade: Alta / Média / Baixa. 
 
 
