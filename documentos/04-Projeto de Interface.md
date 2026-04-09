@@ -88,7 +88,9 @@ Figura 9 - Tela de Criar conta
 ### Tela - Pesquisa com usuário cadastrado
 
 Após concluir o cadastro ou realizar o login, o usuário é automaticamente redirecionado para a tela de pesquisa , onde poderá buscar informações dentro da plataforma. Além disso, o sistema disponibiliza, no menu principal, a opção **Avaliação**, que permite  ao usuário acessar funcionalidades relacionadas á análise e feedback dos locais cadastrados.
+
 ![Pagina de pesquisa](https://github.com/user-attachments/assets/3f829717-d38c-4fe4-b9e2-a48569529dcc)
+
 Figura 10 - Tela de Pesquisa com o usuário cadastrado
 ---
 ### Tela - Avaliação
