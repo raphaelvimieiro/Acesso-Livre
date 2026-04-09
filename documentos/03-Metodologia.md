@@ -18,7 +18,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-Utilizamos como o o GitHub juntamente com o modelo de tarefas kanban como forma de organizar nossas atividades de equipe seguindos a seguinte metodologia:
+Utilizamos o GitHub juntamente com o modelo de tarefas kanban como forma de organizar nossas atividades de equipe seguindos a seguinte metodologia:
 
 - Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. 
 - To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa.
