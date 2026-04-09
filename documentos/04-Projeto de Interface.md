@@ -42,6 +42,7 @@ Figura 4 - Tela Sobre
 ---
 
 ### Tela - Pesquisa 
+
 A tela de Pesquisa permite ao usuário realizar buscas por bairros, estabilecimentos e demais locais de seu interesse por meio de uma barra de busca. Abaixo desta, é exibido uma informação que indica a localização atual do usuário, sendo apresentado, conforme ilustrado na figura 5 , **Belo Horizonte - MG**.
 
 <img width="1440" height="1024" alt="Pesquisa sem login" src="https://github.com/user-attachments/assets/98f00cca-d82a-40f8-85b1-9703fa51bc20" />
