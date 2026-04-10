@@ -72,7 +72,7 @@ Figura 7 - Tela de Denúncia
 
 A tela de Entrar é destinada exclusivamente aos usuários já cadastrados na plataforma **AcessoLivre**. Em seu conteúdo, são apresentados os campos de **E-mail** e **Senha** para autenticação, além de um botão de marcação para que o usuário possa optar por manter suas credenciais salvas no dispositivo. Ademais, a página disponibiliza um botão que redireciona o usuário para a tela de criação de conta, caso ainda não possua um cadastro na plataforma.
 
-<img width="1525" height="1104" alt="Cadastro" src="https://github.com/user-attachments/assets/4b1f874d-3f7b-435b-9f77-07a1eb5e46e1" />
+<img width="1440" height="1024" alt="Pagina logada registrar avaliação" src="https://github.com/user-attachments/assets/6e236fbf-5331-44ce-8462-d0b607c7ef05" />
 Figura 8 - Tela de Cadastro de Usuário
 
 ---
