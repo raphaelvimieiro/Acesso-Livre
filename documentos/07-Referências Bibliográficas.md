@@ -1,6 +1,5 @@
 # Referências Bibliográficas
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
 
 BRASIL. Ministério dos Direitos Humanos e da Cidadania. Brasil tem 18,6 milhões de pessoas com deficiência, indica pesquisa divulgada pelo IBGE e MDHC. Brasília, DF: MDHC, 2023. Disponível em: https://www.gov.br/mdh/pt-br/assuntos/noticias/2023/julho/brasil-tem-18-6-milhoes-de-pessoas-com-deficiencia-indica-pesquisa-divulgada-pelo-ibge-e-mdhc. Acesso em: 4 abr. 2026.
 BRASIL. Ministério dos Direitos Humanos e da Cidadania. IBGE divulga censo sobre pessoas com deficiência no Brasil. Disponível em: https://www.gov.br/mdh/. Acesso em: 17 mar. 2026.
