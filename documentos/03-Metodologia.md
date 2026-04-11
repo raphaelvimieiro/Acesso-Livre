@@ -30,7 +30,8 @@ Utilizamos o GitHub juntamente com o modelo de tarefas kanban como forma de orga
 
 Listadas as etapas do processo acima, podemos validar visualmente através do nosso Projects [Projeto Acesso Livre - Kanban](github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/2801)
 <figure>
-   <img width="1802" height="732" alt="image" src="https://github.com/user-attachments/assets/244a1b70-c5b5-4df0-b3a0-cc069f742fb2" />
+   <img width="1822" height="923" alt="image" src="https://github.com/user-attachments/assets/da906862-5006-46c7-88ce-2cb24b4f97f8" />
+
    
    
    <figcaption>Figura 2 - Tela do kanban no GitHub utilizada pelo grupo</figcaption>
