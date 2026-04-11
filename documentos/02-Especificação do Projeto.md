@@ -48,7 +48,7 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  A aplicação deve oferecer funcionalidade como avaliação por estrelas  e uso de tags, permitindo que o usuário classifique o local de forma positiva ou negativa quanto à acessibilidade à acessibilidade ou relate eventuais problemas.  | ALTA 
+| RF-01 |  A aplicação deve oferecer funcionalidade como avaliação por estrelas  e uso de tags, permitindo que o usuário classifique o local de forma positiva ou negativa quanto à acessibilidade ou relate eventuais problemas.  | ALTA 
 | RF-02 |  A aplicação deve permitir que usuários interessados em reportar  irregularidades ou falhas de acessibilidade sejam direcionados ao site oficial do Fala.br,facilitando assim o envio de denúncias aos órgãos governamentais competentes. | MÉDIA |
 | RF-03 |  A aplicação deve possibilitar pesquisa para que o usuário possa buscar os locais mais bem avaliados por categoria.| ALTA
 | RF-04 |  Deve ter uma aba de notícias onde estão dispostas informações como últimas notícias e anúncios de eventos alertas contendo as informações de acessibilidade.| MÉDIA 
