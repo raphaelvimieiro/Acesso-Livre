@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 11/04/2026 21:35
+**Última atualização:** 11/04/2026 21:36
 
 ---
 
@@ -8,17 +8,17 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Raphael Procópio      |        10 |       131 |        47 |          1 |             10 |               1 |
+| Raphael Procópio      |        11 |       132 |        48 |          1 |             11 |               1 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
-| Wellington Ranniery   |        26 |       128 |       132 |          5 |             26 |               2 |
+| Wellington Ranniery   |        28 |       132 |       132 |          5 |             28 |               2 |
 | dinhagomezz           |         8 |        19 |        15 |          1 |              8 |               1 |
-| github-actions[bot]   |        45 |       236 |       184 |          3 |             45 |               1 |
+| github-actions[bot]   |        46 |       240 |       188 |          3 |             46 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-04**: Raphael Procópio: 10, Vitor Oliveira: 2, Wellington Ranniery: 26, dinhagomezz: 8, github-actions[bot]: 43
+**2026-04-04**: Raphael Procópio: 11, Vitor Oliveira: 2, Wellington Ranniery: 28, dinhagomezz: 8, github-actions[bot]: 44
 
 **2026-03-21**: Vitor Oliveira: 6, github-actions[bot]: 2
 
