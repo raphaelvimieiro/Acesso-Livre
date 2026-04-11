@@ -32,13 +32,12 @@
 ## Histórias de Usuários
 
 
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------|---------------------------|----------------------------------|
-                          
-| Deficiente | ter informações de acessibilidade em eventos | aproveitar momentos de lazer.                              
-| Deficiente | consultar informações sobre locais públicos e privados | evitar situações constrangedoras e de risco.
-| Deficiente | consultar locais com denúncias de falta de acessibilidade | saber se conseguirá acessar o local com segurança.
-| Deficiente | poder denunciar às autoridades competentes locais sem acessibilidade | cobrar melhorias e recursos acessíveis.
+| EU COMO... `QUEM` | QUERO/PRECISO ... `O QUE` | PARA ... `PORQUE` |
+| :--- | :--- | :--- |
+| Deficiente | ter informações de acessibilidade em eventos | aproveitar momentos de lazer. |
+| Deficiente | consultar informações sobre locais públicos e privados | evitar situações constrangedoras e de risco. |
+| Deficiente | consultar locais com denúncias de falta de acessibilidade | saber se conseguirá acessar o local com segurança. |
+| Deficiente | poder denunciar às autoridades competentes locais sem acessibilidade | cobrar melhorias e recursos acessíveis. |
 
 ## Requisitos do Projeto
 
