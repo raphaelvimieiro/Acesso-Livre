@@ -112,6 +112,9 @@ main {
 ARTICLE
 =============================*/
 
+
+
+
 :root {
     --border-radius-article: 10%;
     --background-color-article: rgb(92, 92, 92);
@@ -126,6 +129,13 @@ article {
     justify-content: center;
     gap: 60px;
     flex-direction: column;
+}
+
+#comentario.escondido{
+    display: none;
+}
+#comentario.visivel{
+    display: block;
 }
 
 .container-cards-location {
