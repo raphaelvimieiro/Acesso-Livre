@@ -1,0 +1,323 @@
+body {
+  color: white;
+  background: #181515;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: clamp(14px, 2vw, 32px);
+  padding: clamp(10px, 2vh, 22px) clamp(16px, 3vw, 48px) 0;
+  margin-bottom: clamp(8px, 1.4vh, 16px);
+  background: rgba(24, 21, 21, 0.92);
+}
+.header > h1 {
+  font-family: "Faustina", serif;
+}
+
+.livre-text {
+  color: #17df17;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: "Faustina", serif;
+}
+.menu li {
+  position: relative;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.menu li {
+  position: relative;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Fica apenas a palavra inicio marcada*/
+.menu .inicio a {
+  color: #17df17;
+}
+/* pontinho */
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #17df17;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+}
+/* só aparece no ativo */
+.menu li:not(.active) .dot {
+  display: none;
+}
+/* Deixa a palavra do menu ativa verde */
+.menu li.active a {
+  color: #17df17;
+}
+
+.menu-login {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0px;
+  padding: 0;
+  font-family: "Faustina", serif;
+}
+
+.imagem-celular {
+  display: block;
+  width: min(100%, 960px);
+  height: auto;
+  margin: 0 auto;
+}
+.menu li {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.menu-login li {
+  position: relative;
+  padding-bottom: 5px;
+  background-color: #3ad33a;
+  border: 5px solid #3ad33a;
+  border-radius: 50px;
+  border-width: 2px 4px 2px 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/*Efeito hover no menu */
+.menu a:hover {
+  color: #17df17;
+}
+
+.menu-login li:hover {
+  color: #17df17;
+}
+
+.menu-login li:hover {
+  background-color: #17df17;
+  border-color: #17df17;
+  color: #181515;
+}
+/**/
+.usuario-icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.box-lateral {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"],
+input[type="text"] {
+  background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
+}
+
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+.banner-celular {
+  position: relative;
+  width: 71vw;
+  max-width: 100vw;
+  margin: clamp(8px, 1.4vh, 20px) auto 0;
+}
+
+.banner-celular .imagem-celular {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.decor-triangulo {
+  position: absolute;
+  top: -42px;
+  right: -56px;
+  width: clamp(78px, 9vw, 130px);
+  height: auto;
+  z-index: 1;
+}
+
+/* Texto sobre a imagem */
+.Texto-banner-celular {
+  position: absolute;
+  top: 50%;
+  left: clamp(18px, 4vw, 60px);
+  transform: translateY(-50%);
+  color: white;
+  max-width: min(42vw, 400px);
+  text-align: left;
+  z-index: 3;
+}
+
+.Texto-banner-celular h1 {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: clamp(24px, 3vw, 40px);
+  margin-bottom: clamp(8px, 1.2vh, 16px);
+  line-height: 1.05;
+}
+
+.Texto-banner-celular p {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-size: clamp(13px, 1.2vw, 16px);
+  color: #5bea75;
+}
+
+/* linha verde */
+.linha-verde {
+  display: block;
+  width: 69vw;
+  max-width: 100vw;
+  margin-top: clamp(1.4vh, 20px);
+  margin-left: auto;
+  margin-right: auto;
+}
+/*cards*/
+.card {
+  background-color: #595959;
+}
+/*cards*/
+.card-text {
+  font-size: 14px;
+  color: #ffffff;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card.is-expanded .card-text {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}
+/*cards*/
+.text-success {
+  color: #11ec86;
+}
+
+.img-card {
+  position: relative; /* BASE */
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.img-card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* TEXTO EM CIMA DA IMAGEM  */
+.texto-sobreposto {
+  font-family: "Baloo Thambi 2", sans-serif;
+  position: absolute; /* FICA EM CIMA */
+  bottom: 14px;
+  left: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.stars {
+  display: inline-flex;
+  gap: 1px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.stars .on {
+  color: #11ec86;
+}
+
+.stars .off {
+  color: #d6d6d6;
+}
+/* ÍCONE  card 1*/
+.icone-local {
+  width: 18px;
+  margin-right: 5px;
+}
+
+/* Botão ver mais */
+.Texto-ver-mais {
+  color: #14d37a;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Texto-ver-mais:hover {
+  text-decoration: underline;
+}
+
+.site-footer {
+  width: 100%;
+  margin-top: auto;
+  padding: 5px 12px;
+  background: linear-gradient(90deg, #24402a 0%, #2f5138 50%, #24402a 100%);
+  border-top: 1px solid #3a6b44;
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+  color: #e9ece9;
+  font-size: 12px;
+}
+
+.container.my-5 {
+  margin-top: clamp(8px, 1.3vh, 18px) !important;
+  margin-bottom: 0 !important;
+}
