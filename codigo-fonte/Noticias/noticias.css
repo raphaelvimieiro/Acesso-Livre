@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.conteudo {
+  padding: 30px 40px;
+  max-width: 1440px;
+  margin: 0 auto; /* centraliza na tela */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #1e1e1e;
+  font-family: 'Faustina', Arial, sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Faustina', Arial, sans-serif;
+
+}
+
+.logo-span {
+    color: #5BEA75;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    cursor:pointer;
+    color: #ccc;
+}
+
+.menu .ativo {
+    color: #5BEA75;
+
+}
+
+.busca {
+    padding: 8px 15px;
+    border-radius: 70px;
+    border: none;
+    background-color:  #1D1D1D;
+    color: white;           
+    width: 220px;
+    outline:none;
+    mix-blend-mode: exclusion;
+}
+
+.busca::placeholder {
+    color: #888;
+}
+
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+.btn-login {
+    background-color: #3AD33A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 148px;
+    cursor: pointer;
+    font-size: 14px;
+    mix-blend-mode: color-dodge;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.btn-login:hover {
+    background-color:#5BEA75;
+
+}
+
+
+
+  /* area do conteudo */
+
+.conteudo {
+    padding: 30px 40px;
+}
+
+/* titulo da seção */
+
+.titulo-secao {
+text-align: center;
+font-size: 40px;
+margin-bottom: 30px;
+}
+
+/* grid de notícias (grande e os dois menores) */
+
+.grid-noticias {
+    display:flex;
+    gap: 24px;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* notícia grande */
+
+.card-destaque {
+
+    width: 435px;
+    height: 759px;
+    flex: 0 0 435px;
+    background-color:var(--Miscellaneous-Keyboards-Glyphs---Primary, #595959);;
+    border-radius: 21px;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+
+}
+
+.card-destaque img {
+   width: 343px;
+   height: auto;
+   object-fit: cover;
+   align-self: center;
+   display: flex;
+padding-top: 38px;
+ border-radius: 20px;
+}
+
+.card-destaque h2 {
+  padding: 0 15px;
+  color: #FFF;
+font-family: "Baloo Tammudu 2";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+
+.card-destaque p {
+    display: flex;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 150%; /* 30px */
+}
+
+
+/* notícias menores */
+.coluna-direita {
+    flex: 0 0 740px; /* 358px + 24px gap + 358px */
+    display:flex;
+    gap: 24px;
+    min-width: 0
+ 
+}
+
+.coluna-direita .card {
+   width: 358px;
+  height: 316px;
+  background-color: var(--Miscellaneous-Keyboards-Glyphs---Primary, #595959);
+  border-radius: 21px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  flex: 0 0 358px;
+ 
+}
+
+.coluna-direita .card img {
+  width: 282px;
+  height: auto;
+  object-fit: cover;
+  align-self: center;
+  padding-top:  27px, 38px, 169px. 38px;
+  border-radius: 21px;
+  background: url(../Imagens/imagem-noticia.jpg) lightgray 50% / cover no-repeat;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.coluna-direita .card h3 {
+ width: 336px;
+ height: 88px;
+ color: #FFF;
+ font-family: "Baloo Tammudu 2";
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 150%; 
+}
+
+.coluna-direita .card p {
+  width: 266px;
+height: 88px;
+ color: #FFF;
+ font-family: "Baloo Tammudu 2";
+ font-size: 10px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 150%; /* 15px */
+}
+
+
+/* cards menores */
+.grid-tres {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-tres .card {
+  background-color: #3a3a3a;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.card h3, .card h4 {
+  font-size: 14px;
+  padding: 0 12px;
+  color: #5BEA75;
+}
+
+.card p {
+  font-size: 13px;
+  padding: 0 13px;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+/* "vermais" e datas */
+.ver-mais {
+  color: #5BEA75;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 15px;
+}
+
+.ver-mais:hover {
+  text-decoration: underline;
+}
+
+.data {
+  color: #888;
+  font-size: 12px;
+  margin-top: auto;
+  padding: 0 15px;
+}
+
+
+/* linha separadora e ultimo grid   */
+.separador {
+  border: none;
+  border-top: 2px solid #5BEA75;
+  margin: 35px auto;
+  max-width: 780px;
+}
+
+
+/*rodapé*/
+footer {
+height: 22px;
+  text-align: center;
+  color: #888;
+  border-top: 1px solid #444;
+  margin-top: 40px;
+  background: rgba(91, 234, 117, 0.10);
+}
