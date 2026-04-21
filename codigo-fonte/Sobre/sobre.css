@@ -25,6 +25,18 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[width],
+img[height] {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   display: flex;
   justify-content: center;
