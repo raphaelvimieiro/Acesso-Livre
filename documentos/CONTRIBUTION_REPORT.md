@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 20/04/2026 21:59
+**Última atualização:** 21/04/2026 00:53
 
 ---
 
@@ -8,25 +8,25 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Raphael Procópio      |        12 |      1412 |        48 |         23 |             11 |               1 |
+| Raphael Procópio      |        14 |      1644 |       294 |         29 |             11 |               1 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
 | Wellington Ranniery   |        33 |       629 |       139 |         12 |             29 |               2 |
 | dinhagomezz           |         8 |        19 |        15 |          1 |              8 |               1 |
-| github-actions[bot]   |        51 |       263 |       211 |          3 |             51 |               1 |
+| github-actions[bot]   |        52 |       273 |       217 |          3 |             52 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-13**: Raphael Procópio: 1, Wellington Ranniery: 4, github-actions[bot]: 3
+**2026-04-14**: Raphael Procópio: 3, Wellington Ranniery: 4, github-actions[bot]: 4
 
-**2026-04-06**: Raphael Procópio: 7, Wellington Ranniery: 16, dinhagomezz: 8, github-actions[bot]: 29
+**2026-04-07**: Raphael Procópio: 7, Wellington Ranniery: 15, dinhagomezz: 8, github-actions[bot]: 28
 
-**2026-03-30**: Raphael Procópio: 4, Vitor Oliveira: 2, Wellington Ranniery: 13, github-actions[bot]: 17
+**2026-03-31**: Raphael Procópio: 4, Vitor Oliveira: 2, Wellington Ranniery: 14, github-actions[bot]: 18
 
-**2026-03-23**: Vitor Oliveira: 6, github-actions[bot]: 2
+**2026-03-24**: Vitor Oliveira: 6, github-actions[bot]: 2
 
-**2026-03-16**: github-classroom[bot]: 1
+**2026-03-17**: github-classroom[bot]: 1
 
 
 
