@@ -53,13 +53,14 @@ nav>a {
 .menu-login {
   display: flex;
   flex-direction: row;
-  background-color: #5bea75;
+  /* background-color: #5bea75; */
   border-radius: 15px;
-  width: clamp(5vw, 10vw, 15%);
+  width: fit-content;
   padding: 5px;
   justify-content: center;
   align-items: center;
   font-size: clamp(10px, 1vw, 16px);
+  cursor: pointer;
 }
 
 /* ==================

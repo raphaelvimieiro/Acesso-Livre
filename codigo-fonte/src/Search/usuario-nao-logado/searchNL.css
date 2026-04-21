@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1a1a;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* ==================
+Logo cor
+=================*/
+
+.logo-navbar {
+  color: #5bea75;
+}
+
+/* ==================
+NavBar
+=================*/
+
+nav {
+  font-family: "Faustina", serif;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  gap: 40px;
+}
+
+nav>a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-login {
+  display: flex;
+  flex-direction: row;
+  background-color: #5bea75;
+  border-radius: 15px;
+  width: clamp(5vw, 10vw, 15%);
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 1vw, 16px);
+  cursor: pointer;
+}
+
+/* ==================
+Body
+=================*/
+
+main {
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  justify-content: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.search>a {
+  text-decoration: none;
+  color: white;
+  font-size: 100px;
+  font-family: "Faustina", serif;
+}
+
+.logo-main {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-livre-main {
+  color: #5bea75;
+}
+
+.lupa-bar {
+  display: flex;
+  background-color: #383535;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.lupa-bar>input {
+  color: white;
+}
+
+.lupa-bar>input:focus {
+  outline: none;
+}
+
+.fa-solid {
+  color: rgb(151, 151, 151);
+}
+
+.searchBar {
+  border: none;
+  background: transparent;
+  margin-left: 15px;
+}
+
+/* =============================
+ARTICLE
+=============================*/
+
+:root {
+  --border-radius-article: 10%;
+  --background-color-article: rgb(92, 92, 92);
+  --default-width: clamp(300px, 30vw, 400px);
+  --default-height: clamp(450px, 30vw, 400px);
+  --banner-height: clamp(34%, 5vw, 10%);
+}
+
+article {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: column;
+}
+
+/* #comentario.escondido {
+  display: none;
+}
+#comentario.visivel {
+  display: block;
+} */
+
+.container-cards-location {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.cidade-location {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  color: #5bea75;
+  font-family: "Faustina", serif;
+  font-weight: 800;
+  letter-spacing: 4px;
+  gap: 10px;
+}
+
+.cidade-location>select {
+  background-color: transparent;
+  border: none;
+  color: #5bea75;
+  border: transparent;
+  border-radius: var(--border-radius-article);
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+:root{
+  --min-height:300px
+}
+.container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+/* LOCATION 1 INICIO */
+
+.location1 {
+  display: flex;
+  flex-direction: column;
+  width: var(--default-width);
+  height: var(--default-height);
+  background-color: var(--background-color-article);
+  border-radius: var(--border-radius-article);
+  justify-content: flex-start;
+
+  min-height: var(--min-height);
+}
+
+.location2 {
+  display: flex;
+  flex-direction: column;
+  width: var(--default-width);
+  height: var(--default-height);
+  background-color: var(--background-color-article);
+  border-radius: var(--border-radius-article);
+  justify-content: flex-start;
+  
+  min-height: var(--min-height);
+  
+}
+
+.location3 {
+  display: flex;
+  flex-direction: column;
+  width: var(--default-width);
+  height: var(--default-height);
+  background-color: var(--background-color-article);
+  border-radius: var(--border-radius-article);
+  justify-content: flex-start;
+  
+  min-height: var(--min-height);
+  
+}
+
+.imagem {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: var(--banner-height);
+  background-size: cover;
+  background-position: center;
+  background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 1), transparent),
+    url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1");
+  border-radius: var(--border-radius-article);
+  flex-direction: row;
+  align-items: flex-end;
+  /* position: relative;
+    top: clamp(-20%, -10vw, -10px); */
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-size: clamp(5px, 20px, 20px);
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  color: white;
+  /* border: #5bea75 1px solid; */
+  margin-bottom: 5%;
+}
+
+.content>span {
+  font-size: 90%;
+  color: #5bea75;
+}
+
+.imagem>img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: var(--border-radius-article);
+  display: block;
+  object-fit: cover;
+}
+
+.avaliacao-location {
+  font-family: "Roboto", serif;
+  display: flex;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+:root {
+  --avatar-width: 50px;
+  --avatar-height: 50px;
+}
+
+.img-avatar1 {
+  display: flex;
+  background-image: url(/codigo-fonte/Imagens/Fotopessoa1.png);
+  background-position: center;
+  background-size: cover;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+.img-avatar2 {
+  display: flex;
+  background-image: url(/codigo-fonte/Imagens/Fotopessoa2.png);
+  background-position: center;
+  background-size: cover;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+.img-avatar3 {
+  display: flex;
+  background-image: url(/codigo-fonte/Imagens/Fotopessoa3.png);
+  background-position: center;
+  background-size: cover;
+  width: var(--avatar-width);
+  height: var(--avatar-height);
+  margin: 0 auto;
+
+  border-radius: 50%;
+}
+
+.name-avalicao {
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 1;
+  text-decoration: underline #5bea75 2px;
+  text-underline-offset: 80%;
+}
+
+.avaliacao-text {
+  color: white;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20%;
+  max-width: 70%;
+  margin-bottom: 0;
+}
+
+/* LOCATION 1 FIM*/
+
+.location2 {
+  width: var(--default-width);
+  height: var(--default-height);
+  border-radius: var(--border-radius-article);
+  background-color: var(--background-color-article);
+}
+
+.location3 {
+  width: var(--default-width);
+  height: var(--default-height);
+
+  background-color: var(--background-color-article);
+  border-radius: var(--border-radius-article);
+}
+
+
+/*====================
+FOOTER INICIO
+========================= */
+
+
+.footer {
+  background-color: #5bea756b;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-family: 'Faustina', serif;
+  font-weight: 500;
+}
+
+/*====================
+FOOTER FIM
+========================= */
