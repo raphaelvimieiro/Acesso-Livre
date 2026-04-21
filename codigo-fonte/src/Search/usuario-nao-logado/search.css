@@ -20,11 +20,7 @@ img {
   height: auto;
 }
 
-img[width],
-img[height] {
-  max-width: 100%;
-  height: auto;
-}
+
 
 /* ==================
 Logo cor
@@ -52,6 +48,18 @@ nav {
 nav>a {
   text-decoration: none;
   color: white;
+}
+
+.menu-login {
+  display: flex;
+  flex-direction: row;
+  background-color: #5bea75;
+  border-radius: 15px;
+  width: clamp(5vw, 10vw, 15%);
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 1vw, 16px);
 }
 
 /* ==================
@@ -126,12 +134,12 @@ ARTICLE
   --border-radius-article: 10%;
   --background-color-article: rgb(92, 92, 92);
   --default-width: clamp(300px, 30vw, 400px);
-  --default-height: clamp(300px, 30vw, 400px);
+  --default-height: clamp(450px, 30vw, 400px);
   --banner-height: clamp(34%, 5vw, 10%);
 }
 
 article {
-  margin-top: 100px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
   gap: 60px;
@@ -153,12 +161,6 @@ article {
   flex-direction: column;
 }
 
-.container-cards {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-  flex-wrap: wrap;
-}
 
 .cidade-location {
   display: flex;
@@ -182,6 +184,15 @@ article {
   letter-spacing: 3px;
 }
 
+:root{
+  --min-height:300px
+}
+.container-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
 /* LOCATION 1 INICIO */
 
 .location1 {
@@ -193,7 +204,7 @@ article {
   border-radius: var(--border-radius-article);
   justify-content: flex-start;
 
-  min-height: 500px;
+  min-height: var(--min-height);
 }
 
 .location2 {
@@ -204,8 +215,9 @@ article {
   background-color: var(--background-color-article);
   border-radius: var(--border-radius-article);
   justify-content: flex-start;
-
-  min-height: 500px;
+  
+  min-height: var(--min-height);
+  
 }
 
 .location3 {
@@ -216,8 +228,9 @@ article {
   background-color: var(--background-color-article);
   border-radius: var(--border-radius-article);
   justify-content: flex-start;
-
-  min-height: 500px;
+  
+  min-height: var(--min-height);
+  
 }
 
 .imagem {
@@ -248,6 +261,8 @@ article {
   align-items: baseline;
   gap: 8px;
   color: white;
+  /* border: #5bea75 1px solid; */
+  margin-bottom: 5%;
 }
 
 .content>span {
@@ -302,7 +317,7 @@ article {
 
 .img-avatar3 {
   display: flex;
-background-image: url(/codigo-fonte/Imagens/Fotopessoa3.png);
+  background-image: url(/codigo-fonte/Imagens/Fotopessoa3.png);
   background-position: center;
   background-size: cover;
   width: var(--avatar-width);
