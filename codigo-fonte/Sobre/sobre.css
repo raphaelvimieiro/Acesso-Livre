@@ -139,10 +139,15 @@ img[height] {
   color: #181515;
 }
 
-.usuario-icon {
+/* Faz com que o icone de usuario fique a direita e alinhado com o menu */
+
+.usuario-logado {
   width: 25px;
   height: 25px;
   cursor: pointer;
+  align-self: center;
+  margin-left: 400px; 
+  margin-top: 2px;
 }
 
 .box-lateral {
