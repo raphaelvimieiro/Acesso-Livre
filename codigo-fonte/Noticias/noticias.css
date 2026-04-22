@@ -27,17 +27,22 @@ body {
 }
 
 /* ── NAVBAR ── */
+.navbar-wrapper {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 100;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   gap: 32px;
   padding: 0 40px;
   height: 64px;
-  border-bottom: 1px solid var(--border);
   position: sticky;
-  top: 0;
-  background: var(--bg);
-  z-index: 100;
+ margin: auto;
+  max-width: 1300px;
 }
 
 .logo {
@@ -57,36 +62,46 @@ body {
   display: flex;
   list-style: none;
   gap: 28px;
-  cursor: pointer;
+}
+
+.menu li {
+  position: relative; 
+}
+
+.menu li a {
+  text-decoration: none;
   color: var(--text-muted);
   font-size: 15.2px;
   font-weight: 500;
+  transition: color 0.2s;
 }
 
-.menu .ativo {
-  color: var(--green);
+.menu li a:hover {
+  color: var(--green); /* fica verde no hover */
 }
 
-/* pontinho */
-.dot {
+/* bolinha — só aparece no item ativo */
+.menu li::after {
+  content: '';
   width: 6px;
   height: 6px;
-  background: #17df17;
+  background: var(--green);
   border-radius: 50%;
-
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -8px;
+  bottom: -12px;
+  opacity: 0;
 }
-/* só aparece no ativo */
-.menu li:not(.active) .dot {
-  display: none;
+ 
+.menu li.ativo::after {
+  opacity: 1;
 }
-/* Deixa a palavra do menu ativa verde */
-.menu li.active a {
-  color: #17df17;
+ 
+.menu li.ativo a {
+  color: var(--green);
 }
+
 
 .busca-wrapper {
   margin-left: auto;
@@ -115,10 +130,18 @@ body {
 }
 
 .lupa-icon {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
   flex-shrink: 0;
+  opacity: 0.6;
+}
+ 
+.usuario-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
 }
 
 .btn-login {
