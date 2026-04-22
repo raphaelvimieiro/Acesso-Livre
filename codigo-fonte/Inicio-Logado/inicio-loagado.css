@@ -140,7 +140,7 @@ img[height] {
   height: 25px;
   cursor: pointer;
   align-self: center;
-  margin-left: 80px; /* Ajuste para posicionar o ícone mais à direita */
+  margin-left: 400px; /* Ajuste para posicionar o ícone mais à direita */
   margin-top: 2px;
 }
 
