@@ -118,14 +118,6 @@ img[height] {
   cursor: pointer;
   align-self: center;
   margin-left: 400px; /* Ajuste para posicionar o ícone mais à direita */
-  margin-top: 2px;
-}
-
-img[src*="Restaurantemaior.png"],
-img[src*="Restaurantemaior.png"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .restaurant-hero {
@@ -179,14 +171,20 @@ img[src*="Restaurantemaior.png"] {
 
 .retangulo-avaliacao {
   position: relative;
-  width: min(985px, 100%);
-  margin: 12px auto 0;
+  width: 1141px;
+  height: 282px;
+  left: 150px;
+  opacity: 1;
+  overflow: hidden;
+  border-radius: 21px;
+  transition: height 0.25s ease;
 }
 
 .retangulo-avaliacao-bg {
   display: block;
   width: 100%;
-  height: 240px;
+  height: 100%;
+  border-radius: 21px;
   object-fit: cover;
   transition: height 0.25s ease;
 }
@@ -196,31 +194,50 @@ img[src*="Restaurantemaior.png"] {
   top: 36px;
   left: 50%;
   transform: translateX(-50%);
-  width: min(92%, 900px);
+  width: min(100%, 1000px);
   opacity: 1;
   border-width: 1px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 14px;
+  gap: 20px;
 }
 
+.retangulo-avaliacao-coluna {
+   position: relative;
+  width: 320px;
+  height: 186px;
+  border-radius: 24px;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+/* Quando a COLUNA for expandida, ela cresce */
+.retangulo-avaliacao-coluna.is-expanded {
+  height: 320px; /* ajuste conforme o texto */
+}
 .retangulomenoravaliaçao {
   display: block;
-  width: calc((100% - 28px) / 3);
+  width: 320px;
   height: 186px;
+  opacity: 1;
+  transform: rotate(0deg);
   border-radius: 24px;
   object-fit: cover;
   transition: height 0.25s ease;
 }
 
-.retangulo-avaliacao.is-expanded .retangulo-avaliacao-bg {
-  height: 330px;
+.retangulo-avaliacao-coluna .retangulomenoravaliaçao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+  transition: height 0.35s ease;
 }
 
-.retangulo-avaliacao.is-expanded .retangulomenoravaliaçao:first-child {
-  height: 275px;
-}
+
 
 .retangulo-avaliacao-foto3 {
   position: absolute;
@@ -231,6 +248,31 @@ img[src*="Restaurantemaior.png"] {
   height: 48px;
   border-radius: 50%;
   object-fit: cover;
+  transition: height 0.35s ease;
+}
+
+.retangulo-avaliacao-foto2 {
+  position: absolute;
+  top: 18px;
+  left: 88px;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: height 0.35s ease;
+}
+
+.retangulo-avaliacao-foto1 {
+  position: absolute;
+  top: 18px;
+  left: 88px;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: height 0.35s ease;
 }
 
 .retangulo-avaliacao-info {
@@ -261,10 +303,20 @@ img[src*="Restaurantemaior.png"] {
 
 .retangulo-avaliacao-texto {
   position: absolute;
-  top: 95px;
   left: 0;
-  width: calc((100% - 28px) / 3);
+  right: 0;
+  top: 74px;
+  bottom: 8px;
+  width: 100%;
+  padding: 0 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
   text-align: center;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .retangulo-avaliacao-texto p {
@@ -275,9 +327,9 @@ img[src*="Restaurantemaior.png"] {
   line-height: 1.45;
   color: #f4f4f4;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
 }
 
@@ -288,13 +340,28 @@ img[src*="Restaurantemaior.png"] {
   overflow: visible;
 }
 
+.retangulo-avaliacao.is-expanded .retangulo-avaliacao-bg {
+  height: 100%;
+}
+
+.retangulo-avaliacao.is-expanded .retangulo-avaliacao-coluna {
+  height: 275px;
+}
+
+.retangulo-avaliacao.is-expanded {
+  height: 420px; 
+}
+
 .retangulo-avaliacao-texto a {
   display: inline-block;
-  margin-top: 6px;
+  margin-top: auto;
+  padding-top: 6px;
   font-family: "Baloo Bhaijaan 2", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1;
   color: #5bf06d;
   text-decoration: none;
+  align-self: center;
 }
+
