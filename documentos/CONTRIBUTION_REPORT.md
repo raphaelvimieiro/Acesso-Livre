@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 23/04/2026 21:02
+**Última atualização:** 24/04/2026 22:52
 
 ---
 
@@ -8,25 +8,23 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Raphael Procópio      |        20 |      3549 |       382 |         43 |             11 |               1 |
+| Raphael Procópio      |        21 |      3633 |       389 |         43 |             11 |               1 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
 | Wellington Ranniery   |        39 |      1661 |       453 |         22 |             29 |               2 |
 | dinhagomezz           |        17 |       913 |       334 |          6 |              8 |               1 |
-| github-actions[bot]   |        63 |       331 |       275 |          3 |             63 |               1 |
+| github-actions[bot]   |        64 |       335 |       279 |          3 |             64 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-16**: Raphael Procópio: 9, Wellington Ranniery: 10, dinhagomezz: 9, github-actions[bot]: 15
+**2026-04-17**: Raphael Procópio: 10, Wellington Ranniery: 6, dinhagomezz: 9, github-actions[bot]: 13
 
-**2026-04-09**: Raphael Procópio: 6, Wellington Ranniery: 10, github-actions[bot]: 14
+**2026-04-10**: Raphael Procópio: 2, Wellington Ranniery: 14, github-actions[bot]: 13
 
-**2026-04-02**: Raphael Procópio: 5, Vitor Oliveira: 2, Wellington Ranniery: 19, dinhagomezz: 8, github-actions[bot]: 32
+**2026-04-03**: Raphael Procópio: 9, Vitor Oliveira: 2, Wellington Ranniery: 19, dinhagomezz: 8, github-actions[bot]: 36
 
-**2026-03-26**: Vitor Oliveira: 1, github-actions[bot]: 1
-
-**2026-03-19**: Vitor Oliveira: 5, github-actions[bot]: 1, github-classroom[bot]: 1
+**2026-03-20**: Vitor Oliveira: 6, github-actions[bot]: 2, github-classroom[bot]: 1
 
 
 
