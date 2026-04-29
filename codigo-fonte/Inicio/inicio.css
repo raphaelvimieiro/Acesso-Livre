@@ -324,7 +324,7 @@ input[type="text"]::placeholder {
 
 /* ───── VER MAIS ───── */
 .Texto-ver-mais {
-  color: #14d37a;
+  color: #7DF17D;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -340,16 +340,21 @@ input[type="text"]::placeholder {
 .site-footer {
   width: 100%;
   margin-top: auto;
+ border-top: 1px solid rgba(91, 234, 117, 0.10);
+  text-align: center;
   padding: 5px 12px;
-  background: linear-gradient(90deg, #24402a 0%, #2f5138 50%, #24402a 100%);
-  border-top: 1px solid #3a6b44;
+  color:#f0f0f0;
+  background: #3a7d3a;
 }
 
 .site-footer p {
-  margin: 0;
-  text-align: center;
-  color: #e9ece9;
-  font-size: 12px;
+ margin: 0;
+  color: #FFF;
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 /* ───── CONTAINER ───── */

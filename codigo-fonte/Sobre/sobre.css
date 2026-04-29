@@ -78,8 +78,8 @@ img[height] {
 }
 
 /*Fica apenas a palavra Sobre marcada*/
-.menu .sobre a {
-  color: #5bea75;
+.menu .inicio a {
+  color: #17df17;
 }
 /* pontinho */
 .dot {
@@ -126,16 +126,16 @@ img[height] {
 
 /*Efeito hover no menu */
 .menu a:hover {
-  color: #3ad33a;
+  color: #5bea75;
 }
 
 .menu-login li:hover {
-  color: #3ad33a;
+  color: #5bea75;
 }
 
 .menu-login li:hover {
-  background-color: #3ad33a;
-  border-color: #3ad33a;
+  background-color: #5bea75;
+  border-color: #5bea75;
   color: #181515;
 }
 
