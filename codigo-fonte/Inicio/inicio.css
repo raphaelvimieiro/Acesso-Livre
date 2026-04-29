@@ -1,6 +1,6 @@
 body {
   color: white;
-  background: #181515;
+  background: #1a1a1a;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@ img[height] {
 }
 
 .livre-text {
-  color: #17df17;
+  color: #5bea75;
 }
 
 .menu {
@@ -65,13 +65,13 @@ img[height] {
 
 /*Fica apenas a palavra inicio marcada*/
 .menu .inicio a {
-  color: #17df17;
+  color: #5bea75 !important;
 }
 /* pontinho */
 .dot {
   width: 6px;
   height: 6px;
-  background: #17df17;
+  background: #5bea75;
   border-radius: 50%;
 
   position: absolute;
@@ -85,7 +85,7 @@ img[height] {
 }
 /* Deixa a palavra do menu ativa verde */
 .menu li.active a {
-  color: #17df17;
+  color: #5bea75;
 }
 
 .menu-login {
@@ -123,16 +123,16 @@ img[height] {
 
 /*Efeito hover no menu */
 .menu a:hover {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu-login li:hover {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu-login li:hover {
-  background-color: #17df17;
-  border-color: #17df17;
+  background-color: #5BEA75 ;
+  border-color: #5BEA75;
   color: #181515;
 }
 /**/
@@ -232,7 +232,7 @@ input[type="text"]::placeholder {
 }
 /*cards*/
 .card {
-  background-color: #595959;
+  background-color: #252525!important; /* COR DE FUNDO DO CARD PADRONIZADO */
 }
 /*cards*/
 .card-text {
@@ -253,7 +253,7 @@ input[type="text"]::placeholder {
 }
 /*cards*/
 .text-success {
-  color: #11ec86;
+  color: #7DF17D;
 }
 
 .img-card {
@@ -308,6 +308,7 @@ input[type="text"]::placeholder {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
+  font-size: 14.4px !important;
 }
 
 .Texto-ver-mais:hover {
