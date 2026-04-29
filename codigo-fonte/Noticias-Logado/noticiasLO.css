@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-p {
+h2, h3, h4, p {
   font-family: "Baloo Tammudu 2", sans-serif;
 }
 /* ── NAVBAR ── */
