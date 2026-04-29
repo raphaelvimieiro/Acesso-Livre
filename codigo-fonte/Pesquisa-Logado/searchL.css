@@ -265,7 +265,7 @@ article {
 }
 
 .content {
-  font-family: "Roboto", serif;
+  font-family: "Baloo Tammudu 2", serif;
   font-weight: 100;
   font-size: clamp(5px, 20px, 20px);
   display: flex;
@@ -274,6 +274,7 @@ article {
   color: white;
   /* border: #5bea75 1px solid; */
   margin-bottom: 5%;
+  line-height: 150%;
 }
 
 .content>span {
@@ -291,10 +292,11 @@ article {
 }
 
 .avaliacao-location {
-  font-family: "Roboto", serif;
+  font-family: "Baloo Tammudu 2", serif;
   display: flex;
   margin-right: auto;
   margin-left: 20px;
+  line-height: 150%;
 }
 
 :root {
@@ -350,12 +352,13 @@ article {
 
 .avaliacao-text {
   color: white;
-  font-family: "Roboto", serif;
+  font-family: "Baloo Tammudu 2", serif;
   font-weight: 300;
   font-style: italic;
   margin-left: 20%;
   max-width: 70%;
   margin-bottom: 0;
+  line-height: 150%;
 }
 
 /* LOCATION 1 FIM*/
@@ -381,13 +384,21 @@ FOOTER INICIO
 ========================= */
 
 
-.footer {
-  background-color: #5bea756b;
-  display: flex;
-  justify-content: center;
+footer {
+  border-top: 1px solid #3a7d3a;
+  text-align: center;
   padding: 5px;
-  font-family: 'Faustina', serif;
-  font-weight: 500;
+  font-size: 13px;
+  color: #f0F0F0;
+  background:#3a7d3a;
+}
+
+footer p {
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 /*====================

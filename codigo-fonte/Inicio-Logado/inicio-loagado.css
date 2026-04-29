@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+
+
 body {
   color: white;
-  background: #181515;
+  background: #1a1a1a;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -37,7 +40,7 @@ img[height] {
 }
 
 .livre-text {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu {
@@ -65,13 +68,13 @@ img[height] {
 
 /*Fica apenas a palavra inicio marcada*/
 .menu .inicio a {
-  color: #17df17;
+  color: #5BEA75;
 }
 /* pontinho */
 .dot {
   width: 6px;
   height: 6px;
-  background: #17df17;
+  background: #5BEA75;
   border-radius: 50%;
 
   position: absolute;
@@ -85,7 +88,7 @@ img[height] {
 }
 /* Deixa a palavra do menu ativa verde */
 .menu li.active a {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu-login {
@@ -122,11 +125,11 @@ img[height] {
 
 /*Efeito hover no menu */
 .menu a:hover {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu-login li:hover {
-  color: #17df17;
+  color: #5BEA75;
 }
 
 .menu-login li:hover {
@@ -304,7 +307,7 @@ input[type="text"]::placeholder {
 
 /* Botão ver mais */
 .Texto-ver-mais {
-  color: #14d37a;
+  color: #7DF17D;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -314,19 +317,25 @@ input[type="text"]::placeholder {
   text-decoration: underline;
 }
 
+/* FOOTER */
 .site-footer {
   width: 100%;
   margin-top: auto;
+ border-top: 1px solid rgba(91, 234, 117, 0.10);
+  text-align: center;
   padding: 5px 12px;
-  background: linear-gradient(90deg, #24402a 0%, #2f5138 50%, #24402a 100%);
-  border-top: 1px solid #3a6b44;
+  color:#f0f0f0;
+  background: #3a7d3a;
 }
 
 .site-footer p {
-  margin: 0;
-  text-align: center;
-  color: #e9ece9;
-  font-size: 12px;
+ margin: 0;
+  color: #FFF;
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .container.my-5 {
