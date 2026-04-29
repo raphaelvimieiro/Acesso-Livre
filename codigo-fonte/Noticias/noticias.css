@@ -6,7 +6,7 @@
   --surface: #252525;
   --surface2: #2e2e2e;
   --border: #3a3a3a;
-  --green: #5dc45d;
+  --green: #5BEA75;
   --green-dim: #3a7d3a;
   --text: #f0f0f0;
   --text-muted: #a0a0a0;
@@ -27,6 +27,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 p {
   font-family: "Baloo Tammudu 2", sans-serif;
@@ -403,6 +404,16 @@ footer {
   color: var(--text);
 background: var(--green-dim);
 }
+
+footer p {
+color: #FFF;
+font-family: "Inter";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 
 /* ── HOVER ── */
 .card-destaque, .card-medio, .card-pequeno {
