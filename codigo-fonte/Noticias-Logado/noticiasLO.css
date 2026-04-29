@@ -9,11 +9,12 @@
   --surface2: #2e2e2e;
   --border: #3a3a3a;
   --green: #5dc45d;
-  --green-dim: #3a7d3a;
+  --green-dim:  rgba(91, 234, 117, 0.10);
   --text: #f0f0f0;
   --text-muted: #a0a0a0;
   --text-dim: #707070;
   --radius: 16px;
+  --green-line: #17DF17;
 }
 
 * {
@@ -32,6 +33,7 @@ body {
 }
 h2, h3, h4, p {
   font-family: "Baloo Tammudu 2", sans-serif;
+  line-height: 150%;
 }
 /* ── NAVBAR ── */
 .navbar-wrapper {
@@ -300,7 +302,7 @@ main {
 /* ── SEPARADOR ── */
 .separador {
   border: none;
-  border-top: 1px solid var(--green-dim);
+  border-top: 1px solid var(--green-line);
   opacity: 0.5;
   margin: 20px 0;
 }
@@ -410,6 +412,6 @@ background: var(--green-dim);
 }
 
 .card-destaque:hover, .card-medio:hover, .card-pequeno:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px); /* sobe um pouco qnd passa o mouse */
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
 }
