@@ -97,6 +97,14 @@ img[height] {
   font-family: "Faustina", serif;
 }
 
+.menu-login > a {
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+  font-family: "Faustina", serif;
+  font-size: 80%;
+}
+
 /*Efeito hover no menu */
 .menu a:hover {
   color: #17df17;

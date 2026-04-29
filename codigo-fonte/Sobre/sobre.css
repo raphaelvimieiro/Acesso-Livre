@@ -51,7 +51,7 @@ img[height] {
 }
 
 .livre-text {
-  color: #17df17;
+  color: #5bea75;
 }
 
 .menu {
@@ -78,14 +78,14 @@ img[height] {
 }
 
 /*Fica apenas a palavra Sobre marcada*/
-.menu .inicio a {
-  color: #17df17;
+.menu .sobre a {
+  color: #5bea75;
 }
 /* pontinho */
 .dot {
   width: 6px;
   height: 6px;
-  background: #17df17;
+  background: #5bea75;
   border-radius: 50%;
 
   position: absolute;
@@ -99,7 +99,7 @@ img[height] {
 }
 /* Deixa a palavra do menu ativa verde */
 .menu li.active a {
-  color: #17df17;
+  color: #5bea75;
 }
 
 .menu-login {
@@ -126,16 +126,16 @@ img[height] {
 
 /*Efeito hover no menu */
 .menu a:hover {
-  color: #17df17;
+  color: #3ad33a;
 }
 
 .menu-login li:hover {
-  color: #17df17;
+  color: #3ad33a;
 }
 
 .menu-login li:hover {
-  background-color: #17df17;
-  border-color: #17df17;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
   color: #181515;
 }
 
@@ -146,7 +146,7 @@ img[height] {
   height: 25px;
   cursor: pointer;
   align-self: center;
-  margin-left: 400px; 
+  margin-left: 400px;
   margin-top: 2px;
 }
 
@@ -251,7 +251,7 @@ input[type="text"]::placeholder {
 }
 
 .highlight {
-  color: #41ff74;
+  color: #5bea75;
   font-weight: 700;
 }
 

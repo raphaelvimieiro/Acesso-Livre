@@ -138,7 +138,14 @@ img[height] {
   border-color: transparent;
   color: inherit;
 }
-
+/*Cor do icone de usuário e do texto do menu login */
+.menu-login > a {
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+  font-family: "Faustina", serif;
+  font-size: 80%;
+}
 .usuario-icon {
   width: 25px;
   height: 25px;
