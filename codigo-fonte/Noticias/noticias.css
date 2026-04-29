@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+
+
 :root {
   --bg: #1a1a1a;
   --surface: #252525;
@@ -24,6 +27,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+p {
+  font-family: "Baloo Tammudu 2", sans-serif;
 }
 
 /* ── NAVBAR ── */
