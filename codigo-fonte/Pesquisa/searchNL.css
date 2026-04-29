@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
   margin: 0;
@@ -20,7 +21,10 @@ img {
   height: auto;
 }
 
-
+p{
+  font-family: "Baloo Tammudu 2", cursive, Arial, Helvetica, sans-serif;
+   line-height: 150%;
+}
 
 /* ==================
 Logo cor
@@ -58,7 +62,7 @@ nav>a {
   width: clamp(5vw, 10vw, 15%);
   padding: 5px;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start ;
   font-size: clamp(10px, 1vw, 16px);
   cursor: pointer;
 }
