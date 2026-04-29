@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 29/04/2026 18:38
+**Última atualização:** 29/04/2026 20:56
 
 ---
 
@@ -12,8 +12,8 @@
 | Seu NomeBrenda        |         1 |       494 |         0 |          5 |              0 |               0 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
 | Wellington Ranniery   |        45 |      1692 |       469 |         32 |             29 |               2 |
-| dinhagomezz           |        30 |      1593 |       400 |         25 |              8 |               1 |
-| github-actions[bot]   |        78 |       423 |       364 |          3 |             78 |               1 |
+| dinhagomezz           |        33 |      1750 |       555 |         31 |              8 |               1 |
+| github-actions[bot]   |        79 |       427 |       368 |          3 |             79 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 
 
@@ -21,7 +21,7 @@
 
 **2026-04-22**: Raphael Procópio: 5, Seu NomeBrenda: 1, Wellington Ranniery: 6, dinhagomezz: 18, github-actions[bot]: 17
 
-**2026-04-15**: Raphael Procópio: 8, Wellington Ranniery: 10, dinhagomezz: 4, github-actions[bot]: 13
+**2026-04-15**: Raphael Procópio: 8, Wellington Ranniery: 10, dinhagomezz: 7, github-actions[bot]: 14
 
 **2026-04-08**: Raphael Procópio: 7, Wellington Ranniery: 12, github-actions[bot]: 17
 
