@@ -296,11 +296,10 @@ nav {
 /*  FOOTER  */
 
 footer {
-  border-top: 1px solid var(--footer);
+  border-top: 1px solid var(--green-dim);
   text-align: center;
   padding: 5px;
-  font-size: 13px;
-  color: var(--text);
+  color: var(--text-white);
   background: var(--green-dim);
 }
 
