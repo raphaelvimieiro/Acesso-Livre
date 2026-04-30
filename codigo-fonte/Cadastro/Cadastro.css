@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* FUNDO */
+body {
+  background: radial-gradient(circle at top, #171414, #171414);
+  color: #fff;
+  padding-top: 100px;
+}
+
+/* HEADER */
+.header {
+  position: fixed;  
+  top: 0;            
+  left: 0;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 60px;
+  background: #171414;
+  z-index: 1000;
+}
+
+/* LOGO */
+.header h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.header span {
+  color: #39ff6a;
+}
+
+/* MENU CENTRAL */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color: #17ac19;
+}
+
+/* DIREITA */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* BUSCA */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #111;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 999px;
+  padding: 5px 10px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.25);
+}
+
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-box button {
+  background: #39ff6a;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #17ac19;
+}
+/* FORM CENTRAL */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding-top: 80px;
+}
+
+/* CAIXA */
+.form-box {
+  width: 420px;
+  padding: 40px;
+  border-radius: 50px; /* antes era 30px */
+  background: #171414;
+  box-shadow: 0 0 25px #39ff6a;
+  border: 1px solid #39ff6a;
+}
+
+/* TÍTULO */
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.form-box h2 span {
+  color: #39ff6a;
+}
+
+/* LINHA DUPLA */
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+/* INPUTS */
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group label {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.input-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #39ff6a;
+  padding: 8px 0;
+  color: #fff;
+  outline: none;
+}
+
+/* SENHA */
+.password {
+  position: relative;
+}
+
+.password i {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+/* CHECKBOX */
+.checkbox {
+  font-size: 13px;
+  margin: 15px 0;
+  color: #ccc;
+}
+
+.checkbox a {
+  color: #39ff6a;
+  text-decoration: none;
+}
+
+/* BOTÃO */
+.submit {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #39ff6a;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* TEXTO FINAL */
+.form-box p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.form-box a {
+  color: #39ff6a;
+  text-decoration: none;
+}

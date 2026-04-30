@@ -1,39 +1,32 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Propriedades CSS</title>
-    <link
-      rel="Stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/codigo-fonte/Inicio-Logado/inicio-loagado.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&family=Baloo+Thambi+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <h1>Acesso<span class="livre-text">Livre</span></h1>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-      <ul class="menu">
-        <li class="active">
-          <a href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a>
-          <span class="dot"></span>
-        </li>
-        <li>
-          <a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a>
-        </li>
-        <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a></li>
-        <li><a href="/codigo-fonte/Denúncia/denuncia-deslogado.html">Denúncia</a></li>
-        <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AcessoLivre</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&family=Baloo+Thambi+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/codigo-fonte/Inicio-Logado/inicio-loagado.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Acesso<span class="livre-text">Livre</span></h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <ul class="menu">
+      <li class="active">
+        <a href="/Inicio/inicio.html">Início</a>
+        <span class="dot"></span>
+      </li>
+      <li><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a></li>
+      <li><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a></li>
+      <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+      <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
       </ul>
       <img
         class="usuario-logado"
@@ -44,174 +37,122 @@
         <a href="/codigo-fonte/Inicio/inicio.html">Sair</a>
       </div>
     </header>
-      
 
-    <div class="banner-celular">
-      <div class="Texto-banner-celular">
-        <h1>Sua Liberdade<br />Começa Aqui.</h1>
-        <p>
-          Promovemos <strong>inclusão</strong> e
-          <strong>acessibilidade</strong>.
-        </p>
-        <p>Derrubamos barreiras para todos.</p>
-        <p>Garanta seu livre acesso.</p>
-      </div>
-      <img
-        class="imagem-celular"
-        src="../Imagens/imagem celular.png"
-        alt="Banner-celular"
-      />
 
-      <img
-        class="decor-triangulo"
-        src="../Imagens/Formatriangular.png"
-        alt="Elemento decorativo triangular"
-      />
 
-      <img class="linha-verde" src="../Imagens/Linha verde.svg" alt="" />
+  <div class="banner-celular">
+    <div class="Texto-banner-celular">
+      <h1>Sua Liberdade<br />Começa Aqui.</h1>
+      <p>Promovemos <strong>inclusão</strong> e <strong>acessibilidade</strong>.</p>
+      <p>Derrubamos barreiras para todos.</p>
+      <p>Garanta seu livre acesso.</p>
     </div>
+    <img class="imagem-celular" src="../Imagens/imagem celular.png" alt="Banner-celular" />
+    <img class="decor-triangulo" src="../Imagens/Formatriangular.png" alt="Elemento decorativo triangular" />
+    <img class="linha-verde" src="../Imagens/Linha verde.svg" alt="" />
+  </div>
 
-    <div class="container my-5">
-      <h5 class="text-white mb-4">Últimas atualizações</h5>
+  <div class="container my-5">
+    <h5 class="text-white mb-4">Últimas atualizações</h5>
 
-      <div class="row g-4 align-items-start">
-        <!-- CARD 1 -->
-        <div class="col-md-4">
-          <div
-            class="card bg-secondary text-white border-0 rounded-4 p-3 d-flex flex-column"
-          >
-            <div class="img-card">
-              <img src="../Imagens/Pucminas.png" alt="Puc Minas" />
-              <div class="texto-sobreposto">
-                <img src="../Imagens/Local.png" class="icone-local" />
-                <span>Puc Minas Coração Eucarístico</span>
-              </div>
+    <div class="row g-4 align-items-stretch">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4 d-flex">
+        <div class="card text-white border-0 rounded-4 p-3 w-100">
+          <div class="img-card">
+            <img src="../Imagens/Pucminas.png" alt="Puc Minas" />
+            <div class="texto-sobreposto">
+              <img src="../Imagens/Local.png" class="icone-local" />
+              <span>Puc Minas Coração Eucarístico</span>
             </div>
-            <div class="d-flex align-items-center mb-2">
-              <img
-                src="../Imagens/Fotopessoa1.png"
-                class="rounded-circle me-2"
-                width="40"
-              />
-              <div>
-                <small>Rodrigo Belone</small><br />
-                <span class="stars"><span class="on">★★★★★</span></span>
-              </div>
-            </div>
-
-            <p class="card-text flex-grow-1">
-              A PUC Minas Coração Eucarístico oferece uma estrutura muito bem
-              adaptada para pessoas com deficiência, incluindo rampas de acesso,
-              elevadores e banheiros acessíveis. A universidade também promove
-              eventos e atividades inclusivas para garantir que todos os alunos
-              possam participar plenamente da vida acadêmica.
-            </p>
-
-            <a
-              href="#"
-              class="Texto-ver-mais js-toggle-card"
-              aria-expanded="false"
-              >Ver mais</a
-            >
           </div>
-        </div>
-
-        <!-- CARD 2 -->
-        <div class="col-md-4">
-          <div
-            class="card bg-secondary text-white border-0 rounded-4 p-3 d-flex flex-column"
-          >
-            <div class="img-card">
-              <img src="../Imagens/Calçada.png" alt="Calçada" />
-              <div class="texto-sobreposto">
-                <img src="../Imagens/Local.png" class="icone-local" />
-                <span>Bairro Jardim Primavera</span>
-              </div>
+          <div class="d-flex align-items-center mb-2">
+            <img src="../Imagens/Fotopessoa1.png" class="rounded-circle me-2" width="40" />
+            <div>
+              <small>Rodrigo Belone</small><br />
+              <span class="stars"><span class="on">★★★★★</span></span>
             </div>
-
-            <div class="d-flex align-items-center mb-2">
-              <img
-                src="../Imagens/Fotopessoa2.png"
-                class="rounded-circle me-2"
-                width="40"
-              />
-              <div>
-                <small>Cleide Araujo</small><br />
-                <span class="stars"
-                  ><span class="on">★★★</span><span class="off">★★</span></span
-                >
-              </div>
-            </div>
-
-            <p class="card-text flex-grow-1">
-              A Rua das Acácias, no Bairro Jardim Primavera, até possui uma
-              rampa de acesso, mas isso pouco adianta diante das péssimas
-              condições da via. O asfalto cheio de buracos e desníveis torna a
-              circulação perigosa para todos, especialmente para pessoas com
-              dificuldade de locomoção. Falta manutenção e planejamento
-              adequado, já que acessibilidade não se resume a pontos isolados. É
-              necessário que o poder público realize melhorias reais para
-              garantir segurança e mobilidade para a população.
-            </p>
-
-            <a
-              href="#"
-              class="Texto-ver-mais js-toggle-card"
-              aria-expanded="false"
-              >Ver mais</a
-            >
           </div>
-        </div>
-
-        <!-- CARD 3 -->
-        <div class="col-md-4">
-          <div
-            class="card bg-secondary text-white border-0 rounded-4 p-3 d-flex flex-column"
-          >
-            <div class="img-card">
-              <img src="../Imagens/Restaurante.png" alt="Restaurante" />
-              <div class="texto-sobreposto">
-                <img src="../Imagens/Local.png" class="icone-local" />
-                <span>Restaurante Villa Bellini</span>
-              </div>
-            </div>
-
-            <div class="d-flex align-items-center mb-2">
-              <img
-                src="../Imagens/Fotopessoa3.png"
-                class="rounded-circle me-2"
-                width="40"
-              />
-              <div>
-                <small>Fernando Alves</small><br />
-                <span class="stars"><span class="on">★★★★★</span></span>
-              </div>
-            </div>
-            <p class="card-text flex-grow-1">
-              O restaurante Villa Bellini é muito bom no geral e se destaca pela
-              qualidade do atendimento, pelo ambiente agradável e pela variedade
-              de opções no cardápio, atendendo a diferentes preferências. Além
-              disso, conta com acesso por rampa, o que já é um ponto bastante
-              positivo para pessoas com mobilidade reduzida, demonstrando uma
-              preocupação com a acessibilidade e a inclusão. Esses fatores
-              contribuem para tornar a experiência no local mais confortável e
-              acolhedora para todos os clientes.
-            </p>
-            <a
-              href="#"
-              class="Texto-ver-mais js-toggle-card"
-              aria-expanded="false"
-              >Ver mais</a
-            >
-          </div>
+          <p class="card-text">
+            A PUC Minas Coração Eucarístico oferece uma estrutura muito bem
+            adaptada para pessoas com deficiência, incluindo rampas de acesso,
+            elevadores e banheiros acessíveis. A universidade também promove
+            eventos e atividades inclusivas para garantir que todos os alunos
+            possam participar plenamente da vida acadêmica.
+          </p>
+          <a href="#" class="Texto-ver-mais js-toggle-card" aria-expanded="false">Ver mais</a>
         </div>
       </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4 d-flex">
+        <div class="card text-white border-0 rounded-4 p-3 w-100">
+          <div class="img-card">
+            <img src="../Imagens/Calçada.png" alt="Calçada" />
+            <div class="texto-sobreposto">
+              <img src="../Imagens/Local.png" class="icone-local" />
+              <span>Bairro Jardim Primavera</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <img src="../Imagens/Fotopessoa2.png" class="rounded-circle me-2" width="40" />
+            <div>
+              <small>Cleide Araujo</small><br />
+              <span class="stars"><span class="on">★★★</span><span class="off">★★</span></span>
+            </div>
+          </div>
+          <p class="card-text">
+            A Rua das Acácias, no Bairro Jardim Primavera, até possui uma
+            rampa de acesso, mas isso pouco adianta diante das péssimas
+            condições da via. O asfalto cheio de buracos e desníveis torna a
+            circulação perigosa para todos, especialmente para pessoas com
+            dificuldade de locomoção. Falta manutenção e planejamento
+            adequado, já que acessibilidade não se resume a pontos isolados.
+          </p>
+          <a href="#" class="Texto-ver-mais js-toggle-card" aria-expanded="false">Ver mais</a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4 d-flex">
+        <div class="card text-white border-0 rounded-4 p-3 w-100">
+          <div class="img-card">
+            <img src="../Imagens/Restaurante.png" alt="Restaurante" />
+            <div class="texto-sobreposto">
+              <img src="../Imagens/Local.png" class="icone-local" />
+              <span>Restaurante Villa Bellini</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <img src="../Imagens/Fotopessoa3.png" class="rounded-circle me-2" width="40" />
+            <div>
+              <small>Fernando Alves</small><br />
+              <span class="stars"><span class="on">★★★★★</span></span>
+            </div>
+          </div>
+          <p class="card-text">
+            O restaurante Villa Bellini é muito bom no geral e se destaca pela
+            qualidade do atendimento, pelo ambiente agradável e pela variedade
+            de opções no cardápio, atendendo a diferentes preferências. Além
+            disso, conta com acesso por rampa, o que já é um ponto bastante
+            positivo para pessoas com mobilidade reduzida, demonstrando uma
+            preocupação com a acessibilidade e a inclusão.
+          </p>
+          <a href="#" class="Texto-ver-mais js-toggle-card" aria-expanded="false">Ver mais</a>
+        </div>
+      </div>
+
     </div>
+  </div>
 
-    <footer class="site-footer">
-      <p>Copyright©2026 Acesso</p>
-    </footer>
 
-    <script src="/codigo-fonte/Inicio-Logado/inicio-logado.js"></script>
-  </body>
+  <footer class="site-footer">
+    <p>@2026 - Todos os direitos reservados</p>
+  </footer>
+
+
+  <script src="./inicio.js"></script>
+</body>
+
 </html>
