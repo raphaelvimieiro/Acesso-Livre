@@ -13,7 +13,7 @@ html {
 
 body {
   color: white;
-  background: #181515;
+  background: #1a1a1a;
   margin: 0;
   min-height: 100dvh;
   display: flex;
@@ -53,7 +53,7 @@ img[height] {
   gap: clamp(10px, 1.4vw, 24px);
   padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
   margin-bottom: clamp(4px, 0.8vh, 10px);
-  background: rgba(24, 21, 21, 0.92);
+  background: #1a1a1a;
   width: 100%;
    padding: 20px 50px;
 }
@@ -250,8 +250,15 @@ input[type="text"]::placeholder {
 }
 
 /* ───── CARDS ───── */
+:root {
+  --bg: #1a1a1a;
+  --surface: #252525;
+  --surface2: #2e2e2e;
+}
+
+
 .card {
-  background-color: #595959;
+  background-color: var(--surface);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -291,26 +298,41 @@ input[type="text"]::placeholder {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  height: clamp(120px, 14vw, 170px);
+  height: 200px;
+  
 }
 
-.img-card img {
+.img-card>img {
+  height: 100%;
   display: block;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+ 
 }
 
+.img-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.849) 0%, rgba(0, 0, 0, 0) 60%);
+  pointer-events: none; /* Garante que o usuário consiga clicar na imagem/card sem problemas */
+}
 .texto-sobreposto {
   font-family: "Baloo Thambi 2", sans-serif;
   position: absolute;
   bottom: 14px;
-  left: 70px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   color: white;
   font-size: 14px;
   text-align: left;
+  z-index: 2;
+ 
 }
 
 /* ───── ESTRELAS ───── */
@@ -332,6 +354,7 @@ input[type="text"]::placeholder {
 .icone-local {
   width: 18px;
   margin-right: 5px;
+  
 }
 
 /* ───── VER MAIS ───── */
@@ -391,6 +414,7 @@ input[type="text"]::placeholder {
 
   .linha-verde {
     width: min(94vw, 1000px);
+    
   }
 }
 
@@ -470,10 +494,7 @@ input[type="text"]::placeholder {
     width: clamp(56px, 16vw, 92px);
   }
 
-  .img-card {
-    max-height: 220px;
-  }
-
+  
   .card-text {
     font-size: 13px;
     -webkit-line-clamp: 4;
@@ -516,9 +537,8 @@ input[type="text"]::placeholder {
     margin-bottom: 8px !important;
   }
 
-  .img-card {
-    height: clamp(110px, 11vw, 150px);
-  }
+
+  
 
   .card-text {
     -webkit-line-clamp: 3;
@@ -553,9 +573,8 @@ input[type="text"]::placeholder {
     padding: 12px !important;
   }
 
-  .img-card {
-    height: 100px;
-  }
+  
+
 
   .card-text {
     font-size: 12px;
@@ -640,10 +659,7 @@ input[type="text"]::placeholder {
     gap: 10px;
   }
 
-  .img-card {
-    max-height: 180px;
-  }
-
+  
   .texto-sobreposto {
     left: 14px;
     bottom: 10px;
