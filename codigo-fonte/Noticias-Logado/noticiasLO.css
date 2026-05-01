@@ -49,8 +49,9 @@ h2, h3, h4, p {
   padding: 0 40px;
   height: 64px;
   position: sticky;
- margin: auto;
-  max-width: 1300px;
+  margin: auto;
+  max-width: 977px;
+
 }
 
 .logo {
@@ -122,6 +123,7 @@ h2, h3, h4, p {
   border-radius: 999px;
   padding: 6.4px 16px;
   width: 220px;
+  margin-left: auto;
   
 }
 
@@ -176,7 +178,7 @@ h2, h3, h4, p {
 main {
   flex: 1;
   padding: 40px 40px 64px;
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   width: 100%;
 }
@@ -184,8 +186,8 @@ main {
 /* ── SEÇÃO DE NOTÍCIAS (grid principal) ── */
 .secao-noticias {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 24px;
+  grid-template-columns: 360px 1fr;
+  gap: 80px;
   align-items: stretch;
 }
 
@@ -193,7 +195,7 @@ main {
 .card-destaque {
   background: var(--surface);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: hidden; 
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -201,7 +203,7 @@ main {
 
 .card-destaque .img-wrap {
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 30px 30px 0 30px;
 }
 
 .card-destaque img {
@@ -209,7 +211,7 @@ main {
   height: 240px;
   object-fit: cover;
   object-position: center;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .card-destaque .card-conteudo {
@@ -221,8 +223,8 @@ main {
 }
 
 .card-destaque .card-titulo {
-  font-size: 25.6px;
-  line-height: 1.25;
+  font-size: 24px;
+  line-height: 150%;
   letter-spacing: -0.01em;
   font-family: "baloo tammudu 2";
   font-weight: 700;
@@ -252,18 +254,19 @@ main {
 .grid-medio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 80px;
+  overflow: hidden;
 }
 
 .card-medio {
   background: var(--surface);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .card-medio .img-wrap {
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .card-medio img {
@@ -305,15 +308,15 @@ main {
   border: none;
   border-top: 1px solid var(--green-line);
   opacity: 0.5;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 /* ── GRID PEQUENO (3 cards) ── */
 .grid-pequeno {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 17.6px;
-  margin-top: 20px;
+  gap: 25px;
+  overflow: hidden;
 }
 
 .card-pequeno {
@@ -324,7 +327,7 @@ main {
 
 .card-pequeno .img-wrap {
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .card-pequeno img {
@@ -364,11 +367,11 @@ main {
 /* ── CRÉDITO DA IMAGEM ── */
 .credito-img {
   position: absolute;
-  bottom: 6px;
-  left: 10px;
-  font-size: 11.2px;
-  color: rgba(255, 255, 255, 0.75);
-  background: rgba(0, 0, 0, 0.35);
+  bottom: -12px;
+  right: 33px;
+  font-size: 11px;
+  color: var(--text-dim);
+
   padding: 2px 6px;
   border-radius: 4px;
 }
