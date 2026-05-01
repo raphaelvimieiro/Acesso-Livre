@@ -29,9 +29,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
-p {
+h2, h3, h4,p {
   font-family: "Baloo Tammudu 2", sans-serif;
 }
 
@@ -51,7 +50,8 @@ p {
   height: 64px;
   position: sticky;
  margin: auto;
-  max-width: 1300px;
+  max-width: 977px;
+  
 }
 
 .logo {
@@ -116,12 +116,14 @@ p {
   margin-left: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 999px;
   padding: 6.4px 16px;
   width: 220px;
+  margin-left: auto;
 }
 
 .busca {
