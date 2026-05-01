@@ -142,13 +142,13 @@ img[height] {
 
   background: transparent;
   border: 1px solid rgba(255, 255, 255, .35);
-  color: white;
   border-radius: 20px;
   padding: 0px 15px ;
   font-size: 12px;
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
   height: 25px;
+  color: #181515;
   background-color: #3AD33A;
   border-color: #3AD33A;
   
@@ -323,7 +323,8 @@ input[type="text"]::placeholder {
 /* Texto do card com reticências */
 .card-text {
   font-size: 13px;
-  color: #f0f0f0;
+  color: #a0a0a0;
+
   line-height: 150%;
   display: -webkit-box;
   -webkit-line-clamp: 4;
