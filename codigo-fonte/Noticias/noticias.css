@@ -3,7 +3,7 @@
 
 :root {
   --bg: #1a1a1a; /*-- background da página */
-  --surface: #252525; /*-- para cards e elementos principais */
+  --surface: #252525; /*-- para background dos cards e elementos principais */
   --border: #3a3a3a; /*-- cor da borda da busca */
   --green: #5BEA75; /*-- para dar destaque nos textos */
   --green-dim: #3a7d3a; /*-- cor do rodapé */
