@@ -21,17 +21,19 @@ body {
   
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
-  padding: 20px 60px;
+  padding: 20px 300px;
   background: #171414;
-  z-index: 1000;
-}
+  z-index: 100;
 
+}
 /* LOGO */
 .header h1 {
   font-size: 26px;
   font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .header span {
@@ -41,11 +43,11 @@ body {
 /* MENU CENTRAL */
 .nav {
   display: flex;
-  gap: 30px;
+  gap: 50px;
 }
 
 .nav a {
-  color: #ccc;
+  color: #ffffff;
   text-decoration: none;
   font-size: 14px;
 }
@@ -62,42 +64,39 @@ body {
 }
 
 /* BUSCA */
-.search-box {
+.busca-wrapper {
+  margin-left: auto;
   display: flex;
   align-items: center;
-  background: #111;
-  border: 1px solid rgba(34, 197, 94, 0.3);
+  gap: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 5px 10px;
-  width: 320px;
-  box-shadow: 0 0 15px rgba(34, 197, 94, 0.25);
+  padding: 6.4px 16px;
+  width: 220px;
 }
 
-.search-box input {
-  flex: 1;
-  background: transparent;
+.busca {
+  background: none;
   border: none;
   outline: none;
-  color: #fff;
-  padding: 8px;
+  color: var(--text);
+  font-family: inherit;
   font-size: 14px;
+  width: 100%;
+}
+.busca::placeholder {
+  color: var(--text-dim);
 }
 
-.search-box button {
-  background: #39ff6a;
-  border: none;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.lupa-icon {
+  width: 16px;
+  height: 16px;
   cursor: pointer;
+  flex-shrink: 0;
+  opacity: 0.6;
 }
 
-.search-box button:hover {
-  background: #17ac19;
-}
 /* FORM CENTRAL */
 main {
   display: flex;
@@ -110,7 +109,7 @@ main {
 .form-box {
   width: 420px;
   padding: 40px;
-  border-radius: 50px; /* antes era 30px */
+  border-radius: 50px; 
   background: #171414;
   box-shadow: 0 0 25px #39ff6a;
   border: 1px solid #39ff6a;
