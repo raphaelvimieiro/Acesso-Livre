@@ -2,18 +2,17 @@
 
 
 :root {
-  --bg: #1a1a1a;
-  --surface: #252525;
-  --surface2: #2e2e2e;
-  --border: #3a3a3a;
-  --green: #5BEA75;
-  --green-dim: #3a7d3a;
-  --text: #f0f0f0;
-  --text-muted: #a0a0a0;
-  --text-dim: #707070;
-  --radius: 16px;
-  --vermais: #7DF17D;
-  --green-line: #17DF17;
+  --bg: #1a1a1a; /*-- background da página */
+  --surface: #252525; /*-- para cards e elementos principais */
+  --border: #3a3a3a; /*-- cor da borda da busca */
+  --green: #5BEA75; /*-- para dar destaque nos textos */
+  --green-dim: #3a7d3a; /*-- cor do rodapé */
+  --text: #f0f0f0; /*-- para texto principal */
+  --text-muted: #a0a0a0; /*-- panos importante */
+  --text-dim: #707070; /*-- para texto ainda mais discreto, como créditos de imagem ou datas */
+  --radius: 16px; /*-- para bordas arredondadas */
+  --vermais: #7DF17D; /*-- para links de "ver mais" e elementos interativos relacionados */
+  --green-line: #17DF17; /*-- para linhas de separação */
 }
 
 * {
@@ -74,7 +73,7 @@ h2, h3, h4,p {
 }
 
 .menu li {
-  position: relative; 
+  position: relative;
 }
 
 .menu li a {
@@ -102,11 +101,11 @@ h2, h3, h4,p {
   bottom: -12px;
   opacity: 0;
 }
- 
+
 .menu li.ativo::after {
   opacity: 1;
 }
- 
+
 .menu li.ativo a {
   color: var(--green);
 }
