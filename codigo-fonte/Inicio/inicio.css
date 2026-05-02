@@ -472,7 +472,7 @@ footer {
   display: block;
   line-height: 100%;
   text-decoration: none;
-  color: var(--surface2);
+  color: white;
 }
 
 .link-footer {
