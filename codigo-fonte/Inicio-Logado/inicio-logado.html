@@ -16,7 +16,7 @@
 
 <body>
   <header class="header">
-    <h1>Acesso<span class="livre-text">Livre</span></h1>
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <ul class="menu">
       <li class="active">
@@ -27,16 +27,18 @@
       <li><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a></li>
       <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
       <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
-      </ul>
-      <img
-        class="usuario-logado"
-        src="../Imagens/Logadoimagem.png"
-        alt="Ícone de usuário"
-      />
-            <div class="menu-login">
-        <a href="/codigo-fonte/Inicio/inicio.html">Sair</a>
-      </div>
-    </header>
+    </ul>
+
+    <div class="Pesquisa-Login">
+      <img class="usuario-logado" src="../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
+
+    
+
+
+    <button class="btn-user" onclick="window.location.href='/codigo-fonte/Inicio/inicio.html'">sair</button>
+    </div>
+
+  </header>
 
 
 
@@ -46,8 +48,11 @@
       <p>Promovemos <strong>inclusão</strong> e <strong>acessibilidade</strong>.</p>
       <p>Derrubamos barreiras para todos.</p>
       <p>Garanta seu livre acesso.</p>
+      <button class="btn-banner" onclick="window.location.href='../Sobre/sobre.html'">Conheça o projeto</button>
     </div>
-    <img class="imagem-celular" src="../Imagens/imagem celular.png" alt="Banner-celular" />
+    <div class="container-imagem-banner">
+      <img class="imagem-celular" src="../Imagens/banner-inicio.png" alt="Banner-celular" />
+    </div>
     <img class="decor-triangulo" src="../Imagens/Formatriangular.png" alt="Elemento decorativo triangular" />
     <img class="linha-verde" src="../Imagens/Linha verde.svg" alt="" />
   </div>
@@ -61,7 +66,7 @@
       <div class="col-md-4 d-flex">
         <div class="card text-white border-0 rounded-4 p-3 w-100">
           <div class="img-card">
-            <img src="../Imagens/Pucminas.png" alt="Puc Minas" />
+            <img src="../Imagens/Rectangle 7.png" alt="Rua das Acácias">
             <div class="texto-sobreposto">
               <img src="../Imagens/Local.png" class="icone-local" />
               <span>Puc Minas Coração Eucarístico</span>
@@ -146,11 +151,9 @@
     </div>
   </div>
 
-
   <footer class="site-footer">
-    <p>@2026 - Todos os direitos reservados</p>
+    <p>Copyright©2026 Acesso</p>
   </footer>
-
 
   <script src="./inicio.js"></script>
 </body>
