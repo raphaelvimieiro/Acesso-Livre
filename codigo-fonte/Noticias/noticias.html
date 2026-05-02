@@ -11,27 +11,29 @@
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">Acesso<span class="logo-span">Livre</span></div>
-
-         <ul class="menu">
-            <li><a href="../Inicio/inicio.html">Início</a></li>
-            <li><a href="../Sobre/sobre.html">Sobre</a></li>
-            <li class="ativo"><a href="noticias.html">Notícias</a></li>
-            <li><a href="../Denúncia/denuncia-deslogado.html">Denúncia</a></li>
-        </ul>
-
-        <div class="busca-wrapper">
-          <input type="text" placeholder="Buscar locais, bairros..." class="busca">
-          <img class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
-        </div>
-
-       
-        <button class="btn-login">
-        <img class="usuario-icon" src="../Imagens/Usuario.png" alt="Usuário" />
-        Entrar/Criar conta
-    </button>
+     <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="menu">
+        <li>
+          <a href="../Inicio/inicio.html">Início</a>
+         
+        </li>
+        <li><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a></li>
+        <li class="active"><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a> <span class="dot"></span></li>
+        <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+      </ul>
     </nav>
+    <div class="Pesquisa-Login">
+      <div class="box-lateral">
+        <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
+        <img class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
+      </div>
+      <button class="btn-user">Entrar/Criar conta</button>
+    </div>
+  </header>
+
 
     <main>
 

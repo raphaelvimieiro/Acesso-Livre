@@ -34,146 +34,160 @@ h2, h3, h4, p {
   font-family: "Baloo Tammudu 2", sans-serif;
   line-height: 150%;
 }
-/* ── NAVBAR ── */
-.navbar-wrapper {
+/* ───── HEADER ───── */
+.header {
+ 
   position: sticky;
   top: 0;
-  background: var(--bg);
-  z-index: 100;
-}
-
-.navbar {
+  z-index: 1000;
   display: flex;
-  align-items: center;
-  gap: 32px;
-  padding: 0 40px;
-  height: 64px;
-  position: sticky;
-  margin: auto;
-  max-width: 977px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  margin-bottom: clamp(4px, 0.8vh, 10px);
 
+  width: 100%;
+   padding: 20px 50px;
 }
 
-.logo {
+.header>h1 {
+  font-family: "Faustina", serif;
+}
+
+
+.logo-header{
+
+  margin-left: 20px;
   font-size: 32px;
-  font-weight: bold;
-  color: var(--text);
-  font-family: "Faustina", Arial, sans-serif;
-  text-decoration: none;
-  margin-right: 16px;
+ 
+}
+.livre-text {
+  color: #5BEA75;
 }
 
-.logo-span {
-  color: var(--green);
-}
-
+/* ───── MENU ───── */
 .menu {
-  display: flex;
   list-style: none;
-  gap: 28px;
+  display: flex;
+  justify-content: space-between;
+  text-align: flex-start;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  font-family: "Faustina", serif;
+  max-width: 100%;
 }
 
 .menu li {
-  position: relative; 
+  position: relative;
+  padding-bottom: 12px;
+  cursor: pointer;
+  text-align:  flex-start;
+  font-family: "Baloo Tammudu 2", sans-serif;
+  
+
 }
 
-.menu li a {
+.menu a {
   text-decoration: none;
-  color: var(--text-muted);
-  font-size: 15.2px;
-  font-weight: 500;
-  transition: color 0.2s;
+  color: #ffffff;
 }
 
-.menu li a:hover {
-  color: var(--green); /* fica verde no hover */
+.menu .inicio a {
+  color: #5BEA75;
 }
 
-/* bolinha — só aparece no item ativo */
-.menu li::after {
-  content: '';
+
+/* pontinho ativo */
+.dot {
   width: 6px;
   height: 6px;
-  background: var(--green);
+  background: #5BEA75;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -12px;
-  opacity: 0;
-}
- 
-.menu li.ativo::after {
-  opacity: 1;
-}
- 
-.menu li.ativo a {
-  color: var(--green);
+  bottom: 5px;
 }
 
+.menu li:not(.active) .dot {
+  display: none;
+}
 
-.busca-wrapper {
-  margin-left: auto;
+.menu li.active a {
+  color: #5BEA75;
+}
+
+.menu a:hover {
+  color: #5BEA75;
+}
+
+/* ───── MENU LOGIN ───── */
+
+.Pesquisa-Login{
+  gap:10px;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  padding: 6.4px 16px;
-  width: 220px;
-  margin-left: auto;
+  margin-left: 150px;
+}
+.btn-user {
+
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, .35);
+  border-radius: 20px;
+  padding: 0px 15px ;
+  font-size: 12px;
+  font-family: "Baloo Thambi 2", sans-serif;
+  cursor: pointer;
+  height: 25px;
+  color: #181515;
+  background-color: #3AD33A;
+  border-color: #3AD33A;
+  font-weight: bolder;
   
 }
 
-.busca {
-  background: none;
-  border: none;
-  outline: none;
-  color: var(--text);
-  font-family: inherit;
-  font-size: 14px;
-  width: 100%;
+.btn-user:hover {
+  background-color: #181515;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
-.busca::placeholder {
-  color: var(--text-dim);
+
+/* ───── BUSCA ───── */
+.box-lateral {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"],
+input[type="text"] {
+  background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
 }
 
 .lupa-icon {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
   cursor: pointer;
-  flex-shrink: 0;
-  opacity: 0.6;
 }
- 
-.usuario-icon {
-  width: 20px;
-  height: 20px;
-  filter: brightness(0) invert(1); /* ← deixa o ícone branco */
-
-}
-
-.btn-login {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  background:var(--surface);
-  cursor: pointer;
-  transition: border-color 0.2s; /* transição suave do hover */
-  margin-left: auto; /* empurra para a direita */
-}
-
-.btn-login:hover {
-  background: #4ab54a;
-}
-
+/* ───── HEADER ───── */
 /* ── MAIN ── */
 main {
   flex: 1;
