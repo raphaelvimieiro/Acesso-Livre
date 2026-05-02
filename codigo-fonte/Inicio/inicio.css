@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+
 html {
   max-width: 100%;
   overflow-x: hidden;
@@ -42,7 +43,7 @@ img[height] {
 
 /* ───── HEADER ───── */
 .header {
- 
+
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -53,9 +54,9 @@ img[height] {
   gap: clamp(10px, 1.4vw, 24px);
   padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
   margin-bottom: clamp(4px, 0.8vh, 10px);
-  
+
   width: 100%;
-   padding: 20px 50px;
+  padding: 20px 50px;
 }
 
 .header>h1 {
@@ -63,12 +64,13 @@ img[height] {
 }
 
 
-.logo-header{
+.logo-header {
 
   margin-left: 20px;
   font-size: 32px;
- 
+
 }
+
 .livre-text {
   color: #5BEA75;
 }
@@ -90,9 +92,9 @@ img[height] {
   position: relative;
   padding-bottom: 12px;
   cursor: pointer;
-  text-align:  flex-start;
+  text-align: flex-start;
   font-family: "Baloo Tammudu 2", sans-serif;
-  
+
 
 }
 
@@ -132,18 +134,19 @@ img[height] {
 
 /* ───── MENU LOGIN ───── */
 
-.Pesquisa-Login{
-  gap:30px;
+.Pesquisa-Login {
+  gap: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .btn-user {
 
   background: transparent;
   border: 1px solid rgba(255, 255, 255, .35);
   border-radius: 20px;
-  padding: 0px 15px ;
+  padding: 0px 15px;
   font-size: 12px;
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
@@ -152,7 +155,7 @@ img[height] {
   background-color: #3AD33A;
   border-color: #3AD33A;
   font-weight: bolder;
-  
+
 }
 
 .btn-user:hover {
@@ -223,7 +226,7 @@ input[type="text"]::placeholder {
   line-height: 1.05;
 }
 
-.Texto-banner-celular strong{
+.Texto-banner-celular strong {
   color: #11ec86;
 }
 
@@ -240,7 +243,7 @@ input[type="text"]::placeholder {
   border: 1px solid rgba(255, 255, 255, .35);
   color: white;
   border-radius: 20px;
-  padding: 20px ;
+  padding: 20px;
   width: fit-content;
   font-size: 15px;
   font-family: 'faustina', serif;
@@ -250,8 +253,8 @@ input[type="text"]::placeholder {
   justify-content: center;
   align-items: center;
   font-family: "Baloo Thambi 2", sans-serif;
-  
-  
+
+
 }
 
 .btn-banner:hover {
@@ -259,13 +262,14 @@ input[type="text"]::placeholder {
   border-color: #3AD33A;
   color: #181515;
 }
+
 .banner-celular {
   position: relative;
   width: 71vw;
   max-width: 100vw;
   margin: clamp(8px, 1.4vh, 20px) auto 0;
-  
- 
+
+
 }
 
 .banner-celular .imagem-celular {
@@ -274,16 +278,19 @@ input[type="text"]::placeholder {
   width: 100%;
   display: block;
   border-radius: 60px;
-  
+
 }
-.container-imagem-banner{
-  
-    position: relative;
-    border-radius: 60px; /* Mantém o arredondamento */
-    overflow: hidden;    /* Garante que o gradiente não vaze pelas bordas */
-    line-height: 0;
-  height: 400px;  
-  }
+
+.container-imagem-banner {
+
+  position: relative;
+  border-radius: 60px;
+  /* Mantém o arredondamento */
+  overflow: hidden;
+  /* Garante que o gradiente não vaze pelas bordas */
+  line-height: 0;
+  height: 400px;
+}
 
 .container-imagem-banner::after {
   content: "";
@@ -296,6 +303,7 @@ input[type="text"]::placeholder {
   z-index: 2;
 
 }
+
 .linha-verde {
   display: block;
   width: 69vw;
@@ -356,7 +364,7 @@ input[type="text"]::placeholder {
   display: flex;
   justify-content: center;
   height: 200px;
-  
+
 }
 
 .img-card>img {
@@ -365,7 +373,7 @@ input[type="text"]::placeholder {
   width: 100%;
   object-fit: cover;
   object-position: center;
- 
+
 }
 
 .img-card::after {
@@ -376,8 +384,10 @@ input[type="text"]::placeholder {
   width: 100%;
   height: 100%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.849) 0%, rgba(0, 0, 0, 0) 60%);
-  pointer-events: none; /* Garante que o usuário consiga clicar na imagem/card sem problemas */
+  pointer-events: none;
+  /* Garante que o usuário consiga clicar na imagem/card sem problemas */
 }
+
 .texto-sobreposto {
   font-family: "Baloo Thambi 2", sans-serif;
   position: absolute;
@@ -389,7 +399,7 @@ input[type="text"]::placeholder {
   font-size: 14px;
   text-align: left;
   z-index: 2;
- 
+
 }
 
 /* ───── ESTRELAS ───── */
@@ -411,7 +421,7 @@ input[type="text"]::placeholder {
 .icone-local {
   width: 18px;
   margin-right: 5px;
-  
+
 }
 
 /* ───── VER MAIS ───── */
@@ -429,25 +439,83 @@ input[type="text"]::placeholder {
 }
 
 /* ───── FOOTER ───── */
+
+footer {
+  font-family: "Baloo Thambi 2", sans-serif;
+  line-height: normal;
+  background-image: url(/codigo-fonte/Imagens/Footer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--surface2);
+  font-family: "Baloo Thambi 2", sans-serif;
+}
+
 .site-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
   width: 100%;
+  height: 200px;
   margin-top: auto;
-  border-top: 1px solid rgba(91, 234, 117, 0.10);
-  text-align: center;
-  padding: 5px 12px;
-  color: #f0f0f0;
-  background: #3a7d3a;
+  padding-bottom: 20px;
+  gap: 20px;
 }
 
 .site-footer p {
   margin: 0;
-  color: #FFF;
-  font-family: "Inter";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
+
+.site-footer a {
+  display: block;
+  line-height: 100%;
+  text-decoration: none;
+  color: var(--surface2);
+}
+
+.link-footer {
+  color: var(--surface2);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+
+:root{
+  --footer-padding:5px;
+  --footer-border:1px solid var(--surface2);
+  --footer-border-radius:15px;
+  --footer-padding:5px;
+  --footer-font-weight:500;
+}
+.footer-sobre {
+  display: flex;
+  gap: 5px;
+  border: var(--footer-border);
+  border-radius: var(--footer-border-radius);
+  padding: var(--footer-padding);
+  font-weight: var(--footer-font-weight);
+}
+
+.footer-denuncia {
+  display: flex;
+  gap: 5px;
+  border: var(--footer-border);
+  border-radius: var(--footer-border-radius);
+  padding: var(--footer-padding);
+  font-weight: var(--footer-font-weight);
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 
 /* ───── CONTAINER ───── */
 .container.my-5 {
@@ -471,7 +539,7 @@ input[type="text"]::placeholder {
 
   .linha-verde {
     width: min(94vw, 1000px);
-    
+
   }
 }
 
@@ -551,7 +619,7 @@ input[type="text"]::placeholder {
     width: clamp(56px, 16vw, 92px);
   }
 
-  
+
   .card-text {
     font-size: 13px;
     -webkit-line-clamp: 4;
@@ -595,7 +663,7 @@ input[type="text"]::placeholder {
   }
 
 
-  
+
 
   .card-text {
     -webkit-line-clamp: 3;
@@ -630,7 +698,7 @@ input[type="text"]::placeholder {
     padding: 12px !important;
   }
 
-  
+
 
 
   .card-text {
@@ -716,7 +784,7 @@ input[type="text"]::placeholder {
     gap: 10px;
   }
 
-  
+
   .texto-sobreposto {
     left: 14px;
     bottom: 10px;
