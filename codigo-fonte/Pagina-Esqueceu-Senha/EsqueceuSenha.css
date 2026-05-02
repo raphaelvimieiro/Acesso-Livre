@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- font-family: 'Poppins', sans-serif;
+ font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
 /* FUNDO */
@@ -37,7 +40,7 @@ body {
 }
 
 .header span {
-  color: #39ff6a;
+  color: #5BEA75;
 }
 
 /* MENU CENTRAL */
@@ -58,7 +61,7 @@ body {
 }
 
 .nav a:hover {
-  color: #17ac19;
+  color: #5BEA75;
 }
 
 .busca-wrapper {
@@ -66,8 +69,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: #252525;
+  border: 1px solid  #3a3a3a;
   border-radius: 999px;
   padding: 6.4px 16px;
   width: 220px;
@@ -77,13 +80,13 @@ body {
   background: none;
   border: none;
   outline: none;
-  color: var(--text);
+  color: #f0f0f0;
   font-family: inherit;
   font-size: 14px;
   width: 100%;
 }
 .busca::placeholder {
-  color: var(--text-dim);
+  color: #707070;
 }
 
 .lupa-icon {
@@ -108,7 +111,7 @@ main {
   height: 500px;
   padding: 40px 30px;
   border-radius: 40px;
-  background: #171414;
+  background: #252525;
 
   display: flex;
   flex-direction: column;
@@ -116,14 +119,14 @@ main {
   gap: 25px;
 
   box-shadow:
-    0 0 25px #1cff5c,
-    0 0 50px rgba(28,255,92,0.4);
+    0 0 25px #5BEA75,
+    0 0 50px #3a7d3a;
 }
 
 /* TÍTULO */
 
 .verde {
-  color: #4cff7a;
+  color: #5BEA75;
 }
 
 .card h2 {
@@ -133,7 +136,7 @@ main {
 }
 
 .card h2 span {
-  color: #4cff7a;
+  color: #5BEA75;
 }
 
 /* GRUPOS */
@@ -153,7 +156,7 @@ main {
 .card input {
   background: transparent;
   border: none;
-  border-bottom: 2px solid #4cff7a;
+  border-bottom: 2px solid #5BEA75;
   outline: none;
   color: #fff;
   padding: 8px 0;
@@ -166,7 +169,7 @@ main {
   padding: 12px;
   border: none;
   border-radius: 25px;
-  background: #4cff7a;
+  background: #5BEA75;
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
