@@ -57,15 +57,11 @@ img[height] {
 
 }
 
-.header>h1 {
-  font-family: "Faustina", serif;
-}
-
-
 .logo-header{
 
-  margin-left: 20px;
   font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
  
 }
 .livre-text {

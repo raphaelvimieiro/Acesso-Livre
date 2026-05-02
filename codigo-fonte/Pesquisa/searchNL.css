@@ -96,9 +96,9 @@ main {
 }
 
 .logo-main {
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
 }
 
 .logo-livre-main {

@@ -11,7 +11,7 @@
   --text: #f0f0f0;
   --text-muted: #a0a0a0;
   --text-dim: #707070;
-  --radius: 16px;
+  --radius: 20px;
   --green-line: #17DF17;
    --vermais: #7DF17D;
 }
@@ -52,15 +52,14 @@ h2, h3, h4, p {
    padding: 20px 50px;
 }
 
-.header>h1 {
-  font-family: "Faustina", serif;
-}
+
 
 
 .logo-header{
 
-  margin-left: 20px;
   font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
  
 }
 .livre-text {
@@ -217,7 +216,7 @@ main {
 
 .card-destaque .img-wrap {
   position: relative;
-  padding: 30px 30px 0 30px;
+  padding: 15px 15px 0 15px;
 }
 
 .card-destaque img {
@@ -268,7 +267,8 @@ main {
 .grid-medio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  align-items: center;
+  gap: 60px;
   overflow: hidden;
 }
 
@@ -280,7 +280,7 @@ main {
 
 .card-medio .img-wrap {
   position: relative;
-  padding: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
 }
 
 .card-medio img {
@@ -341,7 +341,7 @@ main {
 
 .card-pequeno .img-wrap {
   position: relative;
-  padding: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
 }
 
 .card-pequeno img {

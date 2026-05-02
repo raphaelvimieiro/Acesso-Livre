@@ -53,8 +53,9 @@ nav {
 }
 
 .logo {
-    font-family: 'Faustina', serif;
-    font-size: 32px;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
 }
 
 .logo span {

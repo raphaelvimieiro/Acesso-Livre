@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
 /* FUNDO */
@@ -13,30 +12,31 @@ body {
   background: radial-gradient(circle at top, #171414, #171414);
   color: #fff;
   padding-top: 100;
+  font-family: 'Faustina', sans-serif;
 }
 
 /* HEADER */
 .header {
-  position: fixed;  
-  top: 0;            
-  left: 0;
-  width: 100%;
-  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 20px 300px;
-  background: #171414;
-  z-index: 100;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  
+  
+  width: 100%;
+  padding: 20px 50px;
 }
 
 /* LOGO */
 .header h1 {
-  font-size: 26px;
-  font-weight: 500;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
 }
 
 .header span {
@@ -101,7 +101,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 64px);
+  min-height: calc(100vh - 64px); 
   padding-top: 80px;
 }
 
@@ -155,8 +155,8 @@ main {
 /* INPUT */
 .card input {
   background: transparent;
-  border: none;
-  border-bottom: 2px solid #5BEA75;
+  border: #3a3a3a;
+  border-bottom: 2px solid #3a3a3a;
   outline: none;
   color: #fff;
   padding: 8px 0;

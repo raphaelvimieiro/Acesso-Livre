@@ -30,10 +30,9 @@ body {
 }
 /* LOGO */
 .header h1 {
-  font-size: 26px;
-  font-weight: 500;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
 }
 
 .header span {
