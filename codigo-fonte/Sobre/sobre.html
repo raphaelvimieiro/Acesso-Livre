@@ -17,40 +17,26 @@
     />
   </head>
   <body>
-    <header class="header">
-      <h1>Acesso<span class="livre-text">Livre</span></h1>
+     <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
       <ul class="menu">
-        <li>
+        <li >
           <a href="/codigo-fonte/Inicio/inicio.html">Início</a>
+          
         </li>
-        <li class="active sobre">
-          <a href="/codigo-fonte/Sobre/sobre.html">Sobre</a>
-          <span class="dot"></span>
-        </li>
+        <li class="active"><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a> <span class="dot"></span></li>
         <li><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a></li>
-        <li><a href="/codigo-fonte/Denúncia/denuncia-deslogado.html">Denúncia</a></li>
+        <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
       </ul>
+    </nav>
+    <div class="Pesquisa-Login">
+      
+      <button class="btn-user">Entrar/Criar conta</button>
+    </div>
+  </header>
 
-      <div class="box-lateral">
-        <input
-          type="text"
-          name="Busca"
-          required
-          placeholder="Buscar locais,bairros..."
-        />
-        <img class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
-      </div>
-      <ul class="menu-login">
-        <li>
-          <img
-            class="usuario-icon"
-            src="../Imagens/Usuario.png"
-            alt="Ícone de usuário"
-          />
-          Entrar/Criar conta
-        </li>
-      </ul>
-    </header>
 
     <main class="about-section">
       <img

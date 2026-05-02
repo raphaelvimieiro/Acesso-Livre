@@ -38,118 +38,128 @@ img[height] {
 }
 
 .header {
+ 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: clamp(10px, 1.5vw, 24px);
-  padding: clamp(10px, 2vh, 22px) clamp(12px, 3vw, 48px) 0;
-  margin-bottom: clamp(8px, 1.4vh, 16px);
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  margin-bottom: clamp(4px, 0.8vh, 10px);
+  
+  width: 100%;
+   padding: 20px 50px;
 }
-.header h1 {
+
+.header>h1 {
   font-family: "Faustina", serif;
 }
 
+
+.logo-header{
+
+  margin-left: 20px;
+  font-size: 32px;
+ 
+}
 .livre-text {
-  color: #5bea75;
+  color: #5BEA75;
 }
 
+/* ───── MENU ───── */
 .menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  text-align: flex-start;
+  gap: 40px;
   margin: 0;
   padding: 0;
   font-family: "Faustina", serif;
+  max-width: 100%;
 }
+
 .menu li {
   position: relative;
   padding-bottom: 12px;
   cursor: pointer;
+  text-align:  flex-start;
+  font-family: "Baloo Tammudu 2", sans-serif;
+  
+
 }
 
-.menu li {
-  position: relative;
-  text-align: center;
-}
 .menu a {
   text-decoration: none;
   color: #ffffff;
 }
 
-/*Fica apenas a palavra Sobre marcada*/
 .menu .inicio a {
-  color: #17df17;
+  color: #5BEA75;
 }
-/* pontinho */
+
+
+/* pontinho ativo */
 .dot {
   width: 6px;
   height: 6px;
-  background: #5bea75;
+  background: #5BEA75;
   border-radius: 50%;
-
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -8px;
+  bottom: 5px;
 }
-/* só aparece no ativo */
+
 .menu li:not(.active) .dot {
   display: none;
 }
-/* Deixa a palavra do menu ativa verde */
+
 .menu li.active a {
-  color: #5bea75;
+  color: #5BEA75;
 }
 
-.menu-login {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0px;
-  padding: 0;
-  font-family: "Faustina", serif;
-}
-
-.menu-login li {
-  position: relative;
-  padding-bottom: 5px;
-  background-color: #3ad33a;
-  border: 5px solid #3ad33a;
-  border-radius: 50px;
-  border-width: 2px 4px 2px 4px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-/*Efeito hover no menu */
 .menu a:hover {
-  color: #5bea75;
+  color: #5BEA75;
 }
 
-.menu-login li:hover {
-  color: #5bea75;
+/* ───── MENU LOGIN ───── */
+
+.Pesquisa-Login{
+  gap:30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+.btn-user {
 
-.menu-login li:hover {
-  background-color: #5bea75;
-  border-color: #5bea75;
-  color: #181515;
-}
-
-/* Faz com que o icone de usuario fique a direita e alinhado com o menu */
-
-.usuario-logado {
-  width: 25px;
-  height: 25px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, .35);
+  border-radius: 20px;
+  padding: 0px 15px ;
+  font-size: 12px;
+  font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  align-self: center;
-  margin-left: 400px;
-  margin-top: 2px;
+  height: 25px;
+  color: #181515;
+  background-color: #3AD33A;
+  border-color: #3AD33A;
+  font-weight: bolder;
+  margin-top: 20px;
+  
 }
 
+.btn-user:hover {
+  background-color: #181515;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+
+/* ───── BUSCA ───── */
 .box-lateral {
   position: relative;
   display: flex;
