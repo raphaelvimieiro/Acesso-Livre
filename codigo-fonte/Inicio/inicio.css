@@ -13,7 +13,7 @@ html {
 
 body {
   color: white;
-  background: #1a1a1a;
+  background-color: #171414;
   margin: 0;
   min-height: 100dvh;
   display: flex;
@@ -53,7 +53,7 @@ img[height] {
   gap: clamp(10px, 1.4vw, 24px);
   padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
   margin-bottom: clamp(4px, 0.8vh, 10px);
-  background: #1a1a1a;
+  
   width: 100%;
    padding: 20px 50px;
 }
