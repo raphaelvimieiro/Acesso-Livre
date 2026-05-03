@@ -27,9 +27,6 @@ body {
   width: 320px;
   position: relative;
   border: 1px solid  #3a3a3a;
-  /* Glow verde */
-  box-shadow: 0 0 8px rgba(0,255,136,0.6),
-              0 0 20px rgba(0,255,136,0.3);
 }
 
 .search-container input {
@@ -81,13 +78,13 @@ body {
 }
 
 .nav a:hover {
-  color: #21ce55;
+  color: #17DF17;
 }
 
 .right {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 }
 
 /* HEADER */
@@ -129,7 +126,7 @@ header {
 
 /* LEFT */
 .left h1 {
-  font-size: 58px;
+  font-size: 50px;
   line-height: 1.2;
 }
 
@@ -138,8 +135,8 @@ header {
 }
 
 .left p {
-  margin-top: 20px;
-  color: #888;
+  margin-top: 5px;
+  color: #ffffff;
   max-width: 450px;
 }
 
@@ -175,20 +172,14 @@ header {
   width: 360px;
   padding: 40px;
   border-radius: 60px;
-  background: #171414;
+  background: #373636;
   border: 1px solid  #3a3a3a;
   box-shadow: 0 0 35px #3a7d3a;
 }
 
-.login-box:focus-within {
-  border: 1px solid #5BEA75;
-  box-shadow: 0 0 10px #5BEA75,
-              0 0 20px #5BEA75,
-              0 0 30px #5BEA75;
-  animation: glow 1s infinite alternate;
-}
 
-.glow 
+
+@keyframes glow {
   from {
     box-shadow: 0 0 10px #5BEA75;
   }
@@ -196,6 +187,7 @@ header {
     box-shadow: 0 0 25px #5BEA75,
                 0 0 40px #5BEA75;
   }
+}
 
 .login-box h2 {
   text-align: center;
@@ -204,7 +196,7 @@ header {
 
 .login-box p {
   text-align: center;
-  color: #777;
+  color: #aaa;
   margin-bottom: 25px;
 }
 
@@ -224,7 +216,10 @@ header {
   border: none;
   border-bottom: 1px solid #5BEA75;
   background: transparent;
-  color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #39ff6a;
+  padding: 8px 0;
+  color: #fff;
   outline: none;
 }
 
@@ -286,8 +281,8 @@ header {
 
 /* HOVER */
 .search-box button:hover {
-  background: #16a34a;
-  box-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+  background: #d4d2d2;
+  box-shadow: none;
 }
 
 
@@ -298,8 +293,8 @@ header {
   padding: 12px;
   border-radius: 999px;
   border: none;
-  background: #22c55e;
-  color: #fff;
+  background: #5BEA75;
+  color: #0b0a0a;
   font-weight: 600;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(34, 197, 94, 0.35);

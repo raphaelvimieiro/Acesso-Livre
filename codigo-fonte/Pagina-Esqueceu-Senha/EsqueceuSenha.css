@@ -11,7 +11,7 @@
 body {
   background: radial-gradient(circle at top, #171414, #171414);
   color: #fff;
-  padding-top: 100;
+  padding-top: none;
   font-family: 'Faustina', sans-serif;
 }
 
@@ -111,13 +111,11 @@ main {
   height: 500px;
   padding: 40px 30px;
   border-radius: 40px;
-  background: #252525;
-
+  background: #373636;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   gap: 25px;
-
   box-shadow:
     0 0 25px #5BEA75,
     0 0 50px #3a7d3a;
@@ -156,7 +154,7 @@ main {
 .card input {
   background: transparent;
   border: #3a3a3a;
-  border-bottom: 2px solid #3a3a3a;
+  border-bottom: 2px solid #16c819;
   outline: none;
   color: #fff;
   padding: 8px 0;
