@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FUNDO */
+body {
+  background: radial-gradient(circle at top, #171414, #171414);
+  color: #fff;
+  padding-top: 100;
+  font-family: 'Faustina', sans-serif;
+}
+
+/* HEADER */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  
+  
+  width: 100%;
+  padding: 20px 50px;
+}
+
+/* LOGO */
+.header h1 {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
+}
+
+.header span {
+  color: #5BEA75;
+}
+
+/* MENU CENTRAL */
+.nav {
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   margin: 0 auto;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;     
+  font-weight: 400;    
+  letter-spacing: 0.5px; 
+  transition: 0.3s;    
+}
+
+.nav a:hover {
+  color: #5BEA75;
+}
+
+.busca-wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #252525;
+  border: 1px solid  #3a3a3a;
+  border-radius: 999px;
+  padding: 6.4px 16px;
+  width: 220px;
+}
+
+.busca {
+  background: none;
+  border: none;
+  outline: none;
+  color: #f0f0f0;
+  font-family: inherit;
+  font-size: 14px;
+  width: 100%;
+}
+.busca::placeholder {
+  color: #707070;
+}
+
+.lupa-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 64px); 
+  padding-top: 80px;
+}
+
+/* CARD */
+.card {
+  width: 350px;
+  height: 500px;
+  padding: 40px 30px;
+  border-radius: 40px;
+  background: #252525;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  gap: 25px;
+
+  box-shadow:
+    0 0 25px #5BEA75,
+    0 0 50px #3a7d3a;
+}
+
+/* TÍTULO */
+
+.verde {
+  color: #5BEA75;
+}
+
+.card h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.card h2 span {
+  color: #5BEA75;
+}
+
+/* GRUPOS */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LABEL */
+.card label {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+/* INPUT */
+.card input {
+  background: transparent;
+  border: #3a3a3a;
+  border-bottom: 2px solid #3a3a3a;
+  outline: none;
+  color: #fff;
+  padding: 8px 0;
+}
+
+/* BOTÃO */
+.card button {
+  width: 160px;
+  margin: 20px auto 0;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #5BEA75;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}

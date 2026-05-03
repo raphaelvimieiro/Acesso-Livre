@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+
+
+:root {
+  --bg: #171414; /*-- background da página */
+  --surface: #252525; /*-- para background dos cards e elementos principais */
+  --border: #3a3a3a; /*-- cor da borda da busca */
+  --green: #5BEA75; /*-- para dar destaque nos textos */
+  --green-dim: #3a7d3a; /*-- cor do rodapé */
+  --text: #f0f0f0; /*-- para texto principal */
+  --text-muted: #a0a0a0; /*-- para texto secundário */
+  --text-dim: #707070; /*-- para texto ainda mais discreto, como créditos de imagem ou datas */
+  --radius: 16px; /*-- para bordas arredondadas */
+  --vermais: #7DF17D; /*-- para links de "ver mais" e elementos interativos relacionados */
+  --green-line: #17DF17; /*-- para linhas de separação */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Faustina', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+h2, h3, h4,p {
+  font-family: "Baloo Tammudu 2", sans-serif;
+}
+
+/* ── NAVBAR ── */
+.header {
+ 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  
+  
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.logo-header{
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
+ 
+}
+.livre-text {
+  color: #5BEA75;
+}
+
+/* ───── MENU ───── */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: flex-start;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  font-family: "Faustina", serif;
+  max-width: 100%;
+}
+
+.menu li {
+  position: relative;
+/* padding-bottom: 12px; */
+  cursor: pointer;
+  text-align:  flex-start;
+  font-family: "Baloo Tammudu 2", sans-serif;
+  
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu .inicio a {
+  color: #5BEA75;
+}
+
+
+/* pontinho ativo */
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #5BEA75;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+}
+
+.menu li:not(.active) .dot {
+  display: none;
+}
+
+.menu li.active a {
+  color: #5BEA75;
+}
+
+.menu a:hover {
+  color: #5BEA75;
+}
+
+/* ───── MENU LOGIN ───── */
+
+.Pesquisa-Login{
+  gap:30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.btn-user {
+
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, .35);
+  border-radius: 20px;
+  padding: 0px 15px ;
+  font-size: 12px;
+  font-family: "Baloo Thambi 2", sans-serif;
+  cursor: pointer;
+  height: 25px;
+  color: #181515;
+  background-color: #3AD33A;
+  border-color: #3AD33A;
+  font-weight: bolder;
+  
+}
+
+.btn-user:hover {
+  background-color: #181515;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+
+/* ───── BUSCA ───── */
+.box-lateral {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"],
+input[type="text"] {
+  background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
+}
+
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+/* ── MAIN ── */
+main {
+  flex: 1;
+  padding: 40px 40px 64px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ── SEÇÃO DE NOTÍCIAS (grid principal) ── */
+.secao-noticias {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 80px;
+  align-items: stretch;
+}
+
+/* ── CARD DESTAQUE (coluna esquerda) ── */
+.card-destaque {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-destaque .img-wrap {
+  position: relative;
+  padding: 30px 30px 0 30px;
+}
+
+.card-destaque img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+.card-destaque .card-conteudo {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.card-destaque .card-titulo {
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  font-family: "baloo tammudu 2";
+  font-weight: 700;
+}
+
+.card-destaque .card-texto {
+  font-size: 15.2px;
+  color: var(--text-muted);
+  line-height: 150%;
+}
+
+.card-destaque .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+/* ── COLUNA DIREITA ── */
+.coluna-direita {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ── GRID MÉDIO (2 cards) ── */
+.grid-medio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  overflow: hidden;
+}
+
+.card-medio {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden; 
+}
+
+.card-medio .img-wrap {
+  position: relative;
+  padding: 20px 20px 0 20px;
+}
+
+.card-medio img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.card-medio .card-conteudo {
+  padding: 16px 17.6px 17.6px;
+  display: flex;
+  flex-direction: column;
+  gap: 7.2px;
+}
+
+.card-medio .card-titulo {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.card-medio .card-texto {
+  font-size: 13.12px;
+  color: var(--text-muted);
+  line-height: 150%;
+}
+
+.card-medio .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+/* ── SEPARADOR ── */
+.separador {
+  border: none;
+  border-top: 1px solid var(--green-line);
+  opacity: 0.5;
+  margin: 10px 0;
+}
+
+/* ── GRID PEQUENO (3 cards) ── */
+.grid-pequeno {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  overflow: hidden;
+}
+
+.card-pequeno {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.card-pequeno .img-wrap {
+  position: relative;
+  padding: 20px 20px 0 20px;
+}
+
+.card-pequeno img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.card-pequeno .card-conteudo {
+  padding: 12.8px 14.4px 14.4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5.6px;
+}
+
+.card-pequeno .card-titulo {
+  font-size: 14.08px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.card-pequeno .card-texto {
+  font-size: 12.16px;
+  color: var(--text-muted);
+  line-height: 150%;
+}
+
+.card-pequeno .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+}
+
+/* ── CRÉDITO DA IMAGEM ── */
+.credito-img {
+  position: absolute;
+  bottom: -12px;
+  right: 33px;
+  font-size: 11px;
+  color: var(--text-dim);
+
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ── VER MAIS / DATA ── */
+.ver-mais {
+  color: var(--vermais);
+  font-weight: 600;
+  font-size: 14.4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ver-mais:hover {
+  text-decoration: underline;
+}
+
+.data {
+  font-size: 12.8px;
+  color: var(--text-dim);
+}
+
+/* ── SECTION TITLE ── */
+.section-title {
+  font-size: 25.6px;
+  font-weight: 600;
+}
+
+/* ───── FOOTER ───── */
+
+footer {
+  font-family: "Baloo Thambi 2", sans-serif;
+  line-height: normal;
+  background-image: url(/codigo-fonte/Imagens/Footer.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--surface2);
+  font-family: "Baloo Thambi 2", sans-serif;
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin-top: auto;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+
+.site-footer p {
+  margin: 0;
+  line-height: normal;
+}
+
+.site-footer a {
+  display: block;
+  line-height: 100%;
+  text-decoration: none;
+   color: var(--surface2);
+}
+
+.link-footer {
+  color: var(--surface2);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+:root{
+  --footer-padding:5px;
+  --footer-border:1px solid #2e2e2e;;
+  --footer-border-radius:15px;
+  --footer-padding:5px;
+  --footer-font-weight:500;
+}
+.footer-sobre {
+  display: flex;
+  gap: 5px;
+  border: var(--footer-border);
+  border-radius: var(--footer-border-radius);
+  padding: var(--footer-padding);
+  font-weight: var(--footer-font-weight);
+}
+
+.footer-denuncia {
+  display: flex;
+  gap: 5px;
+  border: var(--footer-border);
+  border-radius: var(--footer-border-radius);
+  padding: var(--footer-padding);
+  font-weight: var(--footer-font-weight);
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+/* ── HOVER ── */
+.card-destaque, .card-medio, .card-pequeno {
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card-destaque:hover, .card-medio:hover, .card-pequeno:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+}

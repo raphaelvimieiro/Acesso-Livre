@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propriedades CSS</title>
+    <link
+      rel="Stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&family=Baloo+Thambi+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Acesso<span class="livre-text">Livre</span></h1>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="menu">
+        <li>
+          <a href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a>
+        </li>
+        <li>
+          <a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a>
+        </li>
+        <li>
+          <a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a>
+        </li>
+        <li>
+          <a href="/codigo-fonte/Denuncias-Logado/denuncias-logado.html"
+            >Denúncia</a
+          >
+        </li>
+        <li class="active">
+          <a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html"
+            >Avaliação</a
+          >
+          <span class="dot"></span>
+        </li>
+      </ul>
+      <img
+        class="usuario-logado"
+        src="../Imagens/Logadoimagem.png"
+        alt="Ícone de usuário"
+      />
+      <div class="menu-login">
+        <a href="/codigo-fonte/Inicio/inicio.html">Sair</a>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <section class="restaurant-hero">
+        <img
+          class="restaurant-hero-img"
+          src="../Imagens/Restaurantemaior.png"
+          alt="Restaurante maior"
+        />
+        <div class="restaurant-hero-overlay">
+          <img src="../Imagens/Local.png" alt="Ícone de localização" />
+          <span>Bairro Jardim Primavera</span>
+        </div>
+      </section>
+      <h2 class="avaliacao-titulo">Avaliações</h2>
+      <section class="retangulo-avaliacao">
+        <img
+          class="retangulo-avaliacao-bg"
+          src="/codigo-fonte/Imagens/Retanguloavaliação.png"
+          alt="Retângulo de avaliação"
+        />
+        <div class="retangulo-avaliacao-inner">
+          <div class="retangulo-avaliacao-coluna">
+            <img
+              class="retangulomenoravaliaçao"
+              src="../Imagens/retangulomenoravaliaçao.png"
+              alt="Três retângulos de avaliação"
+            />
+            <img
+              class="retangulo-avaliacao-foto3"
+              src="../Imagens/Fotopessoa3.png"
+              alt="Foto 3"
+            />
+            <div class="retangulo-avaliacao-info">
+              <span class="retangulo-avaliacao-nome">Fernando Alves</span>
+              <span class="retangulo-avaliacao-estrelas">★★★★★</span>
+            </div>
+            <div class="retangulo-avaliacao-texto">
+              <p class="js-avaliacao-texto">
+                O restaurante Villa Bellini é muito bom no geral e conta com
+                acesso por rampa, o que já é um ponto positivo para quem tem
+                mobilidade reduzida. Além disso, o ambiente é agradável e bem
+                organizado, proporcionando conforto aos clientes durante a
+                permanência no local. O atendimento também se destaca, sendo
+                cordial e atencioso, o que contribui para uma experiência ainda
+                mais satisfatória. Outro aspecto relevante é a qualidade dos
+                pratos oferecidos, que apresentam bom sabor e uma apresentação
+                cuidadosa.
+              </p>
+              <a href="#" class="js-avaliacao-toggle" aria-expanded="false"
+                >Ver Mais</a
+              >
+            </div>
+          </div>
+          <div
+            class="retangulo-avaliacao-coluna retangulo-avaliacao-coluna-secundaria"
+          >
+            <img
+              class="retangulomenoravaliaçao"
+              src="../Imagens/retangulomenoravaliaçao.png"
+              alt="Três retângulos de avaliação"
+            />
+            <img
+              class="retangulo-avaliacao-foto2"
+              src="../Imagens/Fotopessoa2.png"
+              alt="Foto 2"
+            />
+            <div class="retangulo-avaliacao-info">
+              <span class="retangulo-avaliacao-nome">Cleide Araujo</span>
+              <span class="retangulo-avaliacao-estrelas">★★★★★</span>
+            </div>
+            <div class="retangulo-avaliacao-texto">
+              <p class="js-avaliacao-texto">
+                O Villa Bellini apresenta um bom nível de acessibilidade, com
+                rampa de acesso que facilita a entrada de pessoas com mobilidade
+                reduzida, além de banheiro adaptado. Esses recursos demonstram a
+                preocupação em oferecer um ambiente mais inclusivo e confortável
+                para todos os clientes.
+              </p>
+              <a href="#" class="js-avaliacao-toggle" aria-expanded="false"
+                >Ver Mais</a
+              >
+            </div>
+          </div>
+          <div
+            class="retangulo-avaliacao-coluna retangulo-avaliacao-coluna-secundaria"
+          >
+            <img
+              class="retangulomenoravaliaçao"
+              src="../Imagens/retangulomenoravaliaçao.png"
+              alt="Três retângulos de avaliação"
+            />
+            <img
+              class="retangulo-avaliacao-foto1"
+              src="../Imagens/Fotopessoa1.png"
+              alt="Foto 1"
+            />
+            <div class="retangulo-avaliacao-info">
+              <span class="retangulo-avaliacao-nome">Ana Silva</span>
+              <span class="retangulo-avaliacao-estrelas">★★★★★</span>
+            </div>
+            <div class="retangulo-avaliacao-texto">
+              <p class="js-avaliacao-texto">
+                O Villa Bellini demonstra preocupação com a acessibilidade ao
+                disponibilizar rampas de acesso e espaços que facilitam a
+                circulação, tornando o ambiente mais inclusivo e confortável
+                para pessoas com mobilidade reduzida.
+              </p>
+              <a href="#" class="js-avaliacao-toggle" aria-expanded="false"
+                >Ver Mais</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#" class="botao-avalia-agora">AVALIE AGORA</a>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright©2026 Acesso</p>
+    </footer>
+
+    <script src="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.js"></script>
+  </body>
+</html>

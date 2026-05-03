@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AcessoLivre - Denúncias</title>
+
+  <link rel="stylesheet" href="denuncia-deslogado.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;700;900&family=Faustina:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Acesso<span>Livre</span></div>
+
+    <ul class="nav-links">
+      <li><a href="/codigo-fonte/Inicio/inicio.html">Início</a></li>
+      <li><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a></li>
+      <li><a href="/codigo-fonte/Noticias/noticias.html">Notícias</a></li>
+      <li class="active-item">
+        <a href="/codigo-fonte/Denúncia/denuncia-deslogado.html" class="active">Denúncia</a>
+      </li>
+    </ul>
+
+    <div class="search-user">
+      <input type="text" placeholder="Buscar locais, bairros...">
+      <button class="btn-user">Entrar/Criar conta</button>
+    </div>
+  </nav>
+</header>
+
+<main class="hero">
+
+  <!-- TEXTO ESQUERDO -->
+  <section class="content-left">
+    <h1 class="title">Denúncias</h1>
+
+    <h2 class="subtitle">
+      Encontrou barreiras de <br>
+      locomoção ou algo incorreto?
+    </h2>
+
+    <p class="description">
+      Utilize o portal oficial do Governo
+      Federal para garantir que sua situação
+      seja analisada. Clique no link abaixo
+      para realizar sua manifestação:
+    </p>
+
+    <a href="https://falabr.cgu.gov.br/v2/" class="btn-denuncia" target="_blank">
+      Registrar Denúncia no Fala.BR
+    </a>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section class="flashcards-container">
+
+    <div class="card" onclick="flipCard(this)">
+      <div class="card-inner">
+
+        <div class="card-front">
+          <span class="icon-refresh"></span>
+          <p>O que<br>preciso?</p>
+        </div>
+
+        <div class="card-back">
+          <p>
+            Registros visuais: fotos e vídeos.<br><br>
+            Endereço completo.<br><br>
+            Breve descrição do problema.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" onclick="flipCard(this)">
+      <div class="card-inner">
+
+        <div class="card-front">
+          <span class="icon-refresh"></span>
+          <p>Seus<br>direitos</p>
+        </div>
+
+        <div class="card-back">
+          <p>
+            A acessibilidade é garantida por lei.<br><br>
+            Nenhum cidadão deve enfrentar barreiras.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" onclick="flipCard(this)">
+      <div class="card-inner">
+
+        <div class="card-front">
+          <span class="icon-refresh"></span>
+          <p>Impacto da<br>denúncia</p>
+        </div>
+
+        <div class="card-back">
+          <p>
+            Sua denúncia gera visibilidade e ajuda
+            outras pessoas com a mesma necessidade.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="card" onclick="flipCard(this)">
+      <div class="card-inner">
+
+        <div class="card-front">
+          <span class="icon-refresh"></span>
+          <p>Próximos<br>passos</p>
+        </div>
+
+        <div class="card-back">
+          <p>
+            Clique no botão ao lado e seja
+            redirecionado ao portal oficial.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p>Copyright©2026 Acesso</p>
+</footer>
+
+<script src="denuncia-deslogado.js"></script>
+
+</body>
+</html>
