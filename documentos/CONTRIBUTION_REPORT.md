@@ -8,9 +8,8 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Brenda Araújo         |         1 |         0 |         0 |          0 |              0 |               0 |
 | Raphael Procópio      |        27 |      4665 |       865 |         48 |             11 |               1 |
-| Seu NomeBrenda        |         9 |      1686 |       603 |         15 |              3 |               1 |
+| Brenda Araújo         |        10 |      1686 |       603 |         15 |              3 |               1 |
 | Vitor                 |         2 |      1169 |       199 |          6 |              0 |               0 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
 | Wellington Ranniery   |        68 |      3321 |      1202 |         46 |             29 |               2 |
