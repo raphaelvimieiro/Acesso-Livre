@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 06/05/2026 01:53
+**Última atualização:** 06/05/2026 13:53
 
 ---
 
@@ -9,28 +9,28 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | Brenda Araújo         |         2 |         1 |         2 |          1 |              1 |               1 |
-| Raphael Procópio      |        27 |      4665 |       865 |         48 |             11 |               1 |
+| Raphael Procópio      |        28 |      4859 |      1211 |         58 |             11 |               1 |
 | Seu NomeBrenda        |        10 |      1687 |       603 |         20 |              3 |               1 |
 | Vitor                 |         5 |      1206 |       748 |          9 |              0 |               0 |
 | Vitor Oliveira        |         8 |        70 |        39 |          3 |              7 |               1 |
 | Wellington Ranniery   |        68 |      3321 |      1202 |         46 |             29 |               2 |
 | dinhagomezz           |        47 |      1932 |       757 |         35 |              8 |               1 |
-| github-actions[bot]   |       111 |       598 |       533 |          3 |            111 |               1 |
+| github-actions[bot]   |       112 |       603 |       538 |          3 |            112 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 | well9625              |         3 |       169 |       634 |         13 |              0 |               0 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-04-29**: Brenda Araújo: 1, Raphael Procópio: 6, Seu NomeBrenda: 5, Vitor: 5, Wellington Ranniery: 23, dinhagomezz: 24, github-actions[bot]: 37, well9625: 3
+**2026-04-29**: Brenda Araújo: 1, Raphael Procópio: 7, Seu NomeBrenda: 5, Vitor: 5, Wellington Ranniery: 23, dinhagomezz: 24, github-actions[bot]: 38, well9625: 3
 
-**2026-04-22**: Brenda Araújo: 1, Raphael Procópio: 5, Seu NomeBrenda: 5, Wellington Ranniery: 6, dinhagomezz: 14, github-actions[bot]: 17
+**2026-04-22**: Brenda Araújo: 1, Raphael Procópio: 4, Seu NomeBrenda: 5, Wellington Ranniery: 6, dinhagomezz: 14, github-actions[bot]: 16
 
-**2026-04-15**: Raphael Procópio: 5, Wellington Ranniery: 10, dinhagomezz: 1, github-actions[bot]: 9
+**2026-04-15**: Raphael Procópio: 6, Wellington Ranniery: 10, dinhagomezz: 1, github-actions[bot]: 10
 
-**2026-04-08**: Raphael Procópio: 7, Wellington Ranniery: 12, dinhagomezz: 8, github-actions[bot]: 25
+**2026-04-08**: Raphael Procópio: 7, Wellington Ranniery: 12, github-actions[bot]: 17
 
-**2026-04-01**: Raphael Procópio: 4, Vitor Oliveira: 2, Wellington Ranniery: 17, github-actions[bot]: 21
+**2026-04-01**: Raphael Procópio: 4, Vitor Oliveira: 2, Wellington Ranniery: 17, dinhagomezz: 8, github-actions[bot]: 29
 
 **2026-03-25**: Vitor Oliveira: 1, github-actions[bot]: 1
 
