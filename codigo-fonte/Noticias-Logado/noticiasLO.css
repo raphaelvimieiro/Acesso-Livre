@@ -415,74 +415,18 @@ main {
 }
 
 /* ───── FOOTER ───── */
-
-footer {
-  font-family: "Baloo Thambi 2", sans-serif;
-  line-height: normal;
-  background-image: url(/codigo-fonte/Imagens/Footer.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: var(--surface2);
-  font-family: "Baloo Thambi 2", sans-serif;
-}
-
-.site-footer {
+.footer {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
+  background-color: #3b66438c;
+  color: #fff;
+  padding: 8px 0;
+  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 200px;
-  margin-top: auto;
-  padding-bottom: 10px;
-  gap: 20px;
 }
 
-.site-footer p {
-  margin: 0;
-  line-height: normal;
-}
-
-.site-footer a {
-  display: block;
-  line-height: 100%;
-  text-decoration: none;
-   color: var(--surface2);
-}
-
-.link-footer {
-  color: var(--surface2);
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 20px;
-}
-
-:root{
-  --footer-padding:5px;
-  --footer-border:1px solid #2e2e2e;;
-  --footer-border-radius:15px;
-  --footer-padding:5px;
-  --footer-font-weight:500;
-}
-.footer-sobre {
-  display: flex;
-  gap: 5px;
-  border: var(--footer-border);
-  border-radius: var(--footer-border-radius);
-  padding: var(--footer-padding);
-  font-weight: var(--footer-font-weight);
-}
-
-.footer-denuncia {
-  display: flex;
-  gap: 5px;
-  border: var(--footer-border);
-  border-radius: var(--footer-border-radius);
-  padding: var(--footer-padding);
-  font-weight: var(--footer-font-weight);
+.footer p {
+  margin-bottom: 0;
 }
 
 .direitos {

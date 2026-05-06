@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
 
 html {
   max-width: 100%;
   overflow-x: hidden;
 }
-
 
 *::before,
 *::after {
@@ -43,7 +42,6 @@ img[height] {
 
 /* ───── HEADER ───── */
 .header {
-
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -59,17 +57,14 @@ img[height] {
   padding: 20px 50px;
 }
 
-
 .logo-header {
-
   font-size: 32px;
   font-weight: 300;
-  font-family: 'Faustina', serif;
-
+  font-family: "Faustina", serif;
 }
 
 .livre-text {
-  color: #5BEA75;
+  color: #5bea75;
 }
 
 /* ───── MENU ───── */
@@ -91,8 +86,6 @@ img[height] {
   cursor: pointer;
   text-align: flex-start;
   font-family: "Baloo Tammudu 2", sans-serif;
-
-
 }
 
 .menu a {
@@ -101,15 +94,14 @@ img[height] {
 }
 
 .menu .inicio a {
-  color: #5BEA75;
+  color: #5bea75;
 }
-
 
 /* pontinho ativo */
 .dot {
   width: 6px;
   height: 6px;
-  background: #5BEA75;
+  background: #5bea75;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -122,11 +114,11 @@ img[height] {
 }
 
 .menu li.active a {
-  color: #5BEA75;
+  color: #5bea75;
 }
 
 .menu a:hover {
-  color: #5BEA75;
+  color: #5bea75;
 }
 
 /* ───── MENU LOGIN ───── */
@@ -139,9 +131,8 @@ img[height] {
 }
 
 .btn-user {
-
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, .35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
   padding: 0px 15px;
   font-size: 12px;
@@ -149,10 +140,9 @@ img[height] {
   cursor: pointer;
   height: 25px;
   color: #181515;
-  background-color: #3AD33A;
-  border-color: #3AD33A;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
   font-weight: bolder;
-
 }
 
 .btn-user:hover {
@@ -160,7 +150,6 @@ img[height] {
   color: #ffffff;
   border-color: #ffffff;
 }
-
 
 /* ───── BUSCA ───── */
 .box-lateral {
@@ -233,30 +222,26 @@ input[type="text"]::placeholder {
   color: #ffffff;
 }
 
-
 .btn-banner {
-
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, .35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   color: white;
   border-radius: 20px;
   padding: 20px;
   width: fit-content;
   font-size: 15px;
-  font-family: 'faustina', serif;
+  font-family: "faustina", serif;
   cursor: pointer;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Baloo Thambi 2", sans-serif;
-
-
 }
 
 .btn-banner:hover {
-  background-color: #3AD33A;
-  border-color: #3AD33A;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
   color: #181515;
 }
 
@@ -265,8 +250,6 @@ input[type="text"]::placeholder {
   width: 71vw;
   max-width: 100vw;
   margin: clamp(8px, 1.4vh, 20px) auto 0;
-
-
 }
 
 .banner-celular .imagem-celular {
@@ -275,11 +258,9 @@ input[type="text"]::placeholder {
   width: 100%;
   display: block;
   border-radius: 60px;
-
 }
 
 .container-imagem-banner {
-
   position: relative;
   border-radius: 60px;
   /* Mantém o arredondamento */
@@ -298,7 +279,6 @@ input[type="text"]::placeholder {
   height: 100%;
   background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 90%);
   z-index: 2;
-
 }
 
 .linha-verde {
@@ -316,7 +296,6 @@ input[type="text"]::placeholder {
   --surface: #252525;
   --surface2: #2e2e2e;
 }
-
 
 .card {
   background-color: var(--surface);
@@ -361,16 +340,14 @@ input[type="text"]::placeholder {
   display: flex;
   justify-content: center;
   height: 200px;
-
 }
 
-.img-card>img {
+.img-card > img {
   height: 100%;
   display: block;
   width: 100%;
   object-fit: cover;
   object-position: center;
-
 }
 
 .img-card::after {
@@ -380,7 +357,11 @@ input[type="text"]::placeholder {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.849) 0%, rgba(0, 0, 0, 0) 60%);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.849) 0%,
+    rgba(0, 0, 0, 0) 60%
+  );
   pointer-events: none;
   /* Garante que o usuário consiga clicar na imagem/card sem problemas */
 }
@@ -396,7 +377,6 @@ input[type="text"]::placeholder {
   font-size: 14px;
   text-align: left;
   z-index: 2;
-
 }
 
 /* ───── ESTRELAS ───── */
@@ -418,12 +398,11 @@ input[type="text"]::placeholder {
 .icone-local {
   width: 18px;
   margin-right: 5px;
-
 }
 
 /* ───── VER MAIS ───── */
 .Texto-ver-mais {
-  color: #7DF17D;
+  color: #7df17d;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -436,74 +415,18 @@ input[type="text"]::placeholder {
 }
 
 /* ───── FOOTER ───── */
-
-footer {
-  font-family: "Baloo Thambi 2", sans-serif;
-  line-height: normal;
-  background-image: url(/codigo-fonte/Imagens/Footer.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: var(--surface2);
-  font-family: "Baloo Thambi 2", sans-serif;
-}
-
-.site-footer {
+.footer {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
+  background-color: #3b66438c;
+  color: #fff;
+  padding: 8px 0;
+  justify-content: center;
+  text-align: center;
   width: 100%;
-  height: 200px;
-  margin-top: auto;
-  padding-bottom: 10px;
-  gap: 20px;
 }
 
-.site-footer p {
-  margin: 0;
-  line-height: normal;
-}
-
-.site-footer a {
-  display: block;
-  line-height: 100%;
-  text-decoration: none;
-   color: var(--surface2);
-}
-
-.link-footer {
-  color: var(--surface2);
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 20px;
-}
-
-:root{
-  --footer-padding:5px;
-  --footer-border:1px solid var(--surface2);
-  --footer-border-radius:15px;
-  --footer-padding:5px;
-  --footer-font-weight:500;
-}
-.footer-sobre {
-  display: flex;
-  gap: 5px;
-  border: var(--footer-border);
-  border-radius: var(--footer-border-radius);
-  padding: var(--footer-padding);
-  font-weight: var(--footer-font-weight);
-}
-
-.footer-denuncia {
-  display: flex;
-  gap: 5px;
-  border: var(--footer-border);
-  border-radius: var(--footer-border-radius);
-  padding: var(--footer-padding);
-  font-weight: var(--footer-font-weight);
+.footer p {
+  margin-bottom: 0;
 }
 
 .direitos {
@@ -511,7 +434,6 @@ footer {
   justify-content: center;
   gap: 20px;
 }
-
 
 /* ───── CONTAINER ───── */
 .container.my-5 {
@@ -535,7 +457,6 @@ footer {
 
   .linha-verde {
     width: min(94vw, 1000px);
-
   }
 }
 
@@ -615,7 +536,6 @@ footer {
     width: clamp(56px, 16vw, 92px);
   }
 
-
   .card-text {
     font-size: 13px;
     -webkit-line-clamp: 4;
@@ -658,9 +578,6 @@ footer {
     margin-bottom: 8px !important;
   }
 
-
-
-
   .card-text {
     -webkit-line-clamp: 3;
     line-clamp: 3;
@@ -694,9 +611,6 @@ footer {
     padding: 12px !important;
   }
 
-
-
-
   .card-text {
     font-size: 12px;
     -webkit-line-clamp: 3;
@@ -717,7 +631,7 @@ footer {
     padding: 10px 12px 8px;
   }
 
-  .header>h1 {
+  .header > h1 {
     margin: 0;
   }
 
@@ -779,7 +693,6 @@ footer {
   .card {
     gap: 10px;
   }
-
 
   .texto-sobreposto {
     left: 14px;

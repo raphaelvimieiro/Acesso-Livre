@@ -346,17 +346,24 @@ nav {
 }
 
 /*  FOOTER  */
+.footer {
+  display: flex;
+  background-color: #3b66438c;
+  color: #fff;
+  padding: 8px 0;
+  justify-content: center;
+  width: 100%;
 
-footer {
-    padding: 10px 30px;
-    text-align: center;
-    background: rgba(46, 255, 106, 0.12);
-    border-top: 1px solid rgba(91,234,117,.18);
 }
 
-footer p {
-    font-size: 11px;
-    color: rgba(255,255,255,.9);
+.footer p {
+  margin-bottom: 0;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /*  RESPONSIVIDADE  */

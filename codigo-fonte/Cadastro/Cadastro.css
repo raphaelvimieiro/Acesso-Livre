@@ -202,3 +202,23 @@ main {
   color: #39ff6a;
   text-decoration: none;
 }
+/*Footer*/
+.footer {
+  display: flex;
+  background-color: #3b66438c;
+  color: #fff;
+  padding: 8px 0;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
