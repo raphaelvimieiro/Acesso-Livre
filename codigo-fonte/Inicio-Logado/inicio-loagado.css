@@ -444,6 +444,7 @@ input[type="text"]::placeholder {
   text-align: center;
   font-size: 14px;
   line-height: 150%;
+  font-family: "Baloo Tammubu 2";
 }
 
 .direitos {
@@ -457,6 +458,7 @@ input[type="text"]::placeholder {
 
 /* ───── CONTAINER ───── */
 .container.my-5 {
+  flex: 1;
   margin-top: clamp(4px, 0.8vh, 10px) !important;
   margin-bottom: clamp(8px, 1.2vh, 16px) !important;
 }

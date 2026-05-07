@@ -13,6 +13,9 @@ body {
   color: #fff;
   padding-top: none;
   font-family: 'Faustina', sans-serif;
+  min-height: 100vh;
+ display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -101,8 +104,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 64px); 
-  padding-top: 80px;
+  flex: 1;
 }
 
 /* CARD */
@@ -190,6 +192,7 @@ main {
   text-align: center;
   font-size: 14px;
   line-height: 150%;
+  font-family: "baloo tammudu 2", sans-serif;
 }
 
 .direitos {
