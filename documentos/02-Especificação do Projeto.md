@@ -6,7 +6,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil Deficiente </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
