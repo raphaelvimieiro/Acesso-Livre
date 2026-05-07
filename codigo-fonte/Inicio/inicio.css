@@ -552,10 +552,6 @@ input[type="text"]::placeholder {
     line-clamp: 4;
   }
 
-<<<<<<< HEAD
-=======
-}
->>>>>>> 069c55d402e55ec22c3f95f6aee40e95302a047d
 
 @media (max-height: 900px) {
   .header {
