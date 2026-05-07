@@ -10,6 +10,9 @@ body {
   background: radial-gradient(circle at top, #171414, #171414);
   color: #fff;
   padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* HEADER */
@@ -102,6 +105,7 @@ main {
   justify-content: center;
   align-items: flex-start; 
   padding-top: 80px;
+  flex: 1;
 }
 
 /* CAIXA */
@@ -203,18 +207,29 @@ main {
   text-decoration: none;
 }
 /*Footer*/
+
 .footer {
   display: flex;
   background-color: #3b66438c;
   color: #fff;
-  padding: 8px 0;
+  padding: 1px;
   justify-content: center;
   width: 100%;
+  margin-bottom: 0;
 
 }
 
 .footer p {
   margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .direitos {

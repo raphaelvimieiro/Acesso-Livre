@@ -427,18 +427,23 @@ input[type="text"]::placeholder {
 }
 
 /* ───── FOOTER ───── */
+
 .footer {
   display: flex;
   background-color: #3b66438c;
   color: #fff;
-  padding: 8px 0;
+  padding: 1px;
   justify-content: center;
-  text-align: center;
   width: 100%;
+  margin-bottom: 0;
+
 }
 
 .footer p {
   margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 .direitos {
@@ -559,9 +564,6 @@ input[type="text"]::placeholder {
     line-clamp: 4;
   }
 
-  .site-footer {
-    padding: 8px 12px;
-  }
 }
 
 @media (max-height: 900px) {
@@ -594,8 +596,6 @@ input[type="text"]::placeholder {
     margin-top: 4px !important;
     margin-bottom: 8px !important;
   }
-
-
   
 
   .card-text {
@@ -629,10 +629,7 @@ input[type="text"]::placeholder {
   .card {
     gap: 6px;
     padding: 12px !important;
-  }
-
-  
-
+  } 
 
   .card-text {
     font-size: 12px;
@@ -640,9 +637,6 @@ input[type="text"]::placeholder {
     line-clamp: 3;
   }
 
-  .site-footer {
-    padding: 4px 12px;
-  }
 }
 
 @media (max-width: 575.98px) {
@@ -738,7 +732,4 @@ input[type="text"]::placeholder {
     font-size: 14px;
   }
 
-  .site-footer p {
-    font-size: 11px;
-  }
 }
