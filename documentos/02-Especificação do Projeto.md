@@ -19,7 +19,7 @@
   
 2.Realizar denúncias de irregularidades diretamente no órgão regulatório.
   
-3.Na aba noticia o usuario tem possibilidade de ver avaliações de estabelecimento e também avaliar
+3.Na aba notícia, o usuario tem possibilidade de ver avaliações de estabelecimento e também avaliar.
 
 4.Saber se o estabelecimento possui funcionários treinados em Libras ou capacitados para auxílio à locomoção/orientação de pessoas cegas.
   
