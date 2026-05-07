@@ -440,8 +440,9 @@ input[type="text"]::placeholder {
   gap: 20px;
 }
 
-/* ───── CONTAINER ───── */
+/* ───── CONTAINER / MAIN ───── */
 .container.my-5 {
+  flex: 1;
   margin-top: clamp(4px, 0.8vh, 10px) !important;
   margin-bottom: clamp(8px, 1.2vh, 16px) !important;
 }
