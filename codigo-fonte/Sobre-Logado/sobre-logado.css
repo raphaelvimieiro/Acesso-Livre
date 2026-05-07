@@ -397,18 +397,24 @@ input[type="text"]::placeholder {
   transform: translateY(4px); /* antes: -4px */
 }
 
+/* footer */
+
 .footer {
   display: flex;
   background-color: #3b66438c;
   color: #fff;
-  padding: 8px 0;
+  padding: 1px;
   justify-content: center;
   width: 100%;
-  
+  margin-bottom: 0;
+
 }
 
 .footer p {
   margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 .direitos {
@@ -579,9 +585,7 @@ input[type="text"]::placeholder {
     column-gap: 24px;
   }
 
-  .site-footer {
-    height: 16px;
-  }
+
 }
 
 /* Centraliza os números dos quadrados em telas de computador */

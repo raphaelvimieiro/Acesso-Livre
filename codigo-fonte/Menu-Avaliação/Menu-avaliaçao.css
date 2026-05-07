@@ -470,18 +470,24 @@ main.container.my-5 {
 }
 
 /* footer */
+
 .footer {
   display: flex;
   background-color: #3b66438c;
   color: #fff;
-  padding: 8px 0;
+  padding: 1px;
   justify-content: center;
-  text-align: center;
   width: 100%;
+  margin-bottom: 0;
+
 }
 
 .footer p {
   margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Baloo Tammubu 2";
 }
 
 .direitos {
