@@ -19,7 +19,7 @@
   
 2.Realizar denúncias de irregularidades diretamente no órgão regulatório.
   
-3.O sistema permite a segmentação de estabelecimentos por cidade, integrando filtros personalizados que detalham os recursos de inclusão disponíveis, como rotas acessíveis, sinalização tátil, mobiliário adequado e suporte para pessoas com deficiência auditiva ou visual.
+3.Na aba noticia o usuario tem possibilidade de ver avaliações de estabelecimento e também avaliar
 
 4.Saber se o estabelecimento possui funcionários treinados em Libras ou capacitados para auxílio à locomoção/orientação de pessoas cegas.
   
