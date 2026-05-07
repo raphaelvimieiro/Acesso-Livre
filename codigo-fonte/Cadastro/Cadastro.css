@@ -42,7 +42,7 @@ body {
 }
 
 .header span {
-  color: #39ff6a;
+  color: #5BEA75;
 }
 
 /* MENU CENTRAL */
@@ -58,7 +58,7 @@ body {
 }
 
 .nav a:hover {
-  color: #17ac19;
+  color: #5BEA75;
 }
 
 /* DIREITA */
@@ -74,8 +74,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: #252525;
+  border: 1px solid #3a3a3a;
   border-radius: 999px;
   padding: 6.4px 16px;
   width: 220px;
@@ -85,13 +85,13 @@ body {
   background: none;
   border: none;
   outline: none;
-  color: var(--text);
+  color: #f0f0f0;
   font-family: inherit;
   font-size: 14px;
   width: 100%;
 }
 .busca::placeholder {
-  color: var(--text-dim);
+  color: #707070;
 }
 
 .lupa-icon {
@@ -113,12 +113,14 @@ main {
 
 /* CAIXA */
 .form-box {
-  width: 420px;
-  padding: 40px;
+  width: 620px;
+   padding: 0 50px;
+  margin-bottom: 10px;
   border-radius: 50px; 
-  background: #373636;
-  box-shadow: 0 0 25px #39ff6a;
-  border: 1px solid #39ff6a;
+  background: #252525;
+  box-shadow: 0 0 25px #5BEA75;
+  border: 1px solid #5BEA75;
+  zoom: 0.70;
 }
 
 /* TÍTULO */
@@ -126,10 +128,12 @@ main {
   text-align: center;
   margin-bottom: 25px;
   font-weight: 400;
+  font-size: 40px;
+  
 }
 
 .form-box h2 span {
-  color: #39ff6a;
+  color: #5BEA75;
 }
 
 /* LINHA DUPLA */
@@ -145,7 +149,7 @@ main {
 }
 
 .input-group label {
-  font-size: 12px;
+  font-size: 16px;
   color: #ccc;
 }
 
@@ -153,7 +157,7 @@ main {
   width: 100%;
   background: transparent;
   border: none;
-  border-bottom: 2px solid #39ff6a;
+  border-bottom: 2px solid #5BEA75;
   padding: 8px 0;
   color: #fff;
   outline: none;
@@ -174,13 +178,13 @@ main {
 
 /* CHECKBOX */
 .checkbox {
-  font-size: 13px;
+  font-size: 16px;
   margin: 15px 0;
   color: #ccc;
 }
 
 .checkbox a {
-  color: #39ff6a;
+  color: #5BEA75;
   text-decoration: none;
 }
 
@@ -190,10 +194,10 @@ main {
   padding: 12px;
   border-radius: 25px;
   border: none;
-  background: #39ff6a;
+  background: #5BEA75;
   color: #000;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
 }
@@ -202,11 +206,11 @@ main {
 .form-box p {
   text-align: center;
   margin-top: 15px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .form-box a {
-  color: #39ff6a;
+  color: #5BEA75;
   text-decoration: none;
 }
 /*Footer*/
