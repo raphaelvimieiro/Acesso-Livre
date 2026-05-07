@@ -49,7 +49,7 @@ Observou-se também a unanimidade nos relatos quanto à inverdade ou imprecisão
 Devido a essa insegurança, oitenta e três vírgula três por cento dos  indivíduos optam por uma "visita antecipada", fazem mapeamento prévio do local pelo Google maps, buscam fotos e pessoas que já foram no local. A sexta pessoa desconhece os métodos para tais pesquisas, cenário motivado pela ausência ou precariedade de informação dos recursos de acessibilidade.
 
 
-Sessenta e sete por cento dos entrevistados nunca formalizaram denúncias; e não por falta de vontade, mas por desconhecer os canais de comunicação. Outra parcela aponta a burocracia e a complexidade do processo como fatores desestimulantes. 
+77% dos entrevistados nunca formalizaram denúncias; e não por falta de vontade, mas por desconhecer os canais de comunicação. Outra parcela aponta a burocracia e a complexidade do processo como fatores desestimulantes. 
   
 Diante da ineficácia dos órgãos competentes e canais oficiais de denúncia, o usuário recorre para redes colaborativas e ferramentas digitais de avaliação como forma de autoproteção e alerta à comunidade. 
 

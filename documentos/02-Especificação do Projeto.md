@@ -6,7 +6,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil Deficiente </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
@@ -15,11 +15,12 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
 1.Precisa identificar de maneira fácil e rápida, locais que possuem acessibilidade.
   
 2.Realizar denúncias de irregularidades diretamente no órgão regulatório.
   
-3.O usuario tem possibilidade de ver avaliações de estabelecimento e também avaliar.
+3.O usuario tem possibilidade de ver avaliações de outros usuarios nos estabelecimentos e também pode avaliar.
 
 4.Saber se o estabelecimento possui funcionários treinados em Libras ou capacitados para auxílio à locomoção/orientação de pessoas cegas.
   
@@ -35,7 +36,7 @@
 | EU COMO... `QUEM` | QUERO/PRECISO ... `O QUE` | PARA ... `PORQUE` |
 | :--- | :--- | :--- |
 | Deficiente | ter informações de acessibilidade em eventos | aproveitar momentos de lazer. |
-| Deficiente | consultar informações sobre locais públicos e privados | evitar situações constrangedoras e de risco. |
+| Deficiente | consultar informações sobre locais públicos e privados | avaliar situações constrangedoras e de risco. |
 | Deficiente | consultar locais com denúncias de falta de acessibilidade | saber se conseguirá acessar o local com segurança. |
 | Deficiente | poder denunciar às autoridades competentes locais sem acessibilidade | cobrar melhorias e recursos acessíveis. |
 
