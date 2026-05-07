@@ -24,11 +24,11 @@ img[height] {
 
 /*Menu Login*/
 .Pesquisa-Login {
-  gap: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 150px;
+  gap: 16px;
+  margin-left: auto;
 }
 
 /*Barra de busca*/
@@ -37,7 +37,9 @@ img[height] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 0;
+  /* largura e aparência do contêiner da busca */
+  width: clamp(220px, 28vw, 340px);
 }
 .btn-user {
   background: transparent;
@@ -52,7 +54,7 @@ img[height] {
   background-color: #3ad33a;
   border-color: #3ad33a;
   font-weight: bolder;
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .btn-user:hover {
@@ -72,10 +74,18 @@ input[type="text"] {
   background-color: #1f1d1d;
   border: 2px solid #1f1d1d;
   color: rgb(255, 240, 240);
-  padding: 8px 15px;
-  border-radius: 26px;
+  /* espaço à direita para acomodar o ícone de busca */
+  padding: 8px 36px 8px 16px;
+  border-radius: 28px;
   font-family: "Arial", sans-serif;
   font-size: 13px;
+  width: 100%;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.02),
+    0 1px 6px rgba(0, 0, 0, 0.6);
 }
 
 input[type="search"]::placeholder,
@@ -87,8 +97,21 @@ input[type="text"]::placeholder {
   width: 18px;
   height: 18px;
   position: absolute;
-  right: 12px;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
   cursor: pointer;
+}
+input[type="search"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(90, 235, 117, 0.06);
+  border-color: rgba(90, 235, 117, 0.18);
+}
+
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: #bdbdbd;
 }
 
 /*Header*/
@@ -97,9 +120,10 @@ input[type="text"]::placeholder {
   top: 0;
   z-index: 1000;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: clamp(14px, 2vw, 32px);
+  justify-content: flex-start;
+  align-items: center;
+  /* reduzir espaço entre logo e demais elementos para aproximar do menu */
+  gap: clamp(6px, 1.5vw, 12px);
   padding: clamp(10px, 2vh, 22px) clamp(16px, 3vw, 48px) 0;
   margin-bottom: clamp(8px, 1.4vh, 16px);
   background: rgba(24, 21, 21, 0.92);
@@ -113,6 +137,10 @@ input[type="text"]::placeholder {
   font-family: "Faustina", serif;
 }
 
+.logo-header {
+  margin-right: 8px;
+}
+
 .livre-text {
   color: #5bea75;
 }
@@ -124,6 +152,14 @@ input[type="text"]::placeholder {
   margin: 0;
   padding: 0;
   font-family: "Faustina", serif;
+}
+
+/* centraliza a barra de menu no centro do header */
+.menu {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .menu li {
   position: relative;
@@ -202,7 +238,7 @@ input[type="text"]::placeholder {
   height: 25px;
   cursor: pointer;
   align-self: center;
-  margin-left: 400px; /* Ajuste para posicionar o ícone mais à direita */
+  margin-left: 0;
 }
 
 .restaurant-hero {
@@ -479,7 +515,6 @@ main.container.my-5 {
   justify-content: center;
   width: 100%;
   margin-bottom: 0;
-
 }
 
 .footer p {
