@@ -15,6 +15,7 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
+  
 1.Precisa identificar de maneira fácil e rápida, locais que possuem acessibilidade.
   
 2.Realizar denúncias de irregularidades diretamente no órgão regulatório.
