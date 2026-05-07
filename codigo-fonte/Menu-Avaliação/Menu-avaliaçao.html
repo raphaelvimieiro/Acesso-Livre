@@ -20,36 +20,59 @@
     />
   </head>
   <body>
-  <header class="header">
-    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
-    <nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-      <ul class="menu">
-        <li class="active">
-          <a href="/Inicio/inicio.html">Início</a>
-          
-        </li>
-      <li><a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a></li>
-      <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a></li>
-      <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
-      <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a>
-        <span class="dot"></span></li>
-      </ul>
-    </nav>
-    <div class="Pesquisa-Login">
-     <div style="position: relative; display: flex; align-items: center;">
-  <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
-  <img onclick="window.location.href='../Pesquisa-Logado/searchL.html'" class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
-</div>
-      <div class="box-lateral">
-        <img class="usuario-logado" src="../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
-      <button class="btn-user" onclick="window.location.href ='/codigo-fonte/Inicio/inicio.html'">sair</button>
+    <header class="header">
+      <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+      <nav>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <ul class="menu">
+          <li>
+            <a href="/Inicio/inicio.html">Início</a>
+          </li>
+          <li>
+            <a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a>
+          </li>
+          <li>
+            <a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a>
+          </li>
+          <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+          <li class="active">
+            <a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html"
+              >Avaliação</a
+            >
+            <span class="dot"></span>
+          </li>
+        </ul>
+      </nav>
+      <div class="Pesquisa-Login">
+        <div style="position: relative; display: flex; align-items: center">
+          <input
+            type="text"
+            name="Busca"
+            required
+            placeholder="Buscar locais, bairros..."
+          />
+          <img
+            onclick="window.location.href = '../Pesquisa-Logado/searchL.html'"
+            class="lupa-icon"
+            src="../Imagens/lupa.png"
+            alt="Ícone de lupa"
+          />
+        </div>
+        <div class="box-lateral">
+          <img
+            class="usuario-logado"
+            src="../Imagens/Logadoimagem.png"
+            alt="Ícone de usuário"
+          />
+          <button
+            class="btn-user"
+            onclick="window.location.href = '/codigo-fonte/Inicio/inicio.html'"
+          >
+            sair
+          </button>
+        </div>
       </div>
-     </div>
-  
-    
-    
-  </header>
+    </header>
     <main class="container my-5">
       <section class="restaurant-hero">
         <img
@@ -169,10 +192,8 @@
     <footer class="footer">
       <div class="container">
         <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
-
       </div>
     </footer>
-  
 
     <script src="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.js"></script>
   </body>
