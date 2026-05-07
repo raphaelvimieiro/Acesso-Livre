@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -22,29 +22,30 @@
 
 <body>
 
+   <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
     <nav>
-        <a href="/codigo-fonte/Inicio/inicio.html">Acesso<span class="logo-navbar">Livre</span></a>
-        <a href="/codigo-fonte/Inicio/inicio.html">Ínicio</a>
-        <a href="/codigo-fonte/Sobre/sobre.html">Sobre</a>
-        <a href="/codigo-fonte/Noticias/noticias.html">Notícias</a>
-        <a href="/codigo-fonte/Denúncia/denuncia-deslogado.html">Denúncia</a>
-        <div class="menu-login">
-        
-          <img
-            class="usuario-icon"
-            src="/codigo-fonte/Imagens/Logadoimagem.png"
-            alt="Ícone de usuário"
-          />
-          <p>Entrar/Criar conta</p>
-        
-      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="menu">
+        <li>
+          <a href="/Inicio/inicio.html">Início</a>
+         
+        </li>
+        <li><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a></li>
+        <li><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a></li>
+        <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+      </ul>
     </nav>
+    <div class="Pesquisa-Login">
+      <button class="btn-user">Entrar/Criar conta</button>
+    </div>
+  </header>
 
 
     <main>
         <div class="search">
 
-            <a href="search.html" class="logo-main">Acesso<span class="logo-livre-main">Livre</span></a>
+            <a href="search.html" class="logo-main  text-center">Acesso<span class="logo-livre-main">Livre</span></a>
 
             <label>
                 <div class="lupa-bar" id="Search">
@@ -68,7 +69,6 @@
                         <option value="cidade3">Belo Horizonte</option>
                         <option value="cidade4">Curitiba</option>
                         <option value="cidade5">Porto Alegre</option>
-    
                     </select>
     
                 </div>
