@@ -130,6 +130,9 @@ img[height] {
   align-items: center;
 }
 
+
+
+
 .btn-user {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -542,10 +545,6 @@ input[type="text"]::placeholder {
     line-clamp: 4;
   }
 
-  .site-footer {
-    padding: 8px 12px;
-  }
-}
 
 @media (max-height: 900px) {
   .header {
@@ -717,4 +716,5 @@ input[type="text"]::placeholder {
   .site-footer p {
     font-size: 11px;
   }
+}
 }
