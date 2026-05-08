@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Recuperar Senha</title>
@@ -8,39 +9,49 @@
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header class="header">
- <h1>Acesso <span>Livre</span></h1>
-  
-  <nav class="nav">
-    <a href="#">Início</a>
-    <a href="#">Sobre</a>
-    <a href="#">Notícias</a>
-    <a href="#">Denúncias</a>
-  </nav>
+  <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="menu">
+        <li>
+          <a href="/Inicio/inicio.html">Início</a>
 
-   <div class="busca-wrapper">
-          <input type="text" placeholder="Buscar locais, bairros..." class="busca">
-          <img class="lupa-icon" src="/codigo-fonte/Imagens/lupa.png" alt="Ícone de lupa" />
-        </div>
-</header>
+        </li>
+        <li><a href="/codigo-fonte/Sobre/sobre.html">Sobre</a></li>
+        <li><a href="/codigo-fonte/Noticias/noticias.html">Notícia</a></li>
+        <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+      </ul>
+    </nav>
+    <div class="Pesquisa-Login">
+      <div class="box-lateral">
+        <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
+        <img onclick="window.location.href='../Pesquisa/searchNL.html'" class="lupa-icon" src="../Imagens/lupa.png"
+          alt="Ícone de lupa" />
+      </div>
+      <button class="btn-user">Entrar/Criar conta</button>
+    </div>
+  </header>
 
-<main>
-  <div class="card">
-    <h2>Recuperar <span>senha</span></h2>
+  <main>
+    <div class="card">
+      <h2>Recuperar <span>senha</span></h2>
 
-    <label>Digite a nova senha:</label>
-    <input type="password">
+      <label>Digite a nova senha:</label>
+      <input type="password">
 
-    <label>Confirmar senha:</label>
-    <input type="password">
+      <label>Confirmar senha:</label>
+      <input type="password">
 
-    <button>Recuperar</button>
-  </div>
-</main>
- <footer class="footer">
-        <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
-    </footer>
+      <button>Recuperar</button>
+    </div>
+  </main>
+  <footer class="footer">
+    <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
+  </footer>
 </body>
+
 </html>
