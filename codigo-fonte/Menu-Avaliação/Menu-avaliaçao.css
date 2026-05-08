@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
 body {
   color: white;
   background: #181515;
@@ -23,49 +30,121 @@ img[height] {
   height: auto;
 }
 
-/*Menu Login*/
-.Pesquisa-Login {
+/* ───── HEADER ───── */
+.header {
+ 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(10px, 1.4vw, 24px);
+  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+  margin-bottom: clamp(4px, 0.8vh, 10px);
+
+  width: 100%;
+   padding: 20px 50px;
+}
+
+
+.logo-header{
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'Faustina', serif;
+ 
+}
+.livre-text {
+  color: #5BEA75;
+}
+
+/* ───── MENU ───── */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-align: flex-start;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  font-family: "Faustina", serif;
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -17%);
+}
+
+
+  
+.menu li {
+  position: relative;
+  padding-bottom: 12px;
+  cursor: pointer;
+  text-align:  flex-start;
+  font-family: "Baloo Tammudu 2", sans-serif;
+  
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu .inicio a {
+  color: #5BEA75;
+}
+
+
+/* pontinho ativo */
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #5BEA75;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5px;
+}
+
+.menu li:not(.active) .dot {
+  display: none;
+}
+
+.menu li.active a {
+  color: #5BEA75;
+}
+
+.menu a:hover {
+  color: #5BEA75;
+}
+
+/* ───── MENU LOGIN ───── */
+
+.Pesquisa-Login{
+  gap: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 16px;
-  margin-left: auto;
-}
-
-.search-box {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-top: 15px;
-}
-
-/*Barra de busca*/
-.box-lateral {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  margin-left: 0;
-  margin-top: 15px;
-  align-items: center;
-  min-height: 42px;
-  /* largura e aparência do contêiner da busca */
-  width: clamp(220px, 28vw, 340px);
+  margin-left: 150px;
 }
 .btn-user {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, .35);
   border-radius: 20px;
-  padding: 0px 15px;
+  padding: 0px 15px ;
   font-size: 12px;
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  height: 36px;
+  height: 25px;
   color: #181515;
-  background-color: #3ad33a;
-  border-color: #3ad33a;
+  background-color: #3AD33A;
+  border-color: #3AD33A;
   font-weight: bolder;
-  margin-left: 0;
+  margin-left: 20px;
 }
 
 .btn-user:hover {
@@ -74,24 +153,23 @@ img[height] {
   border-color: #ffffff;
 }
 
-/* (Consolidado acima) */
+
+/* ───── BUSCA ───── */
+.box-lateral {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 
 input[type="search"],
 input[type="text"] {
   background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
   color: rgb(255, 240, 240);
-  /* espaço à direita para acomodar o ícone de busca */
-  padding: 8px 36px 8px 16px;
-  border-radius: 28px;
+  padding: 8px 15px;
+  border-radius: 26px;
   font-family: "Arial", sans-serif;
   font-size: 13px;
-  width: 100%;
-  height: 42px;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.02),
-    0 1px 6px rgba(0, 0, 0, 0.6);
 }
 
 input[type="search"]::placeholder,
@@ -103,145 +181,10 @@ input[type="text"]::placeholder {
   width: 18px;
   height: 18px;
   position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 12px;
   cursor: pointer;
 }
-input[type="search"]:focus,
-input[type="text"]:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(90, 235, 117, 0.06);
-  border-color: rgba(90, 235, 117, 0.18);
-}
-
-input[type="search"]::placeholder,
-input[type="text"]::placeholder {
-  color: #bdbdbd;
-}
-
-/*Header*/
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /* reduzir espaço entre logo e demais elementos para aproximar do menu */
-  gap: clamp(6px, 1.5vw, 12px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(16px, 3vw, 48px) 8px;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
-  background: rgba(24, 21, 21, 0.92);
-}
-
-/* logo */
-
-.header h1 {
-  font-size: 32px;
-  font-weight: 300;
-  font-family: "Faustina", serif;
-}
-
-.logo-header {
-  margin-right: 8px;
-}
-
-.livre-text {
-  color: #5bea75;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-}
-
-/* centraliza a barra de menu no centro do header */
-.menu {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -17%);
-}
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
-  cursor: pointer;
-  text-align: center;
-font-family: "Baloo Tammudu 2", sans-serif;
-}
-
-
-.menu a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-/*Fica apenas a palavra inicio marcada*/
-
-/* pontinho */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5bea75;
-  border-radius: 50%;
-
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -8px;
-}
-/* só aparece no ativo */
-.menu li:not(.active) .dot {
-  display: none;
-}
-/* Deixa a palavra do menu ativa verde */
-.menu li.active a {
-  color: #5bea75;
-}
-
-.menu-login {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0px;
-  padding:30px;
-  font-family: "Faustina", serif;
-}
-
-.menu-login > a {
-  text-decoration: none;
-  margin-left: 10px;
-  font-family: "Faustina", serif;
-  font-size: 80%;
-}
-
-/*Efeito hover no menu */
-.menu a:hover {
-  color: #5bea75;
-}
-
-.menu-login li:hover {
-  color: #5bea75;
-}
-
-.menu-login li:hover {
-  background-color: transparent;
-  border-color: transparent;
-  color: inherit;
-}
-/*Faz com que o incone de usuário fique à direita  e  altura junto com menu */
-.usuario-logado {
-  width: 32px;
-  height: 32px;
-  cursor: pointer;
-  align-self: center;
-  margin-left: 0;
-}
+/* ───── HEADER ───── */
 
 .restaurant-hero {
   position: relative;
