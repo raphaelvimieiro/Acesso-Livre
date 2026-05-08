@@ -28,7 +28,7 @@ body {
             rgba(0,0,0,0.84) 62%,
             rgba(0,0,0,0.92) 100%
         ),
-        url("Img/Idosa.png");
+        url("/codigo-fonte/Imagens/Idosa.png");
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
@@ -338,7 +338,7 @@ nav {
     right: 12px;
     width: 18px;
     height: 18px;
-    background-image: url("Img/reverse.png");
+    background-image: url("/codigo-fonte/Imagens/reverse.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
