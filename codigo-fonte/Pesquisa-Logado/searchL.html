@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa</title>
     <link
-       rel="Stylesheet"
-       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"/>
+      rel="Stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="searchL.css">
    
@@ -21,22 +22,29 @@
 
 <body>
 
-    <nav>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-        <a href="../Inicio-Logado/inicio-logado.html">Acesso<span class="logo-navbar">Livre</span></a>
-        <a href="../Inicio-Logado/inicio-logado.html">Ínicio</a>
-        <a href="../Sobre-Logado/sobre-logado.html">Sobre</a>
-        <a href="../Noticias-Logado/noticiasLO.html">Notícias</a>
-        <a href="../Denúncia/denuncia-deslogado.html">Denúncia</a>
-        <a href="../Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a>
-        <div class="menu-login">
+        <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <ul class="menu">
+      <li><a href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a></li>
+      <li ><a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a>
+    
+      </li>
+      <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a></li>
+      <li><a href="/codigo-fonte/Denuncias/denuncias.html">Denúncia</a></li>
+      <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
+    </ul>
 
-            <img class="usuario-icon" src="/codigo-fonte/Imagens/Logadoimagem.png" alt="Ícone de usuário" />
+    <div class="Pesquisa-Login">
+      <img class="usuario-logado" src="../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
 
-            <a href="/codigo-fonte/Inicio/inicio.html">Sair</a>
+    
 
-        </div>
-    </nav>
+
+    <button class="btn-user" onclick="window.location.href='/codigo-fonte/Inicio/inicio.html'">sair</button>
+    </div>
+
+  </header>
 
 
     <main>
