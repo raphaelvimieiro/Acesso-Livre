@@ -7,37 +7,35 @@
 
   <link rel="stylesheet" href="denuncia-logado.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;700;900&family=Faustina:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;700;900&family=Faustina:wght@400;700&family=Baloo+Thambi+2:wght@400..800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="logo">Acesso<span>Livre</span></div>
+<header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="../../Inicio-Logado/inicio-logado.html">Início</a></li>
+        <li><a href="../../Sobre-Logado/sobre-logado.html">Sobre</a></li>
+        <li><a href="../../Noticias-Logado/noticiasLO.html">Notícia</a></li>
+        <li class="active">
+          <a href="denuncia-logado.html">Denúncia</a>
+          <span class="dot"></span>
+        </li>
+        <li><a href="../../Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
+      </ul>
+    </nav>
 
-    <ul class="nav-links">
-      <li><a href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a></li>
-      <li><a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a></li>
-      <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícias</a></li>
-      <li class="active-item">
-        <a href="/codigo-fonte/Denúncia/Denuncia-logado/denuncia-logado.html" class="active">Denúncia</a>
-
-      </li>
-      <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
-    </ul>
-
-<div class="user-menu">
-
-    <button class="btn-user-icon" onclick="toggleMenu()">
-        <img src="Img/vector.png" alt="Usuário">
-    </button>
-
-    <div class="dropdown-user" id="dropdownUser">
-        <button onclick="logoutUser()">Sair</button>
+    <div class="Pesquisa-Login">
+      <div class="box-lateral">
+        <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
+        <img onclick="window.location.href='../../Pesquisa-Logado/searchL.html'" class="lupa-icon" src="../../Imagens/lupa.png" alt="Ícone de lupa" />
+      </div>
+      <div>
+        <img class="usuario-logado" src="../../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
+        <button class="btn-user" onclick="window.location.href='../../Inicio/inicio.html'">sair</button>
+      </div>
     </div>
-
-</div>
-  </nav>
 </header>
 
 <main class="hero">
@@ -68,12 +66,10 @@
 
     <div class="card" onclick="flipCard(this)">
       <div class="card-inner">
-
         <div class="card-front">
           <span class="icon-refresh"></span>
           <p>O que<br>preciso?</p>
         </div>
-
         <div class="card-back">
           <p>
             Registros visuais: fotos e vídeos.<br><br>
@@ -81,76 +77,63 @@
             Breve descrição do problema.
           </p>
         </div>
-
       </div>
     </div>
 
-
     <div class="card" onclick="flipCard(this)">
       <div class="card-inner">
-
         <div class="card-front">
           <span class="icon-refresh"></span>
           <p>Seus<br>direitos</p>
         </div>
-
         <div class="card-back">
           <p>
             A acessibilidade é garantida por lei.<br><br>
             Nenhum cidadão deve enfrentar barreiras.
           </p>
         </div>
-
       </div>
     </div>
 
-
     <div class="card" onclick="flipCard(this)">
       <div class="card-inner">
-
         <div class="card-front">
           <span class="icon-refresh"></span>
           <p>Impacto da<br>denúncia</p>
         </div>
-
         <div class="card-back">
           <p>
             Sua denúncia gera visibilidade e ajuda
             outras pessoas com a mesma necessidade.
           </p>
         </div>
-
       </div>
     </div>
 
-
     <div class="card" onclick="flipCard(this)">
       <div class="card-inner">
-
         <div class="card-front">
           <span class="icon-refresh"></span>
           <p>Próximos<br>passos</p>
         </div>
-
         <div class="card-back">
           <p>
             Clique no botão ao lado e seja
             redirecionado ao portal oficial.
           </p>
         </div>
-
       </div>
     </div>
 
   </section>
 
 </main>
-<footer class="footer">
-      <div class="container">
-        <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
 
-      </div>
-    </footer>
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
+  </div>
+</footer>
 
 <script src="denuncia-logado.js"></script>
 
