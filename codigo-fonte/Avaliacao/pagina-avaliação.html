@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação</title>
+
+    <link rel="stylesheet" href="pagina-avaliação.css">
+    <!-- Fontes -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <div class="container-main">
+        <div class="box-left">
+
+            <h1>Avalie</h1>
+            <P><span>Estamos aqui para ouvir você.</span>
+                Se você enfrentou dificuldades de locomoção ou identificou algo incorreto, use este espaço. Analisamos
+                cada caso individualmente para oferecer a melhor solução possível.</P>
+
+        </div>
+        <form action="submit">
+            <div class="container-form">
+                <h2>Registrar <span>avaliação</span></h2>
+                <div class="options">
+                    <div>
+
+                        <input type="checkbox" name="Acessibilidade" id="acessibilidade" class="hidden-checkbox">
+                        <label for="acessibilidade" class="button-label">
+                            <span class="icon">♿</span> Acessibilidade
+                        </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="ObraBloqueio" id="ObraBloqueio" class="hidden-checkbox">
+                        <label for="ObraBloqueio" class="button-label"><span
+                                class="icon">🛠️</span>Obra/Bloqueio</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Informacoesincorretas" id="informacoesincorretas"
+                            class="hidden-checkbox">
+                        <label for="informacoesincorretas" class="button-label"><span class="icon">⚠️</span>Informações
+                            incorretas</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="outro" id="outro" class="hidden-checkbox">
+                        <label for="outro" class="button-label"><span class="icon">➕</span>Outro</label>
+                    </div>
+                </div>
+
+                <div class="rating-container" name="rating">
+                    <h5>Nota geral</h5>
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="nota" value="5"><label for="star5">★</label>
+                        <input type="radio" id="star4" name="nota" value="4"><label for="star4">★</label>
+                        <input type="radio" id="star3" name="nota" value="3"><label for="star3">★</label>
+                        <input type="radio" id="star2" name="nota" value="2"><label for="star2">★</label>
+                        <input type="radio" id="star1" name="nota" value="1"><label for="star1">★</label>
+                    </div>
+                </div>
+                <div class="input">
+                    <h5>Local</h5> <br>
+                    <input type="text" name="local" id="" placeholder="Digite um local ou endereço">
+                </div>
+                <div class="input">
+                    <h5>Comentário</h5> <br>
+                    <textarea name="comentario" id=""></textarea>
+                </div>
+                <button type="submit" class="submit-button">Enviar Avaliação</button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
