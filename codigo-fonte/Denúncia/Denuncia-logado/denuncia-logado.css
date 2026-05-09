@@ -287,19 +287,31 @@ body {
     background-position: center;
 }
 
-/* ───── FOOTER (IGUAL À PRIMEIRA IMAGEM) ───── */
+
+/* ───── FOOTER ───── */
+
 .footer {
   display: flex;
   background-color: #3b66438c;
   color: #fff;
-  padding: 15px 0;
+  padding: 1px;
   justify-content: center;
   width: 100%;
+  margin-bottom: 0;
+
 }
 
 .footer p {
   margin-bottom: 0;
   text-align: center;
   font-size: 14px;
-  font-family: "Baloo Thambi 2", sans-serif;
+  line-height: 150%;
+  font-family: "Baloo Tammubu 2";
 }
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
