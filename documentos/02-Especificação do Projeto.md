@@ -39,6 +39,7 @@
 | Deficiente | consultar informações sobre locais públicos e privados | avaliar situações constrangedoras e de risco. |
 | Deficiente | consultar locais com denúncias de falta de acessibilidade | saber se conseguirá acessar o local com segurança. |
 | Deficiente | poder denunciar às autoridades competentes locais sem acessibilidade | cobrar melhorias e recursos acessíveis. |
+| Deficiente | poder avaliar um local visitado pela acessibilidade dele | para outras pessoas decidirem se o local é seguro e funcional para eles antes de saírem de casa.. |
 
 ## Requisitos do Projeto
 
