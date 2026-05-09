@@ -5,25 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"/>
     <link rel="stylesheet" href="pagina-avaliação.css">
-    <!-- Fontes -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
+    
+  
 
 </head>
 
 <body>
-    <header>
-
-    </header>
+     <header class="header">
+    <h1 class="logo-header">Acesso<span class="livre-text">Livre</span></h1>
+    <nav>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+      <ul class="menu">
+        <li class="active">
+          <a href="/Inicio/inicio.html">Início</a>
+          <span class="dot"></span>
+        </li>
+      <li><a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a></li>
+      <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a></li>
+      <li><a href="/codigo-fonte/Denúncia/Denuncia-logado/denuncia-logado.html">Denúncia</a></li>
+      <li><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a></li>
+      </ul>
+    </nav>
+    <div class="Pesquisa-Login">
+      <div class="box-lateral">
+        <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
+       <img onclick="window.location.href='../Pesquisa-Logado/'" class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
+      </div>
+      <div>
+        <img class="usuario-logado" src="../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
+      <button class="btn-user" onclick="window.location.href ='/codigo-fonte/Inicio/inicio.html'">sair</button>
+      </div>
+      
+    </div>
+    
+    
+  </header>
 
     <div class="container-main">
         <div class="box-left">
 
-            <h1>Avalie</h1>
+            <div class="titulo-main">Avalie</div >
             <P><span>Estamos aqui para ouvir você.</span>
                 Se você enfrentou dificuldades de locomoção ou identificou algo incorreto, use este espaço. Analisamos
                 cada caso individualmente para oferecer a melhor solução possível.</P>
@@ -80,7 +104,12 @@
         </form>
 
     </div>
+<footer class="footer text-center">
+      <div class="container">
+        <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
 
+      </div>
+    </footer>
 </body>
 
 </html>

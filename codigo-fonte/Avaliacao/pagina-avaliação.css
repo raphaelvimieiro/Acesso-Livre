@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -8,19 +7,194 @@
 }
 
 body {
-    background-color: #1f1d1e;
+    background-color: #171414;
     color: white;
+    background-image: url(/codigo-fonte/Imagens/Cadeirante-restaurante.jpg);
+    background-position: -700px center;
+    /* mova mais para esquerda diminuindo o % */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+background: linear-gradient(
+    to left,
+    #171414 45%,
+    rgba(23, 20, 20, 0.95) 52%,
+    rgba(23, 20, 20, 0.85) 58%,
+    rgba(23, 20, 20, 0.70) 64%,
+    rgba(23, 20, 20, 0.65) 70%,
+    rgba(23, 20, 20, 0.65) 100%
+);
+    z-index: 0;
+}
+
+body>* {
+    position: relative;
+    z-index: 1;
+}
+
+/* ───── HEADER ───── */
+.header {
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: clamp(10px, 1.4vw, 24px);
+    padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
+    margin-bottom: clamp(4px, 0.8vh, 10px);
+
+    width: 100%;
+    padding: 20px 50px;
+}
+
+
+.logo-header {
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Faustina', serif;
 
 }
 
-/* ==============HEADER=========== */
-
-header {
-
-    height: 100px;
+.livre-text {
+    color: #5BEA75;
 }
 
-/* ==============HEADER=========== */
+/* ───── MENU ───── */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-start;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: "Faustina", serif;
+    max-width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -17%);
+}
+
+.menu li {
+    position: relative;
+    padding-bottom: 12px;
+    cursor: pointer;
+    text-align: flex-start;
+    font-family: "Baloo 2", sans-serif;
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu .inicio a {
+    color: #5BEA75;
+}
+
+
+/* pontinho ativo */
+.dot {
+    width: 6px;
+    height: 6px;
+    background: #5BEA75;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+}
+
+.menu li:not(.active) .dot {
+    display: none;
+}
+
+.menu li.active a {
+    color: #5BEA75;
+}
+
+.menu a:hover {
+    color: #5BEA75;
+}
+
+/* ───── MENU LOGIN ───── */
+
+.Pesquisa-Login {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.btn-user {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 20px;
+    padding: 0px 15px;
+    font-size: 12px;
+    font-family: "Baloo Thambi 2", sans-serif;
+    cursor: pointer;
+    height: 25px;
+    color: #181515;
+    background-color: #3AD33A;
+    border-color: #3AD33A;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.btn-user:hover {
+    background-color: #181515;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+/* ───── BUSCA ───── */
+.box-lateral {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.header input[type="search"],
+.header input[type="text"] {
+    background-color: #1f1d1d;
+    border: 2px solid #1f1d1d;
+    color: rgb(255, 240, 240);
+    padding: 8px 15px;
+    border-radius: 26px;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+}
+
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+    color: rgb(150, 140, 140);
+}
+
+.lupa-icon {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+}
+
+/* ───── HEADER ───── */
 
 
 
@@ -34,7 +208,7 @@ header {
     padding: 5%;
 
 
-  
+
 }
 
 
@@ -48,12 +222,16 @@ header {
     padding-left: 15%;
     font-size: 1.5em;
     width: 75%;
+    --bs-font-sans-serif: "Montserrat", sans-serif;
+    --bs-body-font-family: "Montserrat", sans-serif;
 }
 
-.box-left h1 {
-    font-family: "Montserrat", sans-serif;
-    margin-bottom: 10%;
+
+.titulo-main {
+    font-family: "Montserrat", sans-serif !important;
+    margin-bottom: 5%;
     font-size: 3.9em;
+    font-weight: bolder;
 }
 
 .box-left p {
@@ -80,7 +258,7 @@ header {
     border-radius: 20%;
     padding: 5%;
     width: 70%;
-    height: 70vh fit-content;
+    height: 70vh;
     min-height: 70vh;
     gap: 30px;
 }
@@ -104,11 +282,11 @@ header {
     gap: 20%;
     row-gap: 30px;
     column-gap: 20px;
-    width:80%;
+    width: 80%;
 
 }
 
-.icon{
+.icon {
     font-size: 20px;
 }
 
@@ -139,17 +317,19 @@ header {
 .button-label:hover {
     background-color: rgba(91, 234, 118, 0.2);
 }
+
 /* ===========ESTRELA============= */
-.rating-container{
+.rating-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 15px;
     width: 80%;
 }
+
 .star-rating {
     display: flex;
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 5px;
     font-size: 1.5rem;
@@ -163,27 +343,28 @@ header {
 
 .star-rating label {
     cursor: pointer;
-    color: #444; 
+    color: #444;
     transition: color 0.2s ease;
 }
 
 
-.star-rating input:checked ~ label,
+.star-rating input:checked~label,
 .star-rating label:hover,
-.star-rating label:hover ~ label {
-    color: #5bea76; 
+.star-rating label:hover~label {
+    color: #5bea76;
 }
+
 /* ===========ESTRELA============= */
 .input {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin-top: -15px;
-   
+
 }
 
 .input input {
-  
+
     width: 100%;
     max-width: 100%;
     border-radius: 15px;
@@ -193,7 +374,7 @@ header {
 }
 
 .input textarea {
-   
+
     width: 100%;
     max-width: 100%;
     min-height: 80px;
@@ -207,23 +388,61 @@ header {
 
 .input h5 {
 
-  
+
     margin-bottom: -20px;
 }
 
-.submit-button{
-    font-family: "Baloo 2";;
+.submit-button {
+    font-family: "Baloo 2";
+    ;
     font-weight: 700;
     font-size: 18px;
     width: 35%;
     height: 8%;
     background-color: #5bea76;
-    color:#363636;
+    color: #363636;
     border: none;
     border-radius: 40px;
 }
 
-.submit-button:hover{
+.submit-button:hover {
     background-color: #ffffff;
     color: #1f1d1e;
 }
+
+
+
+
+
+
+
+
+/* ============FOOTER============= */
+
+/* ───── FOOTER ───── */
+
+.footer {
+  display: flex;
+  background-color: #3b6643;
+  color: #fff;
+  padding: 1px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+
+}
+
+.footer p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 150%;
+  font-family: "Baloo Tammubu 2";
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
