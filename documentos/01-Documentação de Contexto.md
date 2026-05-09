@@ -46,7 +46,7 @@ A totalidade dos participantes relatou enfrentar barreiras em espaços públicos
 Observou-se também a unanimidade nos relatos quanto à inverdade ou imprecisão das informações de acessibilidade, fator que induz insegurança em metade dos entrevistados ao saírem de suas residências. Tal cenário acaba atuando como um mecanismo de exclusão em momentos de lazer, resultando na fragmentação dos vínculos sociais.
 
 
-Devido a essa insegurança, oitenta e três vírgula três por cento dos  indivíduos optam por uma "visita antecipada", fazem mapeamento prévio do local pelo Google maps, buscam fotos e pessoas que já foram no local. A sexta pessoa desconhece os métodos para tais pesquisas, cenário motivado pela ausência ou precariedade de informação dos recursos de acessibilidade.
+Devido a essa insegurança, 83,3% dos  indivíduos optam por uma "visita antecipada", fazem mapeamento prévio do local pelo Google maps, buscam fotos e pessoas que já foram no local. A sexta pessoa desconhece os métodos para tais pesquisas, cenário motivado pela ausência ou precariedade de informação dos recursos de acessibilidade.
 
 
 77% dos entrevistados nunca formalizaram denúncias; e não por falta de vontade, mas por desconhecer os canais de comunicação. Outra parcela aponta a burocracia e a complexidade do processo como fatores desestimulantes. 
