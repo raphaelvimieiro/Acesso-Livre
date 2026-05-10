@@ -1,11 +1,12 @@
 
+
 # Projeto de Interface
 
 ## User Flow
 
 O fluxograma apresentado na figura 1 é o fluxo de interação do usuário pelas principais telas do sistema. As interfaces correspondem a um protótipo de baixa fidelidade, desenvolvido para demonstrar a navegação e as funcionalidades propostas.Para visualizar o protótipo interativo, acesse o [ambiente Marvelapp do projeto](https://marvelapp.com/prototype/g84387b)
 
-<img width="20204" height="13857" alt="Fluxograma_AcessoLivre" src="https://github.com/user-attachments/assets/e8df0bb5-a600-4be0-bfcf-18e53c1d325e" />
+<img width="17730" height="15175" alt="Fluxograma (1)" src="https://github.com/user-attachments/assets/3765097f-7199-42ab-9b40-2f56ef2bbcd5" />
 Figura 1 - Fluxo de telas do usuário
 
 ### Protótipo de baixa fidelidade
