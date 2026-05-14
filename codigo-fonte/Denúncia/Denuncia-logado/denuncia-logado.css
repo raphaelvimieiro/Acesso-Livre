@@ -34,6 +34,7 @@ body {
 }
 
 /* ───── HEADER ───── */
+
 .header {
   position: sticky;
   top: 0;
@@ -76,6 +77,11 @@ body {
   text-decoration: none;
   color: #ffffff;
   font-family: "Baloo Thambi 2", sans-serif;
+  transition: color 0.18s ease;
+}
+
+.menu a:hover {
+  color: var(--primary-color);
 }
 
 .dot {
