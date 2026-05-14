@@ -50,6 +50,7 @@ nav {
 .logo {
   font-family: "Faustina", serif;
   font-size: 32px;
+  cursor: pointer;
 }
 
 .logo span {

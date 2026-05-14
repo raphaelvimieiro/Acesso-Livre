@@ -146,6 +146,7 @@ input[type="text"]::placeholder {
 
 .logo-header {
   margin-right: 8px;
+  cursor:pointer;
 }
 
 .livre-text {
