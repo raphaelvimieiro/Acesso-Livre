@@ -1,36 +1,36 @@
 :root {
-    --primary-color: #5BEA75;
-    --secondary-green: #47D047;
-    --bg-dark: #1a1a1a;
-    --text-white: #ffffff;
+  --primary-color: #5bea75;
+  --secondary-green: #47d047;
+  --bg-dark: #1a1a1a;
+  --text-white: #ffffff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Alexandria', sans-serif;
-    color: var(--text-white);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    background-image:
-        linear-gradient(
-            90deg,
-            rgba(0,0,0,0.72) 0%,
-            rgba(0,0,0,0.62) 32%,
-            rgba(0,0,0,0.84) 62%,
-            rgba(0,0,0,0.92) 100%
-        ),
-        url("/codigo-fonte/Imagens/Idosa.png");
-    background-size: cover;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  font-family: "Alexandria", sans-serif;
+  color: var(--text-white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.72) 0%,
+      rgba(0, 0, 0, 0.62) 32%,
+      rgba(0, 0, 0, 0.84) 62%,
+      rgba(0, 0, 0, 0.92) 100%
+    ),
+    url("/codigo-fonte/Imagens/Idosa.png");
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* ───── HEADER ───── */
@@ -48,11 +48,11 @@ body {
 .logo-header {
   font-size: 32px;
   font-weight: 300;
-  font-family: 'Faustina', serif;
+  font-family: "Faustina", serif;
 }
 
 .livre-text {
-  color: #5BEA75;
+  color: #5bea75;
 }
 
 .menu {
@@ -81,7 +81,7 @@ body {
 .dot {
   width: 6px;
   height: 6px;
-  background: #5BEA75;
+  background: #5bea75;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -94,7 +94,7 @@ body {
 }
 
 .menu li.active a {
-  color: #5BEA75;
+  color: #5bea75;
 }
 
 /* ───── PESQUISA E LOGIN  ───── */
@@ -115,6 +115,7 @@ body {
   background-color: #1f1d1d;
   border: 2px solid #1f1d1d;
   color: white;
+  height: 36px;
   padding: 8px 15px;
   border-radius: 26px;
   font-size: 13px;
@@ -130,11 +131,12 @@ body {
 
 .usuario-logado {
   width: 28px;
-  height: auto;
+  height: 36px;
+  object-fit: contain;
 }
 
 .btn-user {
-  background-color: #3AD33A;
+  background-color: #3ad33a;
   color: #181515;
   border: none;
   border-radius: 20px;
@@ -142,9 +144,17 @@ body {
   font-size: 12px;
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  height: 25px;
+  height: 36px;
   font-weight: bolder;
   margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.Pesquisa-Login > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }
 
 .btn-user:hover {
@@ -155,138 +165,137 @@ body {
 
 /* ───── HERO ───── */
 .hero {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 80px 20px;
-    gap: 50px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px 20px;
+  gap: 50px;
 }
 
 .content-left {
-    max-width: 560px;
+  max-width: 560px;
 }
 
 .title {
-    font-size: 92px;
-    font-weight: 900;
-    line-height: .95;
-    font-family: 'Alexandria', sans-serif;
+  font-size: 92px;
+  font-weight: 900;
+  line-height: 0.95;
+  font-family: "Alexandria", sans-serif;
 }
 
 .subtitle {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--primary-color);
-    margin: 22px 0 12px;
-    line-height: 1.15;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 22px 0 12px;
+  line-height: 1.15;
 }
 
 .description {
-    font-size: 28px;
-    font-weight: 300;
-    line-height: 1.15;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.15;
 }
 
 .btn-denuncia {
-    display: inline-block;
-    margin-top: 28px;
-    padding: 11px 20px;
-    border: 1px solid var(--primary-color);
-    border-radius: 10px;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 800;
-    transition: .25s;
+  display: inline-block;
+  margin-top: 28px;
+  padding: 11px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  transition: 0.25s;
 }
 
 .btn-denuncia:hover {
-    background: var(--primary-color);
-    color: #000;
+  background: var(--primary-color);
+  color: #000;
 }
 
 /* ───── FLASHCARDS ───── */
 .flashcards-container {
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    column-gap: 140px;   
-    row-gap: 65px;      
-    margin-right: 150px;
-    margin-top: -15px;
-    justify-content: center;
-    align-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  column-gap: 140px;
+  row-gap: 65px;
+  margin-right: 150px;
+  margin-top: -15px;
+  justify-content: center;
+  align-content: center;
 }
 
 .card {
-    width: 231px;
-    height: 258px;
-    perspective: 1000px;
-    cursor: pointer;
+  width: 231px;
+  height: 258px;
+  perspective: 1000px;
+  cursor: pointer;
 }
 
 .card-inner {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transition: transform .7s;
-    transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
 }
 
 .card.is-flipped .card-inner {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .card-front,
 .card-back {
-    position: absolute;
-    inset: 0;
-    border-radius: 16px;
-    backface-visibility: hidden;
-    padding: 18px 14px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  backface-visibility: hidden;
+  padding: 18px 14px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-front {
-    background: var(--secondary-green);
-    color: #113318;
+  background: var(--secondary-green);
+  color: #113318;
 }
 
 .card-front p {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.15;
-    text-align: left;
-    width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: left;
+  width: 100%;
 }
 
 .card-back {
-    background: #59f06d;
-    color: #14331a;
-    transform: rotateY(180deg);
+  background: #59f06d;
+  color: #14331a;
+  transform: rotateY(180deg);
 }
 
 .card-back p {
-    font-size: 22px;
-    line-height: 1.35;
-    font-weight: 500;
+  font-size: 22px;
+  line-height: 1.35;
+  font-weight: 500;
 }
 
 .icon-refresh {
-    position: absolute;
-    top: 14px;
-    right: 12px;
-    width: 18px;
-    height: 18px;
-    background-image: url("/codigo-fonte/Imagens/reverse.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  width: 18px;
+  height: 18px;
+  background-image: url("/codigo-fonte/Imagens/reverse.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 /* ───── FOOTER ───── */
 
@@ -298,7 +307,6 @@ body {
   justify-content: center;
   width: 100%;
   margin-bottom: 0;
-
 }
 
 .footer p {
@@ -314,4 +322,3 @@ body {
   justify-content: center;
   gap: 20px;
 }
-
