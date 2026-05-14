@@ -96,7 +96,7 @@ nav {
 
 .search-user {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .search-user input {
@@ -109,13 +109,18 @@ nav {
 }
 
 .btn-user {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  color: white;
+ background: transparent;
+  border: 1px solid rgba(255, 255, 255, .35);
   border-radius: 20px;
-  padding: 6px 15px;
+  padding: 0px 15px ;
   font-size: 12px;
+  font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
+  height: 25px;
+  color: #181515;
+  background-color: #3AD33A;
+  border-color: #3AD33A;
+  font-weight: bolder;
 }
 
 /*  MAIN   */
