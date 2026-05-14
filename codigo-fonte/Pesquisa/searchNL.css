@@ -47,6 +47,7 @@ p{
   font-size: 32px;
   font-weight: 300;
   font-family: "Faustina", serif;
+  cursor:pointer;
 }
 
 .livre-text {
