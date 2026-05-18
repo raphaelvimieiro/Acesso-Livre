@@ -18,11 +18,11 @@ Algumas funcionalidades da aplicação estão restritas apenas a usuários auten
 
 * **Logo:** Fonte Faustina, cores Acesso (**#FFFFFF**) e Livre (**#5BEA75**).
 
-<img width="298" height="27" alt="image" src="https://github.com/user-attachments/assets/290d5c43-507f-4f9c-9c1e-77c7980705c3" />
+<img width="489" height="46" alt="image" src="https://github.com/user-attachments/assets/f4262131-6950-4b2d-ae9b-c130a29f144a" />
 
 * **Menu de navegação:** Fonte Faustina, cor padrão (**#FFFFFF**) e cor da página selecionada (**#5BEA75**).
 
-<img width="81" height="30" alt="image" src="https://github.com/user-attachments/assets/7f344121-08af-4066-9c88-1f3b15b1dc44" />
+<img width="141" height="37" alt="image" src="https://github.com/user-attachments/assets/4ccb458b-8c91-485b-a003-69d06671b3c6" />
 
 * **Botão de Login:** Fonte Faustina, cor do texto (**#FFFFFF**) e fundo (**#3AD33A**).
 
