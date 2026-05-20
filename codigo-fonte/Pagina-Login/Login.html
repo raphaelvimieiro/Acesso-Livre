@@ -31,7 +31,7 @@
           <img class="lupa-icon" src="/codigo-fonte/Imagens/lupa.png" alt="Ícone de lupa" />
         </div>
 </header>
-
+</main><form id="loginForm"></main>
 <main class="container">
 
   <!-- LEFT -->
@@ -72,12 +72,12 @@
 
       <div class="input-group">
         <label>E-MAIL</label>
-        <input type="email" placeholder="seu@email.com">
+        <input type="email" id="email" required>
       </div>
 
       <div class="input-group password">
         <label>Senha</label>
-        <input type="password" placeholder="********">
+        <input type="password" id="senha" required>
         <span class="eye">👁</span>
       </div>
 
@@ -86,7 +86,7 @@
         <span>Lembrar-se neste dispositivo</span>
       </div>
 
-      <button class="enter-btn">Entrar</button>
+      <button type="submit" class="btn-login">Entrar</button>
 
       <div class="links">
         <p>Esqueceu a senha? <a href="/codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html">Clique aqui</a></p>
@@ -96,6 +96,44 @@
   </section>
 
 </main>
+<script>
 
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  // PEGAR DADOS
+  const email = document.getElementById("email").value;
+  const senha = document.getElementById("senha").value;
+
+  // PEGAR USUÁRIOS SALVOS
+  const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+
+  // VERIFICAR LOGIN
+  const usuarioEncontrado = usuarios.find(user => {
+    return user.email === email && user.senha === senha;
+  });
+
+  // RESULTADO
+  if (usuarioEncontrado) {
+
+    alert("Login realizado com sucesso!");
+
+    // salvar usuário logado
+    localStorage.setItem(
+      "usuarioLogado",
+      JSON.stringify(usuarioEncontrado)
+    );
+
+    // redirecionar
+    window.location.href = "/codigo-fonte/Inicio-Logado/inicio-logado.html";
+  } else {
+
+    alert("E-mail ou senha incorretos");
+
+  }
+
+});
+</script>
 </body>
 </html>

@@ -46,14 +46,14 @@
 
     <div class="row">
       <div class="input-group">
-        <label>NOME</label>
-        <input type="text" required>
-      </div>
+  <label>NOME</label>
+  <input type="text" id="nome" required>
+</div>
 
-      <div class="input-group">
-        <label>SOBRENOME</label>
-        <input type="text" required>
-      </div>
+<div class="input-group">
+  <label>SOBRENOME</label>
+  <input type="text" id="sobrenome" required>
+</div>
     </div>
 
     <div class="input-group">
@@ -84,16 +84,15 @@
     </div>
 
     <button class="submit">Criar conta</button>
-
     <p>Já tem uma conta? <a href="/codigo-fonte/Pagina-Login/Login.html">Faça login</a></p>
 
   </form>
 </main>
-
-<script>
+ <script>
 // Mostrar/ocultar senha
 document.querySelectorAll(".toggle").forEach(icon => {
   icon.addEventListener("click", () => {
+
     const input = icon.previousElementSibling;
 
     if (input.type === "password") {
@@ -103,32 +102,76 @@ document.querySelectorAll(".toggle").forEach(icon => {
       input.type = "password";
       icon.classList.replace("fa-eye-slash", "fa-eye");
     }
+
   });
 });
 
-// Validação
+
+// CADASTRO
 document.getElementById("form").addEventListener("submit", function(e) {
+
+  e.preventDefault();
+
+  // PEGAR DADOS
+  const nome = document.getElementById("nome").value;
+const sobrenome = document.getElementById("sobrenome").value;
+  const email = document.getElementById("email").value;
+  const telefone = document.getElementById("telefone").value;
   const senha = document.getElementById("senha").value;
   const confirmar = document.getElementById("confirmar").value;
-  const email = document.getElementById("email").value;
 
+  // VALIDAÇÕES
   if (senha.length < 8) {
     alert("A senha precisa ter pelo menos 8 caracteres");
-    e.preventDefault();
+    return;
   }
 
   if (senha !== confirmar) {
     alert("As senhas não coincidem");
-    e.preventDefault();
+    return;
   }
 
   if (!email.includes("@")) {
     alert("E-mail inválido");
-    e.preventDefault();
+    return;
   }
+
+  // PEGAR USUÁRIOS JÁ SALVOS
+  let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+
+  // VERIFICAR EMAIL REPETIDO
+  const emailExiste = usuarios.find(user => user.email === email);
+
+  if (emailExiste) {
+    alert("Este e-mail já está cadastrado");
+    return;
+  }
+
+  // CRIAR USUÁRIO
+  const novoUsuario = {
+    nome,
+    sobrenome,
+    email,
+    telefone,
+    senha
+  };
+
+  // SALVAR
+  usuarios.push(novoUsuario);
+
+  localStorage.setItem("usuarios", JSON.stringify(usuarios));
+
+  // SUCESSO
+  alert("Conta criada com sucesso!");
+
+  // LIMPAR FORMULÁRIO
+  document.getElementById("form").reset();
+
+  // REDIRECIONAR
+  window.location.href = "/codigo-fonte/Pagina-Login/Login.html";
+
 });
 </script>
-
 </body>
 <footer class="footer">
       <div class="footer-content">
