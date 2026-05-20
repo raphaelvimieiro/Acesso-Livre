@@ -96,44 +96,6 @@
   </section>
 
 </main>
-<script>
-
-document.getElementById("loginForm").addEventListener("submit", function(e) {
-
-  e.preventDefault();
-
-  // PEGAR DADOS
-  const email = document.getElementById("email").value;
-  const senha = document.getElementById("senha").value;
-
-  // PEGAR USUÁRIOS SALVOS
-  const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-
-  // VERIFICAR LOGIN
-  const usuarioEncontrado = usuarios.find(user => {
-    return user.email === email && user.senha === senha;
-  });
-
-  // RESULTADO
-  if (usuarioEncontrado) {
-
-    alert("Login realizado com sucesso!");
-
-    // salvar usuário logado
-    localStorage.setItem(
-      "usuarioLogado",
-      JSON.stringify(usuarioEncontrado)
-    );
-
-    // redirecionar
-    window.location.href = "/codigo-fonte/Inicio-Logado/inicio-logado.html";
-  } else {
-
-    alert("E-mail ou senha incorretos");
-
-  }
-
-});
-</script>
+<script src="login.js"></script>
 </body>
 </html>
