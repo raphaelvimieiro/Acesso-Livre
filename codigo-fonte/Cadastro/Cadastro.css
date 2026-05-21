@@ -112,7 +112,25 @@ body {
   align-items: center;
 }
 
+#mensagem-cadastro {
 
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.sucesso {
+
+  color: #39ff14;
+
+}
+
+.erro {
+
+  color: #ff4d4d;
+
+}
 
 
 .btn-user {
@@ -223,9 +241,13 @@ main {
   background: transparent;
   border: none;
   border-bottom: 2px solid #5BEA75;
-  padding: 8px 0;
+  padding: 12px 0;
   color: #fff;
   outline: none;
+  font-size: 20px;
+}
+.input-group input::placeholder {
+  font-size: 18px;
 }
 
 /* SENHA */
@@ -243,8 +265,8 @@ main {
 
 /* CHECKBOX */
 .checkbox {
-  font-size: 16px;
-  margin: 15px 0;
+  font-size: 20px;
+  margin: 25px 0;
   color: #ccc;
 }
 
@@ -271,7 +293,7 @@ main {
 .form-box p {
   text-align: center;
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 .form-box a {

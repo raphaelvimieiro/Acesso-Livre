@@ -113,7 +113,42 @@ body {
   align-items: center;
 }
 
+/* SENHA */
 
+.password-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-box input {
+  width: 100%;
+}
+
+.eye {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 18px;
+}
+
+/* MENSAGEM */
+
+#mensagem {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sucesso {
+  color: #39ff14;
+}
+
+.erro {
+  color: #ff4d4d;
+}
 
 
 .btn-user {
@@ -169,10 +204,11 @@ input[type="text"]::placeholder {
 }
 
 main {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 120px;
+  padding: 40px 20px;
 }
 
 /* CARD */

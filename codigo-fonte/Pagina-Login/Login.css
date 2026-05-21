@@ -195,7 +195,25 @@ header {
   box-shadow: 0 0 35px #3a7d3a;
 }
 
+#mensagem-login {
 
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.sucesso {
+
+  color: #39ff14;
+
+}
+
+.erro {
+
+  color: #ff4d4d;
+
+}
 
 @keyframes glow {
   from {
@@ -259,7 +277,7 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 18px;
   color: #888;
 }
  
@@ -351,12 +369,14 @@ header {
 
 /* LINKS */
 .links {
-  margin-top: 15px;
+  margin-top: 18px;
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .links a {
   color: #39ff14;
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }

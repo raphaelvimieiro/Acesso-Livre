@@ -63,12 +63,15 @@
       </div>
     </div>
   </section>
+<!-- RIGHT -->
+<section class="right">
 
-  <!-- RIGHT -->
-  <section class="right">
-    <div class="login-box">
-      <h2>Entrar</h2>
-      <p>Acesse sua conta para continuar</p>
+  <div class="login-box">
+
+    <h2>Entrar</h2>
+    <p>Acesse sua conta para continuar</p>
+
+    <form id="loginForm">
 
       <div class="input-group">
         <label>E-MAIL</label>
@@ -86,14 +89,33 @@
         <span>Lembrar-se neste dispositivo</span>
       </div>
 
-      <button type="submit" class="btn-login">Entrar</button>
+      <button type="submit" class="btn-login">
+        Entrar
+      </button>
 
-      <div class="links">
-        <p>Esqueceu a senha? <a href="/codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html">Clique aqui</a></p>
-        <p>Novo por aqui? <a href="/codigo-fonte/Cadastro/Cadastro.html">Crie sua conta</a></p>
-      </div>
+      <p id="mensagem-login"></p>
+
+    </form>
+
+    <div class="links">
+      <p>
+        Esqueceu a senha?
+        <a href="/codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html">
+          Clique aqui
+        </a>
+      </p>
+
+      <p>
+        Novo por aqui?
+        <a href="/codigo-fonte/Cadastro/Cadastro.html">
+          Crie sua conta
+        </a>
+      </p>
     </div>
-  </section>
+
+  </div>
+
+</section>
 
 </main>
 <script src="login.js"></script>

@@ -31,34 +31,50 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   const email = document.getElementById("email").value;
   const senha = document.getElementById("senha").value;
 
+  // ÁREA DA MENSAGEM
+  const mensagem =
+    document.getElementById("mensagem-login");
+
   // PEGAR USUÁRIOS
-  const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+  const usuarios =
+    JSON.parse(localStorage.getItem("usuarios")) || [];
 
   // VERIFICAR LOGIN
   const usuarioEncontrado = usuarios.find(user => {
 
-    return user.email === email && user.senha === senha;
+    return user.email === email &&
+           user.senha === senha;
 
   });
 
   // LOGIN CORRETO
   if (usuarioEncontrado) {
 
-    alert("Login realizado com sucesso!");
+    mensagem.textContent =
+      "Login realizado com sucesso!";
 
-    // SALVAR USUÁRIO LOGADO
+    mensagem.className = "sucesso";
+
+    // SALVAR USUÁRIO
     localStorage.setItem(
       "usuarioLogado",
       JSON.stringify(usuarioEncontrado)
     );
 
     // REDIRECIONAR
-    window.location.href =
-      "/codigo-fonte/Inicio-Logado/inicio-logado.html";
+    setTimeout(() => {
+
+      window.location.href =
+        "/codigo-fonte/Inicio-Logado/inicio-logado.html";
+
+    }, 1500);
 
   } else {
 
-    alert("E-mail ou senha incorretos");
+    mensagem.textContent =
+      "E-mail ou senha incorretos";
+
+    mensagem.className = "erro";
 
   }
 
