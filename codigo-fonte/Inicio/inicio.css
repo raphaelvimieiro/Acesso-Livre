@@ -42,22 +42,24 @@ img[height] {
 
 /* ───── HEADER ───── */
 .header {
- background-color: #171414!important;
+  background-color: #171414 !important;
 }
 
 .logo-header {
   font-size: 32px;
   font-weight: 300;
-  font-family: "Baloo Thambi 2", sans-serif!important;
+  font-family: "Faustina", sans-serif !important;
   cursor: pointer;
 }
 
 .livre-text {
   color: #5bea75;
 }
-.nav-item>a{
-  color: #ffffff ;
+
+.nav-item>a {
+  color: #ffffff;
 }
+
 /* ───── MENU ───── */
 
 
@@ -71,15 +73,15 @@ img[height] {
 
 
 
-.active{
+.active {
   color: #3ad33a !important;
 }
 
 
-.menu-li:hover{
-  background-color: #3ad33a!important;
+.menu-li:hover {
+  background-color: #3ad33a !important;
   border-radius: 20px;
-  color:#171414 !important;
+  color: #171414 !important;
 }
 
 /* ───── MENU LOGIN ───── */
@@ -87,10 +89,10 @@ img[height] {
 
 
 .btn-user {
-  
+
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
-  
+
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
   /* height: 25px; */
@@ -204,18 +206,29 @@ input[type="text"]::placeholder {
 
 .banner-celular {
   position: relative;
-  width: 71vw;
+  width: 90vw;
   max-width: 100vw;
   margin: clamp(8px, 1.4vh, 20px) auto 0;
+  background-image: url("../Imagens/banner-inicio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 10% top 10%;
+
+
+  /* border-radius: 60px; */
+  height: 400px;
+
 }
 
-.banner-celular .imagem-celular {
+/* .banner-celular .imagem-celular {
   position: relative;
   z-index: 2;
-  width: 100%;
+  width: 200%;
   display: block;
-  border-radius: 60px;
-}
+  /* border-radius: 60px;
+  min-height: 200px;
+  
+} */
 
 .container-imagem-banner {
   position: relative;
@@ -224,10 +237,10 @@ input[type="text"]::placeholder {
   overflow: hidden;
   /* Garante que o gradiente não vaze pelas bordas */
   line-height: 0;
-  height: 400px;
+  height: fit-content;
 }
 
-.container-imagem-banner::after {
+.banner-celular::after {
   content: "";
   position: absolute;
   top: 0;
@@ -299,7 +312,7 @@ input[type="text"]::placeholder {
   height: 200px;
 }
 
-.img-card > img {
+.img-card>img {
   height: 100%;
   display: block;
   width: 100%;
@@ -314,11 +327,9 @@ input[type="text"]::placeholder {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.849) 0%,
-    rgba(0, 0, 0, 0) 60%
-  );
+  background: linear-gradient(to top,
+      rgba(0, 0, 0, 0.849) 0%,
+      rgba(0, 0, 0, 0) 60%);
   pointer-events: none;
   /* Garante que o usuário consiga clicar na imagem/card sem problemas */
 }
@@ -406,7 +417,41 @@ input[type="text"]::placeholder {
 }
 
 /* ───── CENTRALIZAÇÃO DO MENU (DESKTOP) ───── */
+@media (max-width: 1200px) {
+
+
+  .Texto-banner-celular>h1 {
+
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 700;
+    font-size: clamp(15px, 5vw, 50px);
+    margin-bottom: clamp(8px, 1.2vh, 16px);
+    line-height: 1.05;
+  }
+
+  .Texto-banner-celular strong {
+    color: #11ec86 !important;
+  }
+
+  .Texto-banner-celular p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: clamp(13px, 1.2vw, 16px);
+    color: #ffffff;
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Texto-banner-celular p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: clamp(13px, 1.2vw, 16px);
+    color: #ffffff;
+    line-height: 80%;
+  }
+}
+
 @media (min-width: 992px) {
+
   /* Torna o container da navbar a referência para o cálculo do centro */
   .header .container-fluid {
     position: relative;
@@ -414,13 +459,13 @@ input[type="text"]::placeholder {
 
   /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
   .header .navbar-nav {
-    
+
     width: 100%;
     justify-content: center;
-   position: static;
-    transform: none;  
+    position: static;
+    transform: none;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
   }
 }
 
