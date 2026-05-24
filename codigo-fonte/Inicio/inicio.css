@@ -98,6 +98,8 @@ img[height] {
   background-color: #3ad33a;
   border-color: #3ad33a;
   font-weight: bolder;
+  min-width: 180px;
+  width: fit-content;
 }
 
 .btn-user:hover {
