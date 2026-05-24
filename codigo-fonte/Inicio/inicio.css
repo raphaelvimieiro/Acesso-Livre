@@ -74,7 +74,8 @@ img[height] {
 
 
 .active {
-  color: #3ad33a !important;
+ color: #3ad33a !important;
+border-bottom: 2px solid #3ad33a !important;
 }
 
 
