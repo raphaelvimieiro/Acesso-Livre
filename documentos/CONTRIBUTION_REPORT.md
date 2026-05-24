@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 24/05/2026 20:46
+**Última atualização:** 24/05/2026 21:17
 
 ---
 
@@ -15,14 +15,14 @@
 | Vitor Oliveira        |        20 |        82 |        50 |          3 |             19 |               1 |
 | Wellington Ranniery   |        78 |      3979 |      1266 |         54 |             29 |               2 |
 | dinhagomezz           |        63 |      2124 |       874 |         44 |              8 |               1 |
-| github-actions[bot]   |       198 |      1057 |       986 |          3 |            198 |               1 |
+| github-actions[bot]   |       199 |      1061 |       990 |          3 |            199 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
-| well9625              |        35 |      1396 |      1647 |         26 |              0 |               0 |
+| well9625              |        37 |      1473 |      1679 |         26 |              0 |               0 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-17**: Brenda Araújo: 2, Vitor: 3, github-actions[bot]: 8, well9625: 9
+**2026-05-17**: Brenda Araújo: 2, Vitor: 3, github-actions[bot]: 9, well9625: 11
 
 **2026-05-10**: Brenda Araújo: 2, Raphael Procópio: 5, Vitor: 1, dinhagomezz: 7, github-actions[bot]: 12
 
@@ -34,9 +34,9 @@
 
 **2026-04-12**: Wellington Ranniery: 4, github-actions[bot]: 3
 
-**2026-04-05**: Raphael Procópio: 10, Vitor Oliveira: 2, Wellington Ranniery: 16, dinhagomezz: 8, github-actions[bot]: 34
+**2026-04-05**: Raphael Procópio: 9, Vitor Oliveira: 2, Wellington Ranniery: 16, dinhagomezz: 8, github-actions[bot]: 33
 
-**2026-03-29**: Raphael Procópio: 1, Wellington Ranniery: 13, github-actions[bot]: 12
+**2026-03-29**: Raphael Procópio: 2, Wellington Ranniery: 13, github-actions[bot]: 13
 
 **2026-03-22**: Vitor Oliveira: 6, github-actions[bot]: 2
 
