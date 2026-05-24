@@ -42,111 +42,58 @@ img[height] {
 
 /* ───── HEADER ───── */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: clamp(10px, 1.4vw, 24px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
-
-  width: 100%;
-  padding: 20px 50px;
+ background-color: #171414!important;
 }
 
 .logo-header {
   font-size: 32px;
   font-weight: 300;
-  font-family: "Faustina", serif;
+  font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
 }
 
 .livre-text {
   color: #5bea75;
 }
-
+.nav-item>a{
+  color: #ffffff ;
+}
 /* ───── MENU ───── */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: flex-start;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-  max-width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -17%);
-}
 
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
-  cursor: pointer;
-  text-align: flex-start;
-  font-family: "Baloo Tammudu 2", sans-serif;
-}
+
+
 
 .menu a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
-.menu .inicio a {
-  color: #5bea75;
+
+
+
+.active{
+  color: #3ad33a !important;
 }
 
-/* pontinho ativo */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5bea75;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
-}
 
-.menu li:not(.active) .dot {
-  display: none;
-}
-
-.menu li.active a {
-  color: #5bea75;
-}
-
-.menu a:hover {
-  color: #5bea75;
+.menu-li:hover{
+  background-color: #3ad33a!important;
+  border-radius: 20px;
+  color:#171414 !important;
 }
 
 /* ───── MENU LOGIN ───── */
 
-.Pesquisa-Login {
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-
 
 
 .btn-user {
-  background: transparent;
+  
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
-  padding: 0px 15px;
-  font-size: 12px;
+  
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  height: 25px;
+  /* height: 25px; */
   color: #181515;
   background-color: #3ad33a;
   border-color: #3ad33a;
@@ -221,7 +168,7 @@ input[type="text"]::placeholder {
 }
 
 .Texto-banner-celular strong {
-  color: #11ec86;
+  color: #11ec86 !important;
 }
 
 .Texto-banner-celular p {
@@ -456,271 +403,27 @@ input[type="text"]::placeholder {
   margin-bottom: clamp(8px, 1.2vh, 16px) !important;
 }
 
-@media (max-width: 1199.98px) {
-  .header {
-    padding-left: 16px;
-    padding-right: 16px;
+/* ───── CENTRALIZAÇÃO DO MENU (DESKTOP) ───── */
+@media (min-width: 992px) {
+  /* Torna o container da navbar a referência para o cálculo do centro */
+  .header .container-fluid {
+    position: relative;
   }
 
-  .banner-celular {
-    width: min(94vw, 920px);
-  }
-
-  .Texto-banner-celular {
-    max-width: min(46vw, 360px);
-  }
-
-  .linha-verde {
-    width: min(94vw, 1000px);
+  /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
+  .header .navbar-nav {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
   }
 }
 
+/* Ajuste sutil para o espaçamento do menu quando aberto no mobile */
 @media (max-width: 991.98px) {
-  .header {
-    justify-content: space-between;
-    align-items: center;
-    row-gap: 12px;
+  .header .navbar-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
-
-  .menu,
-  .menu-login {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-
-  .banner-celular {
-    width: min(96vw, 960px);
-  }
-
-  .Texto-banner-celular {
-    max-width: min(48vw, 420px);
-  }
-
-  .decor-triangulo {
-    right: -8px;
-  }
-
-  .container.my-5 {
-    margin-top: clamp(6px, 1vh, 12px) !important;
-  }
-}
-
-@media (max-width: 767.98px) {
-  .header {
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .menu,
-  .menu-login {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .box-lateral {
-    width: 100%;
-    justify-content: center;
-  }
-
-  input[type="search"],
-  input[type="text"] {
-    width: min(100%, 320px);
-  }
-
-  .banner-celular {
-    width: min(96vw, 720px);
-  }
-
-  .Texto-banner-celular {
-    left: clamp(12px, 3vw, 24px);
-    max-width: min(60vw, 320px);
-  }
-
-  .Texto-banner-celular h1 {
-    font-size: clamp(20px, 5vw, 28px);
-  }
-
-  .Texto-banner-celular p {
-    font-size: clamp(12px, 3.2vw, 15px);
-  }
-
-  .decor-triangulo {
-    top: -18px;
-    right: -6px;
-    width: clamp(56px, 16vw, 92px);
-  }
-
-  .card-text {
-    font-size: 13px;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
-  }
-
-
-@media (max-height: 900px) {
-  .header {
-    padding-top: 6px;
-    padding-bottom: 0;
-    margin-bottom: 4px;
-  }
-
-  .banner-celular {
-    width: min(86vw, 900px);
-    margin-top: 4px;
-  }
-
-  .Texto-banner-celular h1 {
-    font-size: clamp(20px, 2.4vw, 34px);
-    margin-bottom: 6px;
-  }
-
-  .Texto-banner-celular p {
-    font-size: clamp(12px, 1vw, 14px);
-  }
-
-  .linha-verde {
-    margin-top: 6px;
-    width: min(90vw, 980px);
-  }
-
-  .container.my-5 {
-    margin-top: 4px !important;
-    margin-bottom: 8px !important;
-  }
-
-  .card-text {
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-  }
-}
-
-@media (max-height: 760px) {
-  .header {
-    gap: 8px;
-  }
-
-  .menu,
-  .menu-login {
-    gap: 8px;
-  }
-
-  .banner-celular {
-    width: min(82vw, 860px);
-  }
-
-  .Texto-banner-celular {
-    max-width: min(36vw, 300px);
-  }
-
-  .linha-verde {
-    width: min(88vw, 920px);
-  }
-
-  .card {
-    gap: 6px;
-    padding: 12px !important;
-  }
-
-  .card-text {
-    font-size: 12px;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-  }
-
-}
-
-@media (max-width: 575.98px) {
-  .header {
-    flex-direction: column;
-    align-items: stretch;
-    text-align: center;
-    gap: 8px;
-    padding: 10px 12px 8px;
-  }
-
-  .header > h1 {
-    margin: 0;
-  }
-
-  .menu,
-  .menu-login {
-    width: 100%;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .menu li,
-  .menu-login li {
-    padding-bottom: 6px;
-  }
-
-  .box-lateral {
-    width: 100%;
-    justify-content: center;
-  }
-
-  input[type="search"],
-  input[type="text"] {
-    width: 100%;
-    max-width: 320px;
-  }
-
-  .banner-celular {
-    width: 96vw;
-    margin-top: 10px;
-  }
-
-  .Texto-banner-celular {
-    left: 12px;
-    max-width: 72%;
-  }
-
-  .Texto-banner-celular h1 {
-    font-size: clamp(18px, 7vw, 24px);
-  }
-
-  .Texto-banner-celular p {
-    font-size: clamp(11px, 3.8vw, 14px);
-  }
-
-  .decor-triangulo {
-    display: none;
-  }
-
-  .linha-verde {
-    width: 94vw;
-    margin-top: 12px;
-  }
-
-  .container.my-5 {
-    margin-top: 6px !important;
-    margin-bottom: 18px !important;
-  }
-
-  .card {
-    gap: 10px;
-  }
-
-  .texto-sobreposto {
-    left: 14px;
-    bottom: 10px;
-    font-size: 12px;
-  }
-
-  .stars {
-    font-size: 16px;
-  }
-
-  .card-text {
-    font-size: 12px;
-    -webkit-line-clamp: 4;
-    line-clamp: 4;
-  }
-
-  .Texto-ver-mais {
-    font-size: 14px;
-  }
-
-}
 }

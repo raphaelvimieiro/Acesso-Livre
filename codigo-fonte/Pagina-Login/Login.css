@@ -1,132 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
 
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
-
-* {
-  margin: 0;
-  padding: 0;
+*::before,
+*::after {
   box-sizing: border-box;
-  font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
 /* FUNDO */
 body {
   background: #171414;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 0;
 }
 
-
-
-.search-container {
-  display: flex;
-  align-items: center;
-  background: #252525;
-  border-radius: 40px;
-  padding: 6px;
-  width: 320px;
-  position: relative;
-  border: 1px solid  #3a3a3a;
+/* ───── HEADER ───── */
+.header {
+ background-color: #171414!important;
 }
 
-.search-container input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #fcfcfc;
-  font-size: 14px;
-  padding: 10px 15px;
-}
-
-
-.search-container button {
-  background: #22c55e;
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logo-header {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  transition: 0.3s;
 }
 
-.search-btn:hover {
-  background: #16a34a;
-  box-shadow: 0 0 8px rgba(34,197,94,0.5);
+.livre-text {
+  color: #5bea75;
 }
-
-
-.logo {
-  font-size: 26px;
-  font-weight: 700;
-  color: #29f800; 
+.nav-item>a{
+  color: #ffffff ;
 }
+/* ───── MENU ───── */
 
-.nav {
-  display: flex;
-  gap: 50px;
-  margin-left: 40px;
-}
 
-.nav a {
-  color: #f3f2f2;
+
+
+.menu a {
   text-decoration: none;
-  font-size: 14px;
-  transition: 0.3s;
+  color: #ffffff !important;
 }
 
-.nav a:hover {
-  color: #17DF17;
+
+
+
+.active{
+  color: #3ad33a !important;
 }
 
-.right {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+
+.menu-li:hover{
+  background-color: #3ad33a!important;
+  border-radius: 20px;
+  color:#171414 !important;
 }
 
-/* HEADER */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 20px 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #171414;
+/* ───── MENU LOGIN ───── */
+
+
+
+.btn-user {
   
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+  
+  font-family: "Baloo Thambi 2", sans-serif;
+  cursor: pointer;
+  /* height: 25px; */
+  color: #181515;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
+  font-weight: bolder;
 }
-.nav {
+
+.btn-user:hover {
+  background-color: #181515;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ───── BUSCA ───── */
+.box-lateral {
+  position: relative;
   display: flex;
-  gap: 50px;
-  margin-left: 40px;
+  align-items: center;
 }
 
-.nav a {
-  color: #f3f2f2;
-  text-decoration: none;
-  font-size: 14px;
-  transition: 0.3s;
+input[type="search"],
+input[type="text"] {
+  background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
 }
 
-.nav a:hover {
-  color: #17DF17;
+input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
 }
 
-/* LOGO */
-.header h1 {
-  font-size: 26px;
-  font-weight: 500;
-  font-weight: 400;
-  letter-spacing: 0.5px;
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
 }
 
-.header span {
-  color: #5BEA75;
-}
 
 /* MAIN */
 
@@ -379,4 +366,29 @@ header {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+}
+
+/* ───── CENTRALIZAÇÃO DO MENU (DESKTOP) ───── */
+@media (min-width: 992px) {
+  /* Torna o container da navbar a referência para o cálculo do centro */
+  .header .container-fluid {
+    position: relative;
+  }
+
+  /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
+  .header .navbar-nav {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+}
+
+/* Ajuste sutil para o espaçamento do menu quando aberto no mobile */
+@media (max-width: 991.98px) {
+  .header .navbar-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 }
