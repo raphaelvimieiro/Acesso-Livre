@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 25/05/2026 20:42
+**Última atualização:** 25/05/2026 20:44
 
 ---
 
@@ -8,21 +8,21 @@
 
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
-| Brenda Araújo         |        12 |        68 |        41 |          4 |             11 |               2 |
+| Brenda Araújo         |        14 |        71 |        44 |          4 |             13 |               2 |
 | Raphael Procópio      |        69 |      5498 |      1798 |         64 |             11 |               1 |
 | Seu NomeBrenda        |        13 |      2315 |       863 |         25 |              3 |               1 |
 | Vitor                 |         9 |      1868 |      1134 |         12 |              0 |               0 |
 | Vitor Oliveira        |        20 |        82 |        50 |          3 |             19 |               1 |
 | Wellington Ranniery   |        78 |      3979 |      1266 |         54 |             29 |               2 |
 | dinhagomezz           |        63 |      2124 |       874 |         44 |              8 |               1 |
-| github-actions[bot]   |       204 |      1094 |      1023 |          3 |            204 |               1 |
+| github-actions[bot]   |       205 |      1098 |      1027 |          3 |            205 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 | well9625              |        41 |      1740 |      1910 |         26 |              0 |               0 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-18**: Brenda Araújo: 6, Vitor: 3, github-actions[bot]: 14, well9625: 15
+**2026-05-18**: Brenda Araújo: 8, Vitor: 3, github-actions[bot]: 15, well9625: 15
 
 **2026-05-11**: Brenda Araújo: 2, Raphael Procópio: 5, Vitor: 1, dinhagomezz: 7, github-actions[bot]: 12
 
