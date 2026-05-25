@@ -18,7 +18,7 @@ Algumas funcionalidades da aplicação estão restritas apenas a usuários auten
 
 * **Logo:** Fonte Faustina, cores Acesso (**#FFFFFF**) e Livre (**#5BEA75**).
 
-<img width="489" height="46" alt="image" src="https://github.com/user-attachments/assets/f4262131-6950-4b2d-ae9b-c130a29f144a" />
+<img width="706" height="40" alt="image" src="https://github.com/user-attachments/assets/fc7b3708-24c5-49dd-90d2-fa313b51b9b2" />
 
 * **Menu de navegação:** Fonte Faustina, cor padrão (**#FFFFFF**) e cor da página selecionada (**#5BEA75**).
 
