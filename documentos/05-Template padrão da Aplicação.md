@@ -5,6 +5,7 @@ A estrutura base do site foi desenvolvida utilizando **HTML e CSS** para a cria�
 Cada página mantém uma organização visual padronizada, composta por menu de navegação, header e footer, garantindo consistência visual e melhor experiência de navegação para o usuário.
 
 As imagens e ícones utilizados no projeto estão disponíveis [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/tree/main/codigo-fonte/Imagens).
+
 ---
 
 ## Controle de acesso da aplicação
