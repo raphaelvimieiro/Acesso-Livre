@@ -24,9 +24,9 @@ Algumas funcionalidades da aplicação estão restritas apenas a usuários auten
 
 * **Menu de navegação:** Fonte Faustina, cor padrão (**#FFFFFF**) e cor da página selecionada (**#5BEA75**).
 
-<img width="141" height="37" alt="image" src="https://github.com/user-attachments/assets/4ccb458b-8c91-485b-a003-69d06671b3c6" />
+<img width="168" height="50" alt="image" src="https://github.com/user-attachments/assets/ae3c3d09-9dab-48e3-ae39-8a7350990b9d" />
 
-* **Botão de Login:** Fonte Faustina, cor do texto (**#FFFFFF**) e fundo (**#3AD33A**).
+* **Botão de Login:** Fonte Baloo Thambi 2, cor do texto (**##181515**) e fundo (**#3AD33A**).
 
 ---
 
