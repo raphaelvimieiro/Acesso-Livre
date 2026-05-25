@@ -26,7 +26,7 @@ Algumas funcionalidades da aplicação estão restritas apenas a usuários auten
 
 <img width="168" height="50" alt="image" src="https://github.com/user-attachments/assets/ae3c3d09-9dab-48e3-ae39-8a7350990b9d" />
 
-* **Botão de Login:** Fonte Baloo Thambi 2, cor do texto (**##181515**) e fundo (**#3AD33A**).
+* **Botão de Login:** Fonte Baloo Thambi 2, cor do texto (**#181515**) e fundo (**#3AD33A**).
 
 ---
 
