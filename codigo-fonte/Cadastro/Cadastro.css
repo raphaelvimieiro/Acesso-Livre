@@ -332,3 +332,204 @@ main {
   justify-content: center;
   gap: 20px;
 }
+/* ================= MENU MOBILE ================= */
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+/* TABLET */
+@media screen and (max-width: 1024px) {
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .menu {
+    position: static;
+    transform: none;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 20px;
+  }
+
+  .logo-header {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  /* BOTÃO ☰ */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* MENU ESCONDIDO */
+  #mobileMenu {
+    display: none;
+    width: 100%;
+  }
+
+  /* MENU ABERTO */
+  #mobileMenu.active {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* CARD MENU */
+  .menu {
+    background: #2b2b2b;
+
+    width: 100%;
+    max-width: 320px;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+
+    box-shadow:
+      0 0 15px rgba(91, 234, 117, 0.4);
+
+    position: static;
+    transform: none;
+  }
+
+  .menu li {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .menu a {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.3s;
+  }
+
+  .menu a:hover {
+    background: #5BEA75;
+    color: #171414;
+  }
+
+  /* PESQUISA */
+  .Pesquisa-Login {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box-lateral {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box-lateral input {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* FORM */
+  main {
+    padding: 40px 15px;
+    align-items: center;
+  }
+
+  .form-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 30px 25px;
+    border-radius: 30px;
+    zoom: 1;
+  }
+
+  .form-box h2 {
+    font-size: 32px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .input-group input {
+    font-size: 16px;
+  }
+
+  .checkbox {
+    font-size: 16px;
+  }
+
+  .form-box p {
+    font-size: 18px;
+  }
+
+}
+
+/* CELULARES PEQUENOS */
+@media screen and (max-width: 480px) {
+
+  .logo-header {
+    font-size: 24px;
+  }
+
+  .form-box {
+    padding: 25px 20px;
+  }
+
+  .form-box h2 {
+    font-size: 28px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+  }
+
+  .input-group input {
+    font-size: 14px;
+  }
+
+  .submit {
+    font-size: 16px;
+  }
+
+  .form-box p {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+
+}

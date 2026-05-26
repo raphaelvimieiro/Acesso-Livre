@@ -14,42 +14,47 @@
 
   <!-- HEADER -->
   <header class="header">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <h1 class="logo-header"
       onclick="window.location.href='/codigo-fonte/inicio/inicio.html'">
       Acesso<span class="livre-text">Livre</span>
     </h1>
+    <button class="menu-toggle" onclick="toggleMenu()">
+  ☰
+</button>
 
-    <nav>
-      <ul class="menu">
+    <nav id="mobileMenu">
 
-        <li>
-          <a href="/codigo-fonte/Inicio/inicio.html">
-            Início
-          </a>
-        </li>
+  <ul class="menu">
 
-        <li>
-          <a href="/codigo-fonte/Sobre/sobre.html">
-            Sobre
-          </a>
-        </li>
+    <li>
+      <a href="/codigo-fonte/Inicio/inicio.html">
+        Início
+      </a>
+    </li>
 
-        <li>
-          <a href="/codigo-fonte/Noticias/noticias.html">
-            Notícia
-          </a>
-        </li>
+    <li>
+      <a href="/codigo-fonte/Sobre/sobre.html">
+        Sobre
+      </a>
+    </li>
 
-        <li>
-          <a href="/codigo-fonte/Denúncia/Deslogado/Denuncia-deslogado.html">
-            Denúncia
-          </a>
-        </li>
+    <li>
+      <a href="/codigo-fonte/Noticias/noticias.html">
+        Notícia
+      </a>
+    </li>
 
-      </ul>
-    </nav>
+    <li>
+      <a href="/codigo-fonte/Denúncia/Deslogado/Denuncia-deslogado.html">
+        Denúncia
+      </a>
+    </li>
 
+  </ul>
+
+</nav>
     <div class="Pesquisa-Login">
 
       <div class="box-lateral">
@@ -72,7 +77,7 @@
       </button>
 
     </div>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </header>
 
   <!-- MAIN -->
@@ -85,52 +90,48 @@
       </h2>
 
       <!-- NOVA SENHA -->
-      <div class="form-group">
+<div class="form-group">
 
-        <label>Digite a nova senha:</label>
+  <label>Digite a nova senha:</label>
 
-        <div class="password-box">
+  <div class="password-box">
 
-          <input
-            type="password"
-            id="novaSenha"
-            placeholder="Nova senha"
-          >
+    <input
+      type="password"
+      id="novaSenha"
+      placeholder="Nova senha"
+    >
 
-          <span
-            class="eye"
-            onclick="toggleSenha('novaSenha', this)"
-          >
-            👁
-          </span>
+    <i
+      class="fa-regular fa-eye eye"
+      onclick="toggleSenha('novaSenha', this)"
+    ></i>
 
-        </div>
+  </div>
 
-      </div>
+</div>
 
-      <!-- CONFIRMAR -->
-      <div class="form-group">
+<!-- CONFIRMAR -->
+<div class="form-group">
 
-        <label>Confirmar senha:</label>
+  <label>Confirmar senha:</label>
 
-        <div class="password-box">
+  <div class="password-box">
 
-          <input
-            type="password"
-            id="confirmarSenha"
-            placeholder="Confirmar senha"
-          >
+    <input
+      type="password"
+      id="confirmarSenha"
+      placeholder="Confirmar senha"
+    >
 
-          <span
-            class="eye"
-            onclick="toggleSenha('confirmarSenha', this)"
-          >
-            👁
-          </span>
+    <i
+      class="fa-regular fa-eye eye"
+      onclick="toggleSenha('confirmarSenha', this)"
+    ></i>
 
-        </div>
+  </div>
 
-      </div>
+</div>
 
       <!-- BOTÃO -->
       <button onclick="recuperarSenha()">
