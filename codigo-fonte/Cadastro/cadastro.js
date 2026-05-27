@@ -89,10 +89,3 @@ document.getElementById("form").addEventListener("submit", function(e) {
     "/codigo-fonte/Pagina-Login/Login.html";
 
 });
-function toggleMenu() {
-
-  const menu = document.getElementById("mobileMenu");
-
-  menu.classList.toggle("active");
-
-}
