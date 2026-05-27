@@ -1,53 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avaliação</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
     <link rel="stylesheet" href="pagina-avaliação.css">
-    
-  
+    <link rel="stylesheet" href="/codigo-fonte/header.css" />
+    <link rel="stylesheet" href="/codigo-fonte/header.css" />
+    <link rel="stylesheet" href="/codigo-fonte/Inicio-Logado/inicio-loagado.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
-     <header class="header">
-    <h1 class="logo-header" onclick="window.location.href='/codigo-fonte/Inicio-Logado/inicio-logado.html'">Acesso<span class="livre-text">Livre</span></h1>
-    <nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-      <ul class="menu">
-        <li>
-          <a href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a>
-          
-        </li>
-      <li><a href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a></li>
-      <li><a href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a></li>
-      <li><a href="/codigo-fonte/Denúncia/Denuncia-logado/denuncia-logado.html">Denúncia</a></li>
-      <li  class="active"><a href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação <span class="dot"></span></a></li>
-      </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary header p-4">
+        <div class="container-fluid">
+
+            <h1 class="logo-header m-0" onclick="window.location.href='/codigo-fonte/inicio/inicio.html'">
+                Acesso<span class="livre-text">Livre</span>
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+
+                <ul class="navbar-nav gap-4 text-center">
+                    <li class="nav-item menu-li">
+                        <a class="nav-link menu-li" href="/codigo-fonte/Inicio-Logado/inicio-logado.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-li" href="/codigo-fonte/Sobre-Logado/sobre-logado.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-li" href="/codigo-fonte/Noticias-Logado/noticiasLO.html">Notícia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu-li"
+                            href="/codigo-fonte/Denúncia/Denuncia-logado/denuncia-logado.html">Denúncia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="active nav-link menu-li"
+                            href="/codigo-fonte/Menu-Avaliação/Menu-avaliaçao.html">Avaliação</a>
+                    </li>
+                </ul>
+
+                <div
+                    class="Pesquisa-Login d-flex flex-column flex-sm-row gap-3 align-items-center justify-content-center ms-lg-auto mt-4 mt-lg-0">
+                    <form class="d-flex gap-3 m-0" role="search">
+                        <input type="text" class="w-100" name="Busca" required placeholder="Buscar locais, bairros..."
+                            onclick="window.location.href='/codigo-fonte/Pesquisa-Logado/searchL.html'" />
+                    </form>
+
+                    <button class="btn btn-user btn-outline-success"
+                        onclick="window.location.href ='/codigo-fonte/Inicio/inicio.html'">sair</button>
+                </div>
+
+            </div>
+        </div>
     </nav>
-    <div class="Pesquisa-Login">
-      <div class="box-lateral">
-        <input type="text" name="Busca" required placeholder="Buscar locais, bairros..." />
-       <img onclick="window.location.href='../Pesquisa-Logado/'" class="lupa-icon" src="../Imagens/lupa.png" alt="Ícone de lupa" />
-      </div>
-      <div>
-        <img class="usuario-logado" src="../Imagens/Logadoimagem.png" alt="Ícone de usuário" />
-      <button class="btn-user" onclick="window.location.href ='/codigo-fonte/Inicio/inicio.html'">sair</button>
-      </div>
-      
-    </div>
-    
-    
-  </header>
 
     <div class="container-main">
         <div class="box-left">
 
-            <div class="titulo-main">Avalie</div >
+            <div class="titulo-main">Avalie</div>
             <P><span>Estamos aqui para ouvir você.</span>
                 Se você enfrentou dificuldades de locomoção ou identificou algo incorreto, use este espaço. Analisamos
                 cada caso individualmente para oferecer a melhor solução possível.</P>
@@ -99,16 +122,18 @@
                     <h5>Comentário</h5> <br>
                     <textarea name="comentario" id=""></textarea>
                 </div>
-                <button type="submit" class="submit-button" onclick="alert('Avaliação enviada com sucesso!');window.location.href='/codigo-fonte/Inicio-Logado/inicio-logado.html'; return false;">Enviar Avaliação</button>
+                <button type="submit" class="submit-button"
+                    onclick="alert('Avaliação enviada com sucesso!');window.location.href='/codigo-fonte/Inicio-Logado/inicio-logado.html'; return false;">Enviar
+                    Avaliação</button>
             </div>
         </form>
 
     </div>
-<footer class="footer text-center">
-      <div class="container">
-        <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
+    <footer class="footer text-center">
+        <div class="container">
+            <p>© 2026 AcessoLivre. Todos os direitos reservados.</p>
 
-      </div>
+        </div>
     </footer>
 </body>
 

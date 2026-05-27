@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
   color: white;
   background-color: #171414;
   background-image:
-linear-gradient(
-  180deg,
-  rgba(23, 20, 20, 0.75) 0%,
-  rgba(23, 20, 20, 0.0) 50%,
-  rgba(23, 20, 20, 0.9) 100%
-),
+    linear-gradient(180deg,
+      rgba(23, 20, 20, 0.75) 0%,
+      rgba(23, 20, 20, 0.0) 50%,
+      rgba(23, 20, 20, 0.9) 100%),
     url("../Imagens/Imagemsobre.png");
   background-repeat: no-repeat, no-repeat;
   background-position:
@@ -19,7 +18,7 @@ linear-gradient(
     cover,
     clamp(320px, 42vw, 640px) auto;
   margin: 0;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
 
@@ -27,7 +26,9 @@ linear-gradient(
   overflow-x: hidden;
   overflow-y: auto;
 }
-
+main {
+ margin-bottom: 40px;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -39,116 +40,69 @@ img[height] {
   height: auto;
 }
 
+/* ───── HEADER ───── */
 .header {
- 
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: clamp(10px, 1.4vw, 24px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
-  margin-top: 20px;
-  width: 100%;
-   padding: 20px 50px;
-
+  background-color: #171414 !important;
 }
 
-.logo-header{
-
+.logo-header {
   font-size: 32px;
   font-weight: 300;
-  font-family: 'Faustina', serif;
- 
-}
-.livre-text {
-  color: #5BEA75;
-}
-
-/* ───── MENU ───── */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: flex-start;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-  max-width: 100%;
-}
-
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
+  font-family: "Faustina", sans-serif !important;
   cursor: pointer;
-  text-align:  flex-start;
-  font-family: "Baloo Tammudu 2", sans-serif;
-  
-
 }
 
-.menu a {
-  text-decoration: none;
+.livre-text {
+  color: #5bea75;
+}
+
+.nav-item>a {
   color: #ffffff;
 }
 
-.menu .inicio a {
-  color: #5BEA75;
+/* ───── MENU ───── */
+
+
+
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff !important;
 }
 
 
-/* pontinho ativo */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5BEA75;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
+
+
+.active {
+  color: #3ad33a !important;
+  border-bottom: 2px solid #3ad33a !important;
 }
 
-.menu li:not(.active) .dot {
-  display: none;
-}
 
-.menu li.active a {
-  color: #5BEA75;
-}
-
-.menu a:hover {
-  color: #5BEA75;
+.menu-li:hover {
+  background-color: #3ad33a !important;
+  border-radius: 20px;
+  color: #171414 !important;
 }
 
 /* ───── MENU LOGIN ───── */
 
-.Pesquisa-Login{
-  gap:10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 150px;
-}
+
+
 .btn-user {
 
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, .35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
-  padding: 0px 15px ;
-  font-size: 12px;
+
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  height: 25px;
+  /* height: 25px; */
   color: #181515;
-  background-color: #3AD33A;
-  border-color: #3AD33A;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
   font-weight: bolder;
-  
+  min-width: 180px;
+  width: fit-content;
 }
 
 .btn-user:hover {
@@ -156,33 +110,8 @@ img[height] {
   color: #ffffff;
   border-color: #ffffff;
 }
-/*Fica apenas a palavra Sobre marcada*/
-.menu .inicio a {
-  color: #5bea75;
-}
-/* pontinho */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5bea75;
-  border-radius: 50%;
 
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -8px;
-}
-/* só aparece no ativo */
-.menu li:not(.active) .dot {
-  display: none;
-}
-/* Deixa a palavra do menu ativa verde */
-.menu li.active a {
-  color: #5bea75;
-}
-
-
-
+/* ───── BUSCA ───── */
 .box-lateral {
   position: relative;
   display: flex;
@@ -205,17 +134,22 @@ input[type="text"]::placeholder {
   color: rgb(150, 140, 140);
 }
 
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+/* ───── HEADER ───── */
+
 .about-section {
   position: relative;
-  flex: 1;
   width: min(1200px, 100%);
   margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(10px, 1.8vw, 22px); /* antes estava maior */
   padding: 0 clamp(12px, 3vw, 40px) clamp(22px, 4vh, 40px);
-  margin-top: clamp(8px, 2vh, 20px);
+
 }
 
 .decor-poligonos-texto {
@@ -249,7 +183,8 @@ input[type="text"]::placeholder {
   width: min(100%, 620px);
   margin: 0 auto;
   text-align: left;
-  transform: translateY(-50px); /* sobe o texto */
+  transform: translateY(-50px);
+  /* sobe o texto */
 }
 
 .about-text h2 {
@@ -276,24 +211,24 @@ input[type="text"]::placeholder {
 }
 
 .highlight {
-  color: #41ff74;
+  color: #5bea75;
   font-weight: 700;
 }
 
 /* Retângulo maior com conteúdo dentro */
 .about-card {
   position: relative;
-  width: min(86vw, 560px); /* antes: min(92vw, 620px) */
-  aspect-ratio: 1 / 1;
-  margin-left: 0;
-  margin-right: 0;
-  transform: none;
-  padding: clamp(18px, 3.2vw, 40px) clamp(14px, 2.6vw, 38px) 14px;
+  width: 100%;
+  /* MUDADO: agora ocupa o espaço da coluna do Bootstrap */
+  max-width: 440px;
+  /* ADICIONADO: não deixa o card ficar gigante em ecrãs enormes */
+  height: 484px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  overflow: visible;
-  isolation: isolate;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /* Centra o card dentro da coluna */
 }
 
 .decor-triangulo-sobre {
@@ -378,8 +313,10 @@ input[type="text"]::placeholder {
   font-size: clamp(10px, 1.6vw, 12px);
   font-weight: 700;
   line-height: 1.2;
-  margin-top: 6px; /* desce um pouco */
-  transform: translateY(2px); /* ajuste fino para baixo */
+  margin-top: 6px;
+  /* desce um pouco */
+  transform: translateY(2px);
+  /* ajuste fino para baixo */
 }
 
 /* Botão explorar */
@@ -394,10 +331,17 @@ input[type="text"]::placeholder {
   font-weight: 700;
   font-family: "Baloo Bhai 2", sans-serif;
   margin: clamp(18px, 3vw, 30px) 0 clamp(18px, 5vw, 40px);
-  transform: translateY(4px); /* antes: -4px */
+  transform: translateY(4px);
+  /* antes: -4px */
 }
 
-/* footer */
+footer {
+ 
+  position: sticky;
+  background-color: #f5f5f5;
+  
+
+}
 
 .footer {
   display: flex;
@@ -415,13 +359,15 @@ input[type="text"]::placeholder {
   text-align: center;
   font-size: 14px;
   line-height: 150%;
+  font-family: "Baloo Tammubu 2";
 }
 
 .direitos {
   display: flex;
   justify-content: center;
-  gap: 20px;
+
 }
+
 
 
 
@@ -429,11 +375,7 @@ input[type="text"]::placeholder {
 
 /* Tablet e notebooks menores */
 @media (max-width: 1024px) {
-  .about-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+
 
   .about-text {
     max-width: 800px;
@@ -520,7 +462,8 @@ input[type="text"]::placeholder {
     margin-right: auto;
     align-items: center;
     justify-content: center;
-    gap: clamp(28px, 4vw, 50px); /* mais separado (corrigido) */
+    gap: clamp(28px, 4vw, 50px);
+    /* mais separado (corrigido) */
     padding-bottom: 14px;
   }
 
@@ -532,26 +475,19 @@ input[type="text"]::placeholder {
   }
 }
 
-/* Sem scroll em telas de computador */
-@media (min-width: 769px) {
-  html,
-  body {
-    height: 100vh;
-    overflow: hidden;
-  }
 
-  .header {
-    padding-top: 10px;
-    margin-bottom: 8px;
-  }
+/* Modificado para permitir que a altura seja fluida e não travada */
+@media (min-width: 769px) {
+
+
+
 
   .about-section {
     margin-top: 4px;
-    gap: clamp(
-      28px,
-      3vw,
-      48px
-    ); /* manter o mesmo valor para não sobrescrever */
+    gap: clamp(28px,
+        3vw,
+        48px);
+    /* manter o mesmo valor para não sobrescrever */
     padding-bottom: 14px;
   }
 
@@ -568,6 +504,7 @@ input[type="text"]::placeholder {
     margin: 12px 0 14px;
     transform: translateY(0);
   }
+
 }
 
 /* Ajuste extra para notebooks com pouca altura */
@@ -584,7 +521,6 @@ input[type="text"]::placeholder {
     row-gap: 12px;
     column-gap: 24px;
   }
-
 
 }
 
@@ -611,9 +547,71 @@ input[type="text"]::placeholder {
     letter-spacing: 0;
   }
 }
+
 /* Faz com que outras telas fiquem com altura certa*/
 @media (min-width: 769px) {
   .about-text {
     transform: translateY(-20px);
+  }
+}
+
+/* ───── CENTRALIZAÇÃO DO MENU (DESKTOP) ───── */
+@media (max-width: 1200px) {
+
+
+  .Texto-banner-celular>h1 {
+
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-weight: 700;
+    font-size: clamp(15px, 5vw, 50px);
+    margin-bottom: clamp(8px, 1.2vh, 16px);
+    line-height: 1.05;
+  }
+
+  .Texto-banner-celular strong {
+    color: #11ec86 !important;
+  }
+
+  .Texto-banner-celular p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: clamp(13px, 1.2vw, 16px);
+    color: #ffffff;
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Texto-banner-celular p {
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-size: clamp(13px, 1.2vw, 16px);
+    color: #ffffff;
+    line-height: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+
+  /* Torna o container da navbar a referência para o cálculo do centro */
+  .header .container-fluid {
+    position: relative;
+  }
+
+  /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
+  .header .navbar-nav {
+
+    width: 100%;
+    justify-content: center;
+    position: static;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Ajuste sutil para o espaçamento do menu quando aberto no mobile */
+@media (max-width: 991.98px) {
+  .header .navbar-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }

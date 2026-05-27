@@ -1,189 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
-  --bg:#171414;
+  --bg: #171414;
+  /*-- background da página */
   --surface: #252525;
-  --surface2: #2e2e2e;
+  /*-- para background dos cards e elementos principais */
   --border: #3a3a3a;
+  /*-- cor da borda da busca */
   --green: #5BEA75;
-  --green-dim:  #3a7d3a;
+  /*-- para dar destaque nos textos */
+  --green-dim: #3a7d3a;
+  /*-- cor do rodapé */
   --text: #f0f0f0;
+  /*-- para texto principal */
   --text-muted: #a0a0a0;
+  /*-- para texto secundário */
   --text-dim: #707070;
-  --radius: 20px;
+  /*-- para texto ainda mais discreto, como créditos de imagem ou datas */
+  --radius: 16px;
+  /*-- para bordas arredondadas */
+  --vermais: #7DF17D;
+  /*-- para links de "ver mais" e elementos interativos relacionados */
   --green-line: #17DF17;
-   --vermais: #7DF17D;
+  /*-- para linhas de separação */
 }
 
-* {
-  margin: 0;
-  padding: 0;
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Faustina', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-h2, h3, h4, p {
+
+h2,
+h3,
+h4,
+p {
   font-family: "Baloo Tammudu 2", sans-serif;
-  line-height: 150%;
-}
-/* ───── HEADER ───── */
-.header {
- 
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: clamp(10px, 1.4vw, 24px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
-  width: 100%;
-   padding: 20px 50px;
 }
 
 
-.logo-header{
-  font-size: 32px;
-  font-weight: 300;
-  font-family: 'Faustina', serif;
-  cursor:pointer;
- 
-}
-.livre-text {
-  color: #5BEA75;
-}
 
-/* ───── MENU ───── */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: flex-start;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-  max-width: 100%;
-}
-
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
-  cursor: pointer;
-  text-align:  flex-start;
-  font-family: "Baloo Tammudu 2", sans-serif;
-  
-
-}
-
-.menu a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.menu .inicio a {
-  color: #5BEA75;
-}
-
-
-/* pontinho ativo */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5BEA75;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
-}
-
-.menu li:not(.active) .dot {
-  display: none;
-}
-
-.menu li.active a {
-  color: #5BEA75;
-}
-
-.menu a:hover {
-  color: #5BEA75;
-}
-
-/* ───── MENU LOGIN ───── */
-
-.Pesquisa-Login{
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 150px;
-}
-.btn-user {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, .35);
-  border-radius: 20px;
-  padding: 0px 15px ;
-  font-size: 12px;
-  font-family: "Baloo Thambi 2", sans-serif;
-  cursor: pointer;
-  height: 25px;
-  color: #181515;
-  background-color: #3AD33A;
-  border-color: #3AD33A;
-  font-weight: bolder;
-  margin-left: 20px;
-}
-
-.btn-user:hover {
-  background-color: #181515;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
-
-/* ───── BUSCA ───── */
-.box-lateral {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-input[type="search"],
-input[type="text"] {
-  background-color: #1f1d1d;
-  border: 2px solid #1f1d1d;
-  color: rgb(255, 240, 240);
-  padding: 8px 15px;
-  border-radius: 26px;
-  font-family: "Arial", sans-serif;
-  font-size: 13px;
-}
-
-input[type="search"]::placeholder,
-input[type="text"]::placeholder {
-  color: rgb(150, 140, 140);
-}
-
-.lupa-icon {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  right: 12px;
-  cursor: pointer;
-}
-/* ───── HEADER ───── */
 /* ── MAIN ── */
 main {
+  font-family: 'Faustina', sans-serif;
   flex: 1;
   padding: 40px 40px 64px;
   max-width: 1400px;
@@ -203,7 +71,7 @@ main {
 .card-destaque {
   background: var(--surface);
   border-radius: var(--radius);
-  overflow: hidden; 
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -211,7 +79,7 @@ main {
 
 .card-destaque .img-wrap {
   position: relative;
-  padding: 15px 15px 0 15px;
+  padding: 30px 30px 0 30px;
 }
 
 .card-destaque img {
@@ -262,20 +130,19 @@ main {
 .grid-medio {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 60px;
+  gap: 80px;
   overflow: hidden;
 }
 
 .card-medio {
   background: var(--surface);
   border-radius: var(--radius);
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .card-medio .img-wrap {
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .card-medio img {
@@ -336,7 +203,7 @@ main {
 
 .card-pequeno .img-wrap {
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 20px 20px 0 20px;
 }
 
 .card-pequeno img {
@@ -387,7 +254,7 @@ main {
 
 /* ── VER MAIS / DATA ── */
 .ver-mais {
-  color: var(--green);
+  color: var(--vermais);
   font-weight: 600;
   font-size: 14.4px;
   text-decoration: none;
@@ -409,7 +276,7 @@ main {
   font-weight: 600;
 }
 
-/* ───── FOOTER ───── */
+/* footer */
 
 .footer {
   display: flex;
@@ -437,14 +304,16 @@ main {
 }
 
 
-
-
 /* ── HOVER ── */
-.card-destaque, .card-medio, .card-pequeno {
+.card-destaque,
+.card-medio,
+.card-pequeno {
   transition: transform .2s, box-shadow .2s;
 }
 
-.card-destaque:hover, .card-medio:hover, .card-pequeno:hover {
-  transform: translateY(-3px); /* sobe um pouco qnd passa o mouse */
+.card-destaque:hover,
+.card-medio:hover,
+.card-pequeno:hover {
+  transform: translateY(-3px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
 }

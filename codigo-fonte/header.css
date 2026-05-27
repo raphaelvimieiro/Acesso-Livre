@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap");
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+ _   _                _           
+| | | |              | |          
+| |_| | ___  __ _  __| | ___ _ __ 
+|  _  |/ _ \/ _` |/ _` |/ _ \ '__|
+| | | |  __/ (_| | (_| |  __/ |   
+\_| |_/\___|\__,_|\__,_|\___|_|   
+                                  
+                                   */
+                                                            
+.header {
+  background-color: #17141486 !important;
+}
+
+.logo-header {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: "Faustina", sans-serif !important;
+  cursor: pointer;
+}
+
+.livre-text {
+  color: #5bea75;
+}
+
+.nav-item>a {
+  color: #ffffff;
+}
+
+/* ───── MENU ───── */
+
+
+
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+
+
+
+.active {
+  color: #3ad33a !important;
+  border-bottom: 2px solid #3ad33a !important;
+}
+
+
+.menu-li:hover {
+  background-color: #3ad33a !important;
+  border-radius: 20px;
+  color: #171414 !important;
+}
+
+/* ───── MENU LOGIN ───── */
+
+
+
+.btn-user {
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 20px;
+
+  font-family: "Baloo Thambi 2", sans-serif!important;
+  cursor: pointer;
+  /* height: 25px; */
+  color: #181515;
+  background-color: #3ad33a;
+  border-color: #3ad33a;
+  font-weight: bolder;
+  font-size: 13px;
+  min-width: 150px;
+  width: fit-content;
+}
+
+.btn-user:hover {
+  background-color: #181515;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* ───── BUSCA ───── */
+.box-lateral {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header input[type="search"],
+.header input[type="text"] {
+  background-color: #1f1d1d;
+  border: 2px solid #1f1d1d;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+
+.header input[type="search"]::placeholder,
+.header input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
+}
+
+.lupa-icon {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 12px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+
+  /* Torna o container da navbar a referência para o cálculo do centro */
+  .header .container-fluid {
+    position: relative;
+  }
+
+  /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
+  .header .navbar-nav {
+
+    width: 100%;
+    justify-content: center;
+    position: static;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Ajuste sutil para o espaçamento do menu quando aberto no mobile */
+@media (max-width: 991.98px) {
+  .header .navbar-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* ───── HEADER ───── */
+
+/* 
+ _   _                _           
+| | | |              | |          
+| |_| | ___  __ _  __| | ___ _ __ 
+|  _  |/ _ \/ _` |/ _` |/ _ \ '__|
+| | | |  __/ (_| | (_| |  __/ |   
+\_| |_/\___|\__,_|\__,_|\___|_|   
+                                  
+                                   */

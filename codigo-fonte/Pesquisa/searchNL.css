@@ -2,13 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,100;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
+    color: white;
   background-color: #171414;
   display: flex;
   flex-direction: column;
@@ -26,114 +31,69 @@ p{
    line-height: 150%;
 }
 
+/* ───── HEADER ───── */
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: clamp(10px, 1.4vw, 24px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
-
-  width: 100%;
-  padding: 20px 50px;
+  background-color: #171414 !important;
 }
 
 .logo-header {
-  color: #ffffff;
   font-size: 32px;
   font-weight: 300;
-  font-family: "Faustina", serif;
-  cursor:pointer;
+  font-family: "Faustina", sans-serif !important;
+  cursor: pointer;
 }
 
 .livre-text {
   color: #5bea75;
 }
 
-/* ───── MENU ───── */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: flex-start;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-  max-width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -17%);
-}
-
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
-  cursor: pointer;
-  text-align: flex-start;
-  font-family: "Baloo Tammudu 2", sans-serif;
-}
-
-.menu a {
-  text-decoration: none;
+.nav-item>a {
   color: #ffffff;
 }
 
-.menu .inicio a {
-  color: #5bea75;
+/* ───── MENU ───── */
+
+
+
+
+.menu a {
+  text-decoration: none;
+  color: #ffffff !important;
 }
 
-/* pontinho ativo */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5bea75;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
+
+
+
+.active {
+  color: #3ad33a !important;
+  border-bottom: 2px solid #3ad33a !important;
 }
 
-.menu li:not(.active) .dot {
-  display: none;
-}
 
-.menu li.active a {
-  color: #5bea75;
-}
-
-.menu a:hover {
-  color: #5bea75;
+.menu-li:hover {
+  background-color: #3ad33a !important;
+  border-radius: 20px;
+  color: #171414 !important;
 }
 
 /* ───── MENU LOGIN ───── */
 
-.Pesquisa-Login {
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 
 .btn-user {
-  background: transparent;
+
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
-  padding: 0px 15px;
-  font-size: 12px;
+
   font-family: "Baloo Thambi 2", sans-serif;
   cursor: pointer;
-  height: 25px;
+  /* height: 25px; */
   color: #181515;
   background-color: #3ad33a;
   border-color: #3ad33a;
   font-weight: bolder;
+  min-width: 180px;
+  width: fit-content;
 }
 
 .btn-user:hover {
@@ -148,18 +108,11 @@ p{
   display: flex;
   align-items: center;
 }
-.search   input[type="text"] {
-  background-color: #1f1d1d00;
-  border: 2px solid #1f1d1d00;
-  color: rgb(255, 240, 240);
-  padding: 8px 15px;
-  border-radius: 26px;
-  font-family: "Arial", sans-serif;
-  font-size: 13px;
-}
-.search input[type="search"] {
+
+header>input[type="search"],
+input[type="text"] {
   background-color: #1f1d1d;
-  border: 2px solid #1f1d1d00;
+  border: 2px solid #1f1d1d;
   color: rgb(255, 240, 240);
   padding: 8px 15px;
   border-radius: 26px;
@@ -167,7 +120,7 @@ p{
   font-size: 13px;
 }
 
-input[type="search"]::placeholder,
+header>input[type="search"]::placeholder,
 input[type="text"]::placeholder {
   color: rgb(150, 140, 140);
 }
@@ -180,16 +133,33 @@ input[type="text"]::placeholder {
   cursor: pointer;
 }
 
-input[type="search"],
-input[type="text"] {
-  background-color: #1f1d1d;
-  border: 2px solid #1f1d1d;
-  color: rgb(255, 240, 240);
-  padding: 8px 15px;
-  border-radius: 26px;
-  font-family: "Arial", sans-serif;
-  font-size: 13px;
+@media (min-width: 992px) {
+
+  /* Torna o container da navbar a referência para o cálculo do centro */
+  .header .container-fluid {
+    position: relative;
+  }
+
+  /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
+  .header .navbar-nav {
+
+    width: 100%;
+    justify-content: center;
+    position: static;
+    transform: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+/* Ajuste sutil para o espaçamento do menu quando aberto no mobile */
+@media (max-width: 991.98px) {
+  .header .navbar-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
 /* ==================
 Body
 =================*/
@@ -211,11 +181,47 @@ main {
   width: 700px;
 }
 
-.search>a {
-  text-decoration: none;
+.search>h1{
   color: white;
   font-size: 100px;
+  font-weight: 300;
   font-family: "Faustina", serif;
+}
+
+header>input[type="search"],
+input[type="text"] {
+  background-color: #383535;
+  border: 2px solid #383535;
+  color: rgb(255, 240, 240);
+  padding: 8px 15px;
+  border-radius: 26px;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+
+header>input[type="search"]::placeholder,
+input[type="text"]::placeholder {
+  color: rgb(150, 140, 140);
+}
+
+@media (max-width: 1200px) {
+  .search {
+    width: 70%;
+  }
+
+  .search>h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .search {
+    width: 80%;
+  }
+
+  .search>h1 {
+    font-size: 40px;
+  }
 }
 
 .logo-main {

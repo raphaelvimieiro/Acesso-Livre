@@ -5,10 +5,12 @@ body {
   color: white;
   background-color: #171414;
   background-image:
-    linear-gradient(180deg,
+    linear-gradient(
+      180deg,
       rgba(23, 20, 20, 0.75) 0%,
-      rgba(23, 20, 20, 0.0) 50%,
-      rgba(23, 20, 20, 0.9) 100%),
+      rgba(23, 20, 20, 0) 50%,
+      rgba(23, 20, 20, 0.9) 100%
+    ),
     url("../Imagens/Imagemsobre.png");
   background-repeat: no-repeat, no-repeat;
   background-position:
@@ -27,7 +29,7 @@ body {
   overflow-y: auto;
 }
 main {
- margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 img {
   max-width: 100%;
@@ -56,28 +58,21 @@ img[height] {
   color: #5bea75;
 }
 
-.nav-item>a {
+.nav-item > a {
   color: #ffffff;
 }
 
 /* ───── MENU ───── */
-
-
-
 
 .menu a {
   text-decoration: none;
   color: #ffffff !important;
 }
 
-
-
-
 .active {
   color: #3ad33a !important;
   border-bottom: 2px solid #3ad33a !important;
 }
-
 
 .menu-li:hover {
   background-color: #3ad33a !important;
@@ -87,10 +82,7 @@ img[height] {
 
 /* ───── MENU LOGIN ───── */
 
-
-
 .btn-user {
-
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 20px;
 
@@ -149,7 +141,6 @@ input[type="text"]::placeholder {
   width: min(1200px, 100%);
   margin: 0 auto;
   padding: 0 clamp(12px, 3vw, 40px) clamp(22px, 4vh, 40px);
-
 }
 
 .decor-poligonos-texto {
@@ -336,11 +327,8 @@ input[type="text"]::placeholder {
 }
 
 footer {
- 
   position: sticky;
   background-color: #f5f5f5;
-  
-
 }
 
 .footer {
@@ -351,7 +339,6 @@ footer {
   justify-content: center;
   width: 100%;
   margin-bottom: 0;
-
 }
 
 .footer p {
@@ -365,18 +352,12 @@ footer {
 .direitos {
   display: flex;
   justify-content: center;
-
 }
-
-
-
 
 /* ===== Breakpoints ===== */
 
 /* Tablet e notebooks menores */
 @media (max-width: 1024px) {
-
-
   .about-text {
     max-width: 800px;
     margin: 0 auto;
@@ -475,18 +456,11 @@ footer {
   }
 }
 
-
 /* Modificado para permitir que a altura seja fluida e não travada */
 @media (min-width: 769px) {
-
-
-
-
   .about-section {
     margin-top: 4px;
-    gap: clamp(28px,
-        3vw,
-        48px);
+    gap: clamp(28px, 3vw, 48px);
     /* manter o mesmo valor para não sobrescrever */
     padding-bottom: 14px;
   }
@@ -504,7 +478,6 @@ footer {
     margin: 12px 0 14px;
     transform: translateY(0);
   }
-
 }
 
 /* Ajuste extra para notebooks com pouca altura */
@@ -521,7 +494,6 @@ footer {
     row-gap: 12px;
     column-gap: 24px;
   }
-
 }
 
 /* Centraliza os números dos quadrados em telas de computador */
@@ -557,10 +529,7 @@ footer {
 
 /* ───── CENTRALIZAÇÃO DO MENU (DESKTOP) ───── */
 @media (max-width: 1200px) {
-
-
-  .Texto-banner-celular>h1 {
-
+  .Texto-banner-celular > h1 {
     font-family: "Baloo Bhaijaan 2", sans-serif;
     font-weight: 700;
     font-size: clamp(15px, 5vw, 50px);
@@ -590,7 +559,6 @@ footer {
 }
 
 @media (min-width: 992px) {
-
   /* Torna o container da navbar a referência para o cálculo do centro */
   .header .container-fluid {
     position: relative;
@@ -598,7 +566,6 @@ footer {
 
   /* Coloca a UL no centro absoluto em relação ao viewport width (vw) */
   .header .navbar-nav {
-
     width: 100%;
     justify-content: center;
     position: static;
