@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-bs-theme="dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,23 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="login.css">
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&family=Baloo+Thambi+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=info" />
   <!-- Font Awesome (ícones do olho) -->
-  <link  defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+  <link rel="stylesheet" href="/codigo-fonte/header.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary header p-4">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary header p-4">
     <div class="container-fluid">
 
       <h1 class="logo-header m-0" onclick="window.location.href='/codigo-fonte/inicio/inicio.html'">
@@ -54,99 +60,103 @@
             <input type="text" class="w-100" name="Busca" required placeholder="Buscar locais, bairros..." />
           </form>
           <button class="btn btn-user btn-outline-success"
-            onclick="window.location.href='../Pagina-Login/Login.html'">Criar conta</button>
+            onclick="window.location.href='../codigo-fonte/Pagina-Login/Login.html'">Criar conta</button>
         </div>
 
       </div>
     </div>
   </nav>
-</main><form id="loginForm"></main>
-<main class="container">
+  </main>
+  <form id="loginForm">
+    </main>
+    <main class="container">
 
-  <!-- LEFT -->
-  <section class="left">
-<h1>
-  Mapeando<br>
-  acessibilidade<br>
-  <span>para todos.</span>
-</h1>
+      <!-- LEFT -->
+      <section class="left">
+        <h1>
+          Mapeando<br>
+          acessibilidade<br>
+          <span>para todos.</span>
+        </h1>
 
-    <p>
-      Ajude a construir uma cidade mais inclusiva </p> reportando e descobrindo locais acessíveis <p>perto de você.</p> 
-    </p>
+        <p>
+          Ajude a construir uma cidade mais inclusiva </p> reportando e descobrindo locais acessíveis <p>perto de você.
+        </p>
+        </p>
 
-    <div class="stats">
-      <div class="card">
-        <h2>1.2K+</h2>
-        <span>LOCAIS AVALIADOS</span>
-      </div>
+        <div class="stats">
+          <div class="card">
+            <h2>1.2K+</h2>
+            <span>LOCAIS AVALIADOS</span>
+          </div>
 
-      <div class="card">
-        <h2>4.8K+</h2>
-        <span>COLABORADORES</span>
-      </div>
+          <div class="card">
+            <h2>4.8K+</h2>
+            <span>COLABORADORES</span>
+          </div>
 
-      <div class="card">
-        <h2>32</h2>
-        <span>BAIRROS COBERTOS</span>
-      </div>
-    </div>
-  </section>
-<!-- RIGHT -->
-<section class="right">
+          <div class="card">
+            <h2>32</h2>
+            <span>BAIRROS COBERTOS</span>
+          </div>
+        </div>
+      </section>
+      <!-- RIGHT -->
+      <section class="right">
 
-  <div class="login-box">
+        <div class="login-box">
 
-    <h2>Entrar</h2>
-    <p>Acesse sua conta para continuar</p>
+          <h2>Entrar</h2>
+          <p>Acesse sua conta para continuar</p>
 
-    <form id="loginForm">
+          <form id="loginForm">
 
-      <div class="input-group">
-        <label>E-MAIL</label>
-        <input type="email" id="email" required>
-      </div>
+            <div class="input-group">
+              <label>E-MAIL</label>
+              <input type="email" id="email" required>
+            </div>
 
-      <div class="input-group password">
-        <label>Senha</label>
-        <input type="password" id="senha" required>
-        <span class="eye">👁</span>
-      </div>
+            <div class="input-group password">
+              <label>Senha</label>
+              <input type="password" id="senha" required>
+              <span class="eye">👁</span>
+            </div>
 
-      <div class="remember">
-        <input type="checkbox">
-        <span>Lembrar-se neste dispositivo</span>
-      </div>
+            <div class="remember">
+              <input type="checkbox">
+              <span>Lembrar-se neste dispositivo</span>
+            </div>
 
-      <button type="submit" class="btn-login">
-        Entrar
-      </button>
+            <button type="submit" class="btn-login">
+              Entrar
+            </button>
 
-      <p id="mensagem-login"></p>
+            <p id="mensagem-login"></p>
 
-    </form>
+          </form>
 
-    <div class="links">
-      <p>
-        Esqueceu a senha?
-        <a href="/codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html">
-          Clique aqui
-        </a>
-      </p>
+          <div class="links">
+            <p>
+              Esqueceu a senha?
+              <a href="/codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html">
+                Clique aqui
+              </a>
+            </p>
 
-      <p>
-        Novo por aqui?
-        <a href="/codigo-fonte/Cadastro/Cadastro.html">
-          Crie sua conta
-        </a>
-      </p>
-    </div>
+            <p>
+              Novo por aqui?
+              <a href="/codigo-fonte/Cadastro/Cadastro.html">
+                Crie sua conta
+              </a>
+            </p>
+          </div>
 
-  </div>
+        </div>
 
-</section>
+      </section>
 
-</main>
-<script src="login.js"></script>
+    </main>
+    <script src="login.js"></script>
 </body>
+
 </html>
