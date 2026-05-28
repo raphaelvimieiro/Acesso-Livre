@@ -12,106 +12,12 @@ body {
   background: radial-gradient(circle at top, #171414, #171414);
   color: #fff;
   padding-top: none;
-  font-family: 'Faustina', sans-serif;
   min-height: 100vh;
- display: flex;
+  display: flex;
   flex-direction: column;
 }
 
-/* ───── HEADER ───── */
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: clamp(10px, 1.4vw, 24px);
-  padding: clamp(8px, 1.2vh, 16px) clamp(12px, 2vw, 32px) 0;
-  margin-bottom: clamp(4px, 0.8vh, 10px);
 
-  width: 100%;
-  padding: 20px 50px;
-}
-
-.logo-header {
-  font-size: 32px;
-  font-weight: 300;
-  font-family: "Faustina", serif;
-  cursor:pointer;
-}
-
-.livre-text {
-  color: #5bea75;
-}
-
-/* ───── MENU ───── */
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  text-align: flex-start;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
-  font-family: "Faustina", serif;
-  max-width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -17%);
-}
-
-.menu li {
-  position: relative;
-  padding-bottom: 12px;
-  cursor: pointer;
-  text-align: flex-start;
-  font-family: "Baloo Tammudu 2", sans-serif;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.menu .inicio a {
-  color: #5bea75;
-}
-
-/* pontinho ativo */
-.dot {
-  width: 6px;
-  height: 6px;
-  background: #5bea75;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5px;
-}
-
-.menu li:not(.active) .dot {
-  display: none;
-}
-
-.menu li.active a {
-  color: #5bea75;
-}
-
-.menu a:hover {
-  color: #5bea75;
-}
-
-/* ───── MENU LOGIN ───── */
-
-.Pesquisa-Login {
-  gap: 30px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 /* SENHA */
 
@@ -151,64 +57,13 @@ body {
 }
 
 
-.btn-user {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 20px;
-  padding: 0px 15px;
-  font-size: 12px;
-  font-family: "Baloo Thambi 2", sans-serif;
-  cursor: pointer;
-  height: 25px;
-  color: #181515;
-  background-color: #3ad33a;
-  border-color: #3ad33a;
-  font-weight: bolder;
-}
-
-.btn-user:hover {
-  background-color: #181515;
-  color: #ffffff;
-  border-color: #ffffff;
-}
-
-/* ───── BUSCA ───── */
-.box-lateral {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-input[type="search"],
-input[type="text"] {
-  background-color: #1f1d1d;
-  border: 2px solid #1f1d1d;
-  color: rgb(255, 240, 240);
-  padding: 8px 15px;
-  border-radius: 26px;
-  font-family: "Arial", sans-serif;
-  font-size: 13px;
-}
-
-input[type="search"]::placeholder,
-input[type="text"]::placeholder {
-  color: rgb(150, 140, 140);
-}
-
-.lupa-icon {
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  right: 12px;
-  cursor: pointer;
-}
-
 main {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
+  font-family: 'Faustina', sans-serif;
 }
 
 /* CARD */
@@ -220,7 +75,7 @@ main {
   background: #373636;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
+  justify-content: center;
   gap: 25px;
   box-shadow:
     0 0 25px #5BEA75,
@@ -278,6 +133,7 @@ main {
   cursor: pointer;
   font-size: 16px;
 }
+
 /*Footer*/
 
 .footer {
@@ -304,5 +160,3 @@ main {
   justify-content: center;
   gap: 20px;
 }
-
-
