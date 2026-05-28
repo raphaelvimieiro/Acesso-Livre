@@ -10,14 +10,18 @@
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Faustina:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
     <link rel="stylesheet" href="pagina-avaliação.css">
     <link rel="stylesheet" href="/codigo-fonte/header.css" />
-    <link rel="stylesheet" href="/codigo-fonte/header.css" />
-    <link rel="stylesheet" href="/codigo-fonte/Inicio-Logado/inicio-loagado.css" />
+
+
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- No head do pagina-avaliação.html -->
+    <script src="../db.js"></script>
+    <script defer src="pagina-avaliação.js"></script>
 
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary header p-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary header p-4">
         <div class="container-fluid">
 
             <h1 class="logo-header m-0" onclick="window.location.href='/codigo-fonte/inicio/inicio.html'">
@@ -76,7 +80,7 @@
                 cada caso individualmente para oferecer a melhor solução possível.</P>
 
         </div>
-        <form action="submit">
+       <form id="evaluationForm">
             <div class="container-form">
                 <h2>Registrar <span>avaliação</span></h2>
                 <div class="options">
@@ -116,15 +120,19 @@
                 </div>
                 <div class="input">
                     <h5>Local</h5> <br>
-                    <input type="text" name="local" id="" placeholder="Digite um local ou endereço">
+                    <div class="autocomplete">
+                        <input type="text" name="local" id="localInput" placeholder="Digite um local ou endereço"
+                            autocomplete="off">
+                        <!-- ESSA LINHA ABAIXO PRECISA EXISTIR EXATAMENTE AQUI: -->
+                        <div id="localSuggestions" class="suggestions hidden"></div>
+                    </div>
                 </div>
                 <div class="input">
                     <h5>Comentário</h5> <br>
-                    <textarea name="comentario" id=""></textarea>
+                    <textarea name="comentario" id="comentarioText"></textarea>
                 </div>
-                <button type="submit" class="submit-button"
-                    onclick="alert('Avaliação enviada com sucesso!');window.location.href='/codigo-fonte/Inicio-Logado/inicio-logado.html'; return false;">Enviar
-                    Avaliação</button>
+                <!-- Botão limpo sem o onclick que quebra o fluxo de eventos -->
+                <button type="submit" class="submit-button">Enviar Avaliação</button>
             </div>
         </form>
 

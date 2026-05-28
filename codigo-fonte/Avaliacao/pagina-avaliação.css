@@ -473,3 +473,40 @@ body > * {
     padding-top: 1rem;
   }
 }
+
+
+/* Garante o posicionamento correto do dropdown */
+.autocomplete {
+  position: relative;
+  width: 100%;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #2a2727; /* Tom escuro combinando com seu layout */
+  border: 1px solid #5bea76;
+  border-radius: 10px;
+  z-index: 9999; /* Joga o dropdown para a frente de tudo */
+  display: none; /* Controlado pelo JS */
+}
+
+.suggestion-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.2s ease;
+}
+
+.suggestion-item:hover {
+  background-color: #5bea76;
+  color: #171414;
+}
+
+.suggestions.hidden {
+  display: none !important;
+}
