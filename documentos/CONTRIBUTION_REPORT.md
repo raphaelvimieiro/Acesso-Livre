@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 28/05/2026 23:25
+**Última atualização:** 28/05/2026 23:31
 
 ---
 
@@ -15,15 +15,15 @@
 | Vitor Oliveira        |        20 |        82 |        50 |          3 |             19 |               1 |
 | Wellington Ranniery   |        78 |      3979 |      1266 |         54 |             29 |               2 |
 | dinhagomezz           |        63 |      2124 |       874 |         44 |              8 |               1 |
-| github-actions[bot]   |       219 |      1202 |      1130 |          3 |            219 |               1 |
+| github-actions[bot]   |       220 |      1210 |      1138 |          3 |            220 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 | raphaelvimieiro       |         1 |       188 |         1 |          1 |              0 |               0 |
-| well9625              |        63 |      6157 |      7778 |         39 |              0 |               0 |
+| well9625              |        65 |      6212 |      8005 |         39 |              0 |               0 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-21**: Brenda Araújo: 6, Vitor: 1, github-actions[bot]: 24, raphaelvimieiro: 1, well9625: 37
+**2026-05-21**: Brenda Araújo: 6, Vitor: 1, github-actions[bot]: 25, raphaelvimieiro: 1, well9625: 39
 
 **2026-05-14**: Brenda Araújo: 4, Vitor: 3, github-actions[bot]: 7
 
