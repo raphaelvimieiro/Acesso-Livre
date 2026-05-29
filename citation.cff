@@ -1,29 +1,24 @@
 message: Please cite this software using these metadata.
-title:
+title: Projeto Acesso Livre
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Gomes Costa Estevam
+    given-names: Amanda 
+  - family-names: Rosa Araújo
+    given-names: Brenda
+  - family-names: Procópio Vimieiro
+    given-names: Raphael
+  - family-names: Oliveira Souza Avellar 
+    given-names: Vitor
+  - family-names: Ranniery Parreiras Leite
+    given-names: Wellington
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+  - name-suffix: Christina de Paiva Carvalho
+    affiliation: Joyce 
+   
 keywords:
-  - 
-  - 
-repository-code: 
+  - Acessibilidade
+  - Inclusão Digital
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2026-06-21
