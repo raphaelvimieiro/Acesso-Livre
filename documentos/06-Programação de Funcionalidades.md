@@ -268,6 +268,9 @@ RF-05: O sistema deve permitir que o usuário possa se cadastrar.
     telefone,
     senha
   };.
+
+
+  
 **Instruções de acesso**
 
 1. Acesse a página inicial
