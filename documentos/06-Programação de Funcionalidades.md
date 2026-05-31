@@ -154,7 +154,8 @@ const defaultReviews = [
 
 ## Notícias (Deslogado)
 
-<img width="1900" height="907" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/img/Captura%20de%20tela%202026-05-31%20164544.png?raw=true"
+![Notícias Deslogado](../documentos/img/(Captura de tela 2026-05-31 164544.png)
+
 
 **Requisito atendido**
 
@@ -183,7 +184,7 @@ Amanda Gomes Costa Estevam
 
 ## Notícias (Logado)
 
-<img width="1900" height="907" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/img/Captura%20de%20tela%202026-05-31%20164607.png?raw=true"
+![Notícias Deslogado](../documentos/img/Captura de tela 2026-05-31 164607.png)
 
 **Requisito atendido**
 
