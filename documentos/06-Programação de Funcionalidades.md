@@ -227,10 +227,8 @@ RF-05: O sistema deve permitir que o usuário acesse sua conta com e-mail e senh
 
 **Estrutura de Dados**
 
-{
-"email":""
-"senha:""
-}
+const email = document.getElementById("email").value;
+  const senha = document.getElementById("senha").value;
 
 **Instruções de acesso**
 
@@ -261,13 +259,12 @@ RF-05: O sistema deve permitir que o usuário possa se cadastrar.
 
 **Estrutura de Dados**
 
- const novoUsuario = {
-    nome,
-    sobrenome,
-    email,
-    telefone,
-    senha
-  };.
+  const nome = document.getElementById("nome").value;
+  const sobrenome = document.getElementById("sobrenome").value;
+  const email = document.getElementById("email").value;
+  const telefone = document.getElementById("telefone").value;
+  const senha = document.getElementById("senha").value;
+  const confirmar = document.getElementById("confirmar").value;
 
 
   
