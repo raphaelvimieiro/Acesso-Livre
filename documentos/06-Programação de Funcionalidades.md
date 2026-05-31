@@ -152,6 +152,68 @@ const defaultReviews = [
 
 
 
+## Notícias (Deslogado)
+
+<img width="1900" height="907" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/img/Captura%20de%20tela%202026-05-31%20164544.png?raw=true"
+
+**Requisito atendido**
+
+RF-04: o sistema deve ter uma aba de notícias onde estão dispostas informações 
+como últimas notícias e anúncios de eventos alertas contendo as informações de acessibilidade.
+
+**Artefatos da funcionalidade**
+
+- codigo-fonte/Noticias/noticias.html
+- codigo-fonte/Noticias/noticias.css
+
+**Estrutura de Dados**
+
+Não se aplica.
+
+**Instruções de acesso**
+
+1. Acesse a página inicial
+2. Clique em "Notícia" na navbar
+
+**Responsável**
+
+Amanda Gomes Costa Estevam
+
+---
+
+## Notícias (Logado)
+
+<img width="1900" height="907" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t1-pmv-ads-2026-1-e1-projacessolivre/blob/main/documentos/img/Captura%20de%20tela%202026-05-31%20164607.png?raw=true"
+
+**Requisito atendido**
+
+RF-04: o sistema deve ter uma aba de notícias onde estão dispostas informações 
+como últimas notícias e anúncios de eventos alertas contendo as informações de acessibilidade.
+
+**Artefatos da funcionalidade**
+
+- codigo-fonte/Noticias-Logado/noticiasLO.html
+- codigo-fonte/Noticias-Logado/noticiasLO.css
+
+**Estrutura de Dados**
+
+Não se aplica.
+
+**Instruções de acesso**
+
+1. Acesse a página inicial
+2. Faça login com e-mail e senha
+3. Clique em "Notícia" na navbar
+
+**Responsável**
+
+Amanda Gomes Costa Estevam
+
+
+
+
+
+
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
