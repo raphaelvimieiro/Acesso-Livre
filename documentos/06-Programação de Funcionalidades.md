@@ -260,16 +260,13 @@ RF-05: O sistema deve permitir que o usuário possa se cadastrar.
 
 **Estrutura de Dados**
 
-{
-"NOME":""
-"SOBRENOME:""
-"E-MAIL":""
-"TELEFONE":""
-"SENHA":""
-"CONFIRMAR SENHA":""
-
-}
-
+ const novoUsuario = {
+    nome,
+    sobrenome,
+    email,
+    telefone,
+    senha
+  };
 **Instruções de acesso**
 
 1. Acesse a página inicial
