@@ -252,6 +252,7 @@ Vitor Oliveira Souza Avellar
 
 RF-05: O sistema deve permitir que o usuário possa se cadastrar.
 
+
 **Artefatos da funcionalidade**
 
 - codigo-fonte/Cadastro/Cadastro.html
