@@ -283,6 +283,42 @@ RF-05: O sistema deve permitir que o usuário possa se cadastrar.
 Vitor Oliveira Souza Avellar
 
 
+## Esqueceu Senha
+
+<img width="1907" height="897" alt="image" src="https://github.com/user-attachments/assets/b45b092e-34a2-41cb-a34d-dfcaf8216d37" />
+
+
+
+**Requisito atendido**
+
+RF-05: O sistema deve permitir que o usuário possa recuperar sua conta.
+
+
+**Artefatos da funcionalidade**
+
+- codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.html
+- codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.css
+- codigo-fonte/Pagina-Esqueceu-Senha/EsqueceuSenha.js
+
+**Estrutura de Dados**
+
+  const senha = document.getElementById("novaSenha").value.trim();
+  const confirmar = document.getElementById("confirmarSenha").value.trim();
+
+
+  
+**Instruções de acesso**
+
+1. Acesse a página inicial
+2. clique em Login/Criar conta
+3. clique em Esqueceu Senha
+4. Clique no botão "Entrar"
+
+**Responsável**
+
+Vitor Oliveira Souza Avellar
+
+
 
 
 
