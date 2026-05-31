@@ -154,7 +154,7 @@ const defaultReviews = [
 
 ## Notícias (Deslogado)
 
-![Notícias Deslogado](../documentos/img/(Captura de tela 2026-05-31 164544.png)
+![Notícias Deslogado](/img/(Captura de tela 2026-05-31 164544.png)
 
 
 **Requisito atendido**
@@ -184,7 +184,7 @@ Amanda Gomes Costa Estevam
 
 ## Notícias (Logado)
 
-![Notícias Deslogado](../documentos/img/Captura de tela 2026-05-31 164607.png)
+![Notícias Deslogado](/img/Captura de tela 2026-05-31 164607.png)
 
 **Requisito atendido**
 
