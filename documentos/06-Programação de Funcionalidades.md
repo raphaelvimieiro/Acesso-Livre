@@ -217,12 +217,13 @@ Amanda Gomes Costa Estevam
 
 **Requisito atendido**
 
-RF-03: O sistema deve permitir que o usuário acesse sua conta com e-mail e senha.
+RF-05: O sistema deve permitir que o usuário acesse sua conta com e-mail e senha.
 
 **Artefatos da funcionalidade**
 
 - codigo-fonte/Login/login.html
 - codigo-fonte/login/login.css
+- codigo-fonte/login/login.js
 
 **Estrutura de Dados**
 
@@ -236,6 +237,44 @@ RF-03: O sistema deve permitir que o usuário acesse sua conta com e-mail e senh
 1. Acesse a página inicial
 2. clique em Login/Criar conta
 3. Preencha e-mail e senha
+4. Clique no botão "Entrar"
+
+**Responsável**
+
+Vitor Oliveira Souza Avellar
+
+## Cadastro
+
+<img width="1877" height="896" alt="image" src="https://github.com/user-attachments/assets/24b52ff9-6a48-4c4f-9f5d-1d91065698f7" />
+
+
+**Requisito atendido**
+
+RF-05: O sistema deve permitir que o usuário possa se cadastrar.
+
+**Artefatos da funcionalidade**
+
+- codigo-fonte/Cadastro/Cadastro.html
+- codigo-fonte/Cadastro/Cadastro.css
+- codigo-fonte/Cadastro/Cadastro.js
+
+**Estrutura de Dados**
+
+{
+"NOME":""
+"SOBRENOME:""
+"E-MAIL":""
+"TELEFONE":""
+"SENHA":""
+"CONFIRMAR SENHA":""
+
+}
+
+**Instruções de acesso**
+
+1. Acesse a página inicial
+2. clique em Login/Criar conta
+3. clique em cadastro
 4. Clique no botão "Entrar"
 
 **Responsável**
