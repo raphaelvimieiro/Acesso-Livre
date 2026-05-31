@@ -276,7 +276,7 @@ RF-05: O sistema deve permitir que o usuário possa se cadastrar.
 1. Acesse a página inicial
 2. clique em Login/Criar conta
 3. clique em cadastro
-4. Clique no botão "Entrar"
+4. Clique no botão "Criar Conta"
 
 **Responsável**
 
@@ -312,7 +312,7 @@ RF-05: O sistema deve permitir que o usuário possa recuperar sua conta.
 1. Acesse a página inicial
 2. clique em Login/Criar conta
 3. clique em Esqueceu Senha
-4. Clique no botão "Entrar"
+4. Clique no botão "Recuperar"
 
 **Responsável**
 
