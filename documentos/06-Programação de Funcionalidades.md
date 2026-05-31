@@ -211,6 +211,38 @@ Não se aplica.
 Amanda Gomes Costa Estevam
 
 
+## Login
+
+<img width="1880" height="898" alt="image" src="https://github.com/user-attachments/assets/74076c4c-0401-4ddf-9300-72567e809074" />
+
+**Requisito atendido**
+
+RF-03: O sistema deve permitir que o usuário acesse sua conta com e-mail e senha.
+
+**Artefatos da funcionalidade**
+
+- codigo-fonte/Login/login.html
+- codigo-fonte/login/login.css
+
+**Estrutura de Dados**
+
+{
+"email":""
+"senha:""
+}
+
+**Instruções de acesso**
+
+1. Acesse a página inicial
+2. clique em Login/Criar conta
+3. Preencha e-mail e senha
+4. Clique no botão "Entrar"
+
+**Responsável**
+
+Vitor Oliveira Souza Avellar
+
+
 
 
 
