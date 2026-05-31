@@ -243,7 +243,7 @@ RF-05: O sistema deve permitir que o usuário acesse sua conta com e-mail e senh
 
 Vitor Oliveira Souza Avellar
 
-## Cadastro
+## Cadastre-se
 
 <img width="1877" height="896" alt="image" src="https://github.com/user-attachments/assets/24b52ff9-6a48-4c4f-9f5d-1d91065698f7" />
 
