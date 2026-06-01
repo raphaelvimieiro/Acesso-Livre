@@ -154,7 +154,7 @@ const defaultReviews = [
 
 ## Notícias (Deslogado)
 
-![Notícias Deslogado](documentos/img/Captura%20de%20tela%202026-05-31%20164544.png)
+<img width="1908" height="1077" alt="image" src="https://github.com/user-attachments/assets/b90883cf-b893-466f-a66d-2feecb649d2e" />
 
 
 **Requisito atendido**
@@ -164,8 +164,8 @@ como últimas notícias e anúncios de eventos alertas contendo as informações
 
 **Artefatos da funcionalidade**
 
-- codigo-fonte/Noticias/noticias.html
-- codigo-fonte/Noticias/noticias.css
+- noticias.html
+- noticias.css
 
 **Estrutura de Dados**
 
@@ -184,7 +184,8 @@ Amanda Gomes Costa Estevam
 
 ## Notícias (Logado)
 
-![Notícias Logado](documentos/img/Captura%20de%20tela%202026-05-31%20164607.png)
+<img width="1906" height="1079" alt="image" src="https://github.com/user-attachments/assets/ddda4dd9-5ed1-4cc8-a61f-7030cff7636d" />
+
 
 **Requisito atendido**
 
@@ -193,8 +194,8 @@ como últimas notícias e anúncios de eventos alertas contendo as informações
 
 **Artefatos da funcionalidade**
 
-- codigo-fonte/Noticias-Logado/noticiasLO.html
-- codigo-fonte/Noticias-Logado/noticiasLO.css
+- noticiasLO.html
+- noticiasLO.css
 
 **Estrutura de Dados**
 
