@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 01/06/2026 17:03
+**Última atualização:** 01/06/2026 18:16
 
 ---
 
@@ -13,9 +13,9 @@
 | Seu NomeBrenda        |        14 |      2484 |      1060 |         26 |              3 |               1 |
 | Vitor                 |        10 |      2690 |      1199 |         12 |              0 |               0 |
 | Vitor Oliveira        |        30 |       213 |        76 |          4 |             29 |               1 |
-| Wellington Ranniery   |        82 |      4114 |      1276 |         55 |             33 |               2 |
+| Wellington Ranniery   |        84 |      4115 |      1277 |         55 |             33 |               2 |
 | dinhagomezz           |        74 |      2360 |       886 |         50 |             17 |               1 |
-| github-actions[bot]   |       248 |      1376 |      1302 |          3 |            248 |               1 |
+| github-actions[bot]   |       249 |      1380 |      1306 |          3 |            249 |               1 |
 | github-classroom[bot] |         1 |       774 |         0 |         19 |              1 |               3 |
 | raphaelvimieiro       |         1 |       188 |         1 |          1 |              0 |               0 |
 | well9625              |        75 |      6250 |      8045 |         40 |              0 |               0 |
@@ -23,7 +23,7 @@
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-25**: Brenda Araújo: 6, Seu NomeBrenda: 1, Vitor: 1, Vitor Oliveira: 10, Wellington Ranniery: 4, dinhagomezz: 11, github-actions[bot]: 47, raphaelvimieiro: 1, well9625: 35
+**2026-05-25**: Brenda Araújo: 6, Seu NomeBrenda: 1, Vitor: 1, Vitor Oliveira: 10, Wellington Ranniery: 6, dinhagomezz: 11, github-actions[bot]: 48, raphaelvimieiro: 1, well9625: 35
 
 **2026-05-18**: Brenda Araújo: 2, Vitor: 3, github-actions[bot]: 11, well9625: 14
 
