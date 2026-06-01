@@ -56,6 +56,8 @@ RF-01: A aplicação deve oferecer funcionalidade como avaliação por estrelas 
 #### Estrutura de Dados
 
 
+
+```
 const availableLocations = [
   { name: "Restaurante La Tavola", state: "SP", keywords: "sao paulo massa italiano" },
   { name: "Restaurante La Tavola", state: "RJ", keywords: "rio de janeiro praia" },
@@ -65,7 +67,6 @@ const availableLocations = [
   { name: "Copacabana Palace", state: "RJ", keywords: "rio hotel copacabana" }
 ];
 
-
 const defaultReviews = [
   {
     id: 1,
@@ -74,9 +75,13 @@ const defaultReviews = [
     author: "Wellington Ranniery",
     avatar: "/codigo-fonte/Imagens/Fotopessoa1.png",
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
-    comment: "Tive o prazer de jantar no Restaurante La Tavola na última terça-feira e confesso que superou todas as minhas expectativas. Desde o momento em que entramos, fomos recebidos com muita cordialidade pela equipe, que nos conduziu prontamente a uma mesa aconchegante.",
-    keywords: "restaurante la tavola welington ranniery sao paulo"
-  }]
+    comment: "Comentário exemplo"
+  };
+
+
+window.AcessoLivreLocais = availableLocations;
+window.AcessoLivreDB = defaultReviews;
+```
 #### Instruções de acesso
 
 - Acesse a página inicial
@@ -110,6 +115,7 @@ RF-03	A aplicação deve possibilitar pesquisa para que o usuário possa buscar 
 
 #### Estrutura de Dados
 
+```
 const availableLocations = [
   { name: "Restaurante La Tavola", state: "SP", keywords: "sao paulo massa italiano" },
   { name: "Restaurante La Tavola", state: "RJ", keywords: "rio de janeiro praia" },
@@ -119,7 +125,6 @@ const availableLocations = [
   { name: "Copacabana Palace", state: "RJ", keywords: "rio hotel copacabana" }
 ];
 
-
 const defaultReviews = [
   {
     id: 1,
@@ -128,10 +133,13 @@ const defaultReviews = [
     author: "Wellington Ranniery",
     avatar: "/codigo-fonte/Imagens/Fotopessoa1.png",
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
-    comment: "Tive o prazer de jantar no Restaurante La Tavola na última terça-feira e confesso que superou todas as minhas expectativas. Desde o momento em que entramos, fomos recebidos com muita cordialidade pela equipe, que nos conduziu prontamente a uma mesa aconchegante.",
-    keywords: "restaurante la tavola welington ranniery sao paulo"
-  }]
+    comment: "Comentário exemplo"
+  };
 
+
+window.AcessoLivreLocais = availableLocations;
+window.AcessoLivreDB = defaultReviews;
+```
 
 #### Instruções de acesso
 
