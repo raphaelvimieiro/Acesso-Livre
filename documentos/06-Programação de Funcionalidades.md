@@ -66,21 +66,6 @@ const availableLocations = [
   { name: "Parque Ibirapuera", state: "SP", keywords: "sao paulo lazer parque" },
   { name: "Copacabana Palace", state: "RJ", keywords: "rio hotel copacabana" }
 ];
-
-const defaultReviews = [
-  {
-    id: 1,
-    name: "Restaurante La Tavola",
-    state: "SP",
-    author: "Wellington Ranniery",
-    avatar: "/codigo-fonte/Imagens/Fotopessoa1.png",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
-    comment: "Comentário exemplo"
-  };
-
-
-window.AcessoLivreLocais = availableLocations;
-window.AcessoLivreDB = defaultReviews;
 ```
 #### Instruções de acesso
 
@@ -135,10 +120,6 @@ const defaultReviews = [
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
     comment: "Comentário exemplo"
   };
-
-
-window.AcessoLivreLocais = availableLocations;
-window.AcessoLivreDB = defaultReviews;
 ```
 
 #### Instruções de acesso
