@@ -87,14 +87,22 @@ function recuperarSenha() {
   }, 1500);
 
 }
-function toggleSenha(id, elemento) {
-  const campo = document.getElementById(id);
+function toggleSenha(id, icon) {
 
-  if (campo.type === "password") {
-    campo.type = "text";
-    elemento.textContent = "🙈";
+  const input = document.getElementById(id);
+
+  if (input.type === "password") {
+
+    input.type = "text";
+
+    icon.classList.replace("fa-eye", "fa-eye-slash");
+
   } else {
-    campo.type = "password";
-    elemento.textContent = "👁";
+
+    input.type = "password";
+
+    icon.classList.replace("fa-eye-slash", "fa-eye");
+
   }
+
 }
