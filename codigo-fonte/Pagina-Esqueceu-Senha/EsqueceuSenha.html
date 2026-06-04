@@ -89,39 +89,31 @@
 
 </div>
 
-      <!-- NOVA SENHA -->
-      <div class="form-group">
+<!-- NOVA SENHA -->
+<div class="form-group">
+  <label>Digite a nova senha:</label>
 
-        <label>Digite a nova senha:</label>
+  <div class="password-box">
+    <input type="password" id="novaSenha" placeholder="Nova senha">
 
-        <div class="password-box">
+    <span class="eye" onclick="toggleSenha('novaSenha', this)">
+      👁
+    </span>
+  </div>
+</div>
 
-          <input type="password" id="novaSenha" placeholder="Nova senha">
+<!-- CONFIRMAR SENHA -->
+<div class="form-group">
+  <label>Confirmar senha:</label>
 
-          <span class="eye" onclick="toggleSenha('novaSenha', this)">
-            👁
-          </span>
+  <div class="password-box">
+    <input type="password" id="confirmarSenha" placeholder="Confirmar senha">
 
-        </div>
-
-      </div>
-
-      <!-- CONFIRMAR -->
-      <div class="form-group">
-
-        <label>Confirmar senha:</label>
-
-        <div class="password-box">
-
-          <input type="password" id="confirmarSenha" placeholder="Confirmar senha">
-
-          <span class="eye" onclick="toggleSenha('confirmarSenha', this)">
-            👁
-          </span>
-
-        </div>
-
-      </div>
+    <span class="eye" onclick="toggleSenha('confirmarSenha', this)">
+      👁
+    </span>
+  </div>
+</div>
 
       <!-- BOTÃO -->
       <button onclick="recuperarSenha()">

@@ -87,3 +87,14 @@ function recuperarSenha() {
   }, 1500);
 
 }
+function toggleSenha(id, elemento) {
+  const campo = document.getElementById(id);
+
+  if (campo.type === "password") {
+    campo.type = "text";
+    elemento.textContent = "🙈";
+  } else {
+    campo.type = "password";
+    elemento.textContent = "👁";
+  }
+}

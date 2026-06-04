@@ -29,12 +29,14 @@ body {
 
 .password-box input {
   width: 100%;
+  padding-right: 40px;
 }
 
 .eye {
   position: absolute;
   right: 10px;
   cursor: pointer;
+  user-select: none;
   color: #ccc;
   font-size: 18px;
 }
