@@ -86,6 +86,6 @@ document.getElementById("form").addEventListener("submit", function(e) {
 
   // REDIRECIONAR
   window.location.href =
-    "/codigo-fonte/Pagina-Login/Login.html";
+    "../Pagina-Login/Login.html";
 
 });

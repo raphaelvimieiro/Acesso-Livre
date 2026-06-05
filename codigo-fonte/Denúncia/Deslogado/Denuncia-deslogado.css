@@ -29,7 +29,7 @@ body {
     rgba(23,20,20,.35) 65%,
     rgba(23,20,20,.85) 100%
   ),
-  url("/codigo-fonte/Imagens/Senhora.png");
+  url("../../Imagens/Senhora.png");
 
   background-size: cover;
   background-position: center;
@@ -193,7 +193,7 @@ margin: 0 auto;
     right: 12px;
     width: 18px;
     height: 18px;
-    background-image: url("/codigo-fonte/Imagens/reverse.png");
+    background-image: url("../../Imagens/reverse.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

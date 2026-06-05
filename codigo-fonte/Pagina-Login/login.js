@@ -65,7 +65,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     setTimeout(() => {
 
       window.location.href =
-        "/codigo-fonte/Inicio-Logado/inicio-logado.html";
+        "../Inicio-Logado/inicio-logado.html";
 
     }, 1500);
 
