@@ -31,23 +31,23 @@ const defaultReviews = [
   },
   {
     id: 2,
-    name: "Restaurante La Tavola",
+    name: "Hachiko",
     state: "RJ",
     author: "Wellington Ranniery",
     avatar: "/codigo-fonte/Imagens/Fotopessoa2.png",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
-    comment: "Tive o prazer de jantar no Restaurante La Tavola na última terça-feira e confesso que superou todas as minhas expectativas. Desde o momento em que entramos, fomos recebidos com muita cordialidade pela equipe, que nos conduziu prontamente a uma mesa aconchegante.",
-    keywords: "restaurante la tavola welington ranniery rio de janeiro"
+    image: "https://letsflyaway.com.br/wp-content/uploads/2020/03/entrada-hachiko-restaurante-japones-centro-rio-de-janeiro.jpg",
+    comment: "Que experiência maravilhosa! O ambiente é acolhedor, o atendimento impecável e cada detalhe da refeição foi uma grata surpresa que superou o que eu imaginava.",
+    keywords: "restaurante la tavola  rio de janeiro"
   },
   {
     id: 3,
-    name: "Restaurante La Tavola",
+    name: "Restaurante Tamboril",
     state: "MG",
-    author: "Wellington Ranniery",
+    author: "Raphael Procopio",
     avatar: "/codigo-fonte/Imagens/Fotopessoa3.png",
-    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/51/77/a2/intro-restaurant-plaza.jpg?w=900&h=500&s=1",
-    comment: "Tive o prazer de jantar no Restaurante La Tavola na última terça-feira e confesso que superou todas as minhas expectativas. Desde o momento em que entramos, fomos recebidos com muita cordialidade pela equipe, que nos conduziu prontamente a uma mesa aconchegante.",
-    keywords: "restaurante la tavola welington ranniery minas gerais"
+    image: "https://cafeviagem.com/wp-content/uploads/2016/08/Inhotim-Restaurante-Tamboril-19-1-640x427.jpg",
+    comment: "Tive o prazer de jantar na última terça-feira e confesso que superou todas as minhas expectativas. Desde o momento em que entramos, fomos recebidos com muita cordialidade pela equipe, que nos conduziu prontamente a uma mesa aconchegante.",
+    keywords: "restaurante tamboril minas gerais"
   }
 ];
 
